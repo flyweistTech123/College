@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Top Universities",
+    "item": [
+      {
+        "name": "Delhi",
+        "subItems": [
+          "Lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      },
+      {
+        "name": "Mumbai",
+        "subItems": [
+          "Lorem Ipsum",
+          "lOrem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      },
+      {
+        "name": "Chennai",
+        "subItems": [
+          "Lorem Ipsum",
+          "lOrem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      },
+      {
+        "name": "Bangalore",
+        "subItems": [
+          "Lorem Ipsum",
+          "lOrem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Top Courses",
+    "item": [
+      {
+        "name": "Delhi",
+        "subItems": [
+          "Lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      },
+      {
+        "name": "Mumbai",
+        "subItems": [
+          "Lorem Ipsum",
+          "lOrem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      },
+      {
+        "name": "Chennai",
+        "subItems": [
+          "Lorem Ipsum",
+          "lOrem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      },
+      {
+        "name": "Bangalore",
+        "subItems": [
+          "Lorem Ipsum",
+          "lOrem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scholarship",
+    "link": "scholarships"
+  },
+  {
+    "name": "Exam",
+    "item": [
+      {
+        "name": "",
+        "subItems": [
+          "Lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      },
+      {
+        "name": "",
+        "subItems": [
+          "Lorem Ipsum",
+          "lOrem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      },
+      {
+        "name": "",
+        "subItems": [
+          "Lorem Ipsum",
+          "lOrem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      },
+      {
+        "name": "",
+        "subItems": [
+          "Lorem Ipsum",
+          "lOrem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum",
+          "lorem Ipsum"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Common Applications",
+    "link": "common-applications"
+  },
+  {
+    "name": "loan",
+    "link": "loan"
+  },
+  {
+    "name": "admission",
+    "link": "admission"
+  }
+]
