@@ -1,8 +1,19 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll; /* Always show a vertical scrollbar, even if it's not needed */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+body::-webkit-scrollbar {
+  width: 0; /* For Chrome, Safari, and Opera */
 }
 
 code {
@@ -68,17 +79,11 @@ code {
 
 /* == new Nav styling ====*/
 .newNav{
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #FFFFFF;
-  padding-top: 10px;
-  padding-left: 5px;
-  margin-right: 20px ;
+  margin-right: 10px;
 }
 .newNav img{
-  width: 50px;
-  height: 42px;
+  width: 60px;
+  height: 60px;
   margin: auto;
 }
 .newNav2 {
@@ -176,9 +181,8 @@ code {
 }
 
 .home7 {
-  margin-top: 20px;
-  margin-left: 5%;
-  width: 90%;
+  padding: 30px 80px 30px 50px;  
+  width: 100%;
 }
 
 .home7 h2{
@@ -242,9 +246,8 @@ code {
   transform: scale(1.1); /* Increase the size by 10% on hover */
 }
 .home10 {
-  margin-top: 40px;
-  margin-left: 5%;
-  width: 90%;
+  width: 100%;
+  padding: 30px 80px 30px 50px;  
 }
 .home10 h2{
   font-family: "Open Sans";
@@ -366,9 +369,9 @@ code {
   transform: scale(1.1); /* Increase the size by 10% on hover */
 }
 .home18 {
-  margin-top: 30px;
-  margin-left: 5%;
-  width: 90%;
+  width: 100%;
+  padding: 30px 80px 30px 50px;  
+
 }
 .home18 h2 {
   font-family: "Open Sans";
@@ -409,6 +412,7 @@ code {
   font-family: Open Sans;
   font-weight: 600;
   cursor: pointer;
+  /* width: 100%;   */
 }
 .home200 hr{
   display: none;
@@ -470,36 +474,37 @@ code {
 }
 
 .home25 {
-  margin-top: 30px;
-  margin-left: 5%;
-  width: 90%;
+  width: 100%;
+  padding: 30px 80px 30px 50px; 
+}
+
+.home26{
+  display: flex;
+  justify-content: space-between;
 }
 .home27 {
-  background-color: #0185c3;
-  color: #fff;
+  background-color: #001848;
+  color: #FFFFFF;
   border-radius: 30px;
-  height: 40px;
-  width: 100px;
+  height: 37px;
+  width: 178px;
   border: none;
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  /* identical to box height */
-  color: #ffffff;
 }
 .home28 {
-  background: #e7e7e7;
-  border-radius: 30px;
-  height: 40px;
-  width: 100px;
+  background: transparent;
+  /* width: 151px; */
+  
   border: none;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 24.51px;
   color: #000000;
 }
 
@@ -507,7 +512,9 @@ code {
 .foot1 {
   margin-top: 160px;
   width: 100%;
-  background: #e7e7e7;
+  background: transparent;
+  background-image: url('../src/Images/footer.png');
+  background-size: cover; 
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   height: 100%;
 }
@@ -531,15 +538,15 @@ code {
 .foot5 {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 24.51px;
   color: #353535;
 }
 
 .foot6 {
   width: 100%;
-  border: 1px solid #c8c8c8;
+  border: 1px solid #C8C8C8;
   margin-top: 0px;
 }
 
@@ -551,8 +558,8 @@ code {
   padding-bottom: 40px;
 }
 .foot7 h3 {
-  color: #000;
-  font-size: 18px;
+  color: #FFFFFF;
+  font-size: 20px;
   font-family: Open Sans;
   font-weight: 600;
 }
@@ -3852,7 +3859,7 @@ input[type="checkbox"]:checked + label:after {
 
 /*==== table styling ====*/
 .table1 {
-  background: #eeeeee;
+  background: #FFFFFF;
   border-radius: 5px;
   margin-top: 30px;
   margin-left: 1%;
@@ -3865,11 +3872,18 @@ table th {
   border-right: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
   height: 40px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000000;
 }
 table td {
   border-right: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
   height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  padding: 10px;
 }
 .table2 {
   width: 10%;
@@ -3891,7 +3905,7 @@ table td {
 }
 .table8 {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   align-items: center;
@@ -3902,7 +3916,7 @@ table td {
 }
 .table12 {
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   font-family: Open Sans;
   font-weight: 600;
   text-align: center;
@@ -3910,23 +3924,29 @@ table td {
 .table1 th {
   text-align: center;
   color: #000;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
 }
 .table13 {
-  display: flex;
+  /* display: flex;
   gap: 20px;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 10px; */
+  margin: 10px;
 }
 .table13 button {
   border: none;
-  border-radius: 20px;
-  height: 30px;
-  background: #005780;
-  color: #fff;
-  margin-left: 5%;
-  width: 90%;
+  border-radius: 30px;
+  background: #F4BC1C;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  width: 208px;
+  height: 47px;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+}
+.table13 button:hover {
+  transform: scale(0.8); /* Increase the size by 10% on hover */
 }
 /* ==== one stop styling ====*/
 .one1 {
@@ -5768,8 +5788,19 @@ select:focus {
     display: flex;
     flex-direction: column;
   }
+
+  .table9 img{
+    width: 45px;
+    height: 45px;
+  }
+
+  .table10 p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #3D3D3D;
+  }
   .table100 {
-    width: 600px;
+    width: 100%;
     overflow-x: auto !important;
   }
   .table1 {
@@ -5836,6 +5867,326 @@ select:focus {
   line-height: normal;
   text-align: center;
   margin-bottom: 80px;
+}
+
+.home25 h2{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.home30{
+  width: 100%;
+  padding: 30px 80px 30px 50px;  
+}
+
+.home30 h2{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.home31{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home31 img{
+  width: 276px;
+  height: 255px;
+}
+
+.home35{
+  width: 100%;
+  padding: 30px 80px 30px 50px; 
+}
+
+.home35 h2{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.home36{
+  width: 386px;
+  height: 250px;
+  margin-left: 20px !important;
+}
+
+.home36 h6{
+  font-weight: 400;
+  font-size: 15px;
+  color: #3D3D3D;
+  margin-top: 20px;
+}
+
+.home36 h5{
+  font-weight: 600;
+  font-size: 16px;
+  color: #3D3D3D;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.home37{
+  display: flex;
+  gap: 10px;
+  margin-left: 10px !important;
+}
+.home38 img{
+  width: 50px;
+  height: 50px;
+}
+
+.home39 h3{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #000000;
+}
+
+.home40{
+  display: flex;
+  gap: 30px;
+}
+.home40 div{
+  width: 62px;
+  height: 24px;
+  background-color: #D9D9D9;
+  color: #3D3D3D;
+  font-weight: 400;
+  font-size: 13px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 3px;
+}
+.home40 span{
+  font-size: 15px;
+  font-weight: 400;
+  color: #3D3D3D;
+}
+
+
+.home45{
+  width: 100%;
+  padding: 30px 80px 30px 50px; 
+}
+
+.home45 h2{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.home46 {
+  display: flex;
+  justify-content: space-between;
+}
+.home47{
+  background-color: #001848;
+  color: #FFFFFF;
+  border-radius: 30px;
+  height: 37px;
+  width: 212px;
+  border: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.home48{
+  background: transparent;
+  /* width: 151px; */
+  
+  border: none;
+  border-radius: 25px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #000000;
+}
+
+.home50{
+  width: 100%;
+  padding: 30px 80px 30px 50px; 
+}
+.home50 h2{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.home51{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home52{
+  width: 378px;
+  height: 378px;
+  border: 1px solid #DFDFDF;
+  border-radius: 11px;
+  box-shadow: 0px 0px 4px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.home53{
+  border-bottom: 1px solid #DFDFDF;
+  padding: 10px;
+  text-align: center;
+}
+
+.home53 h6{
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+}
+
+.home54{
+  padding: 20px;
+}
+
+.home54 p{
+  font-weight: 400;
+  font-size: 15px;
+  color: #3D3D3D;
+}
+
+.home54 span{
+  font-weight: 700;
+  font-size: 14px;
+  color: #3D3D3D;
+}
+.home54 h5{
+  font-weight: 700;
+  font-size: 16px;
+  color: #3D3D3D;
+  cursor: pointer;
+}
+
+.home55{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-left: 20px;
+}
+
+.home55 button:nth-child(1){
+  width: 140px;
+  height: 47px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19.07px;
+  color: #FFFFFF;
+  background-color: #F4BC1C;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+}
+.home55 button:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}
+
+.home55 button{
+  width: 140px;
+  height: 47px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19.07px;
+  color: #FFFFFF;
+  background-color: #001848;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+
+}
+
+.home60{
+  width: 100%;
+  padding: 30px 80px 30px 50px; 
+  
+}
+
+.home61{
+  width: 995px;
+  height: 268px;
+  background-color: #001848;
+  border-radius: 12px;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+
+}
+.home61 h1{
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.home62 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.home62 input{
+  width: 210px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+
+.home62 input::placeholder{
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  /* padding: 20px; */
+}
+
+.home63{
+  margin-top: 20px;
+}
+
+.home63 button{
+  width: 149.14px;
+  height: 48px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: #F4BC1C;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.43px;
+  color: #FFFFFF;
+  margin: auto;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+}
+.home63 button:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
 }
 
 .slick-slider {

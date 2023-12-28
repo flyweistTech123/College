@@ -29,12 +29,31 @@ import img23 from "../Images/c23.png";
 import img24 from "../Images/c24.png";
 import img25 from "../Images/c25.png";
 import img26 from "../Images/c26.png";
+import IIt2 from '../Images/IIT2.png'
+import jain from '../Images/jain.png'
 import Dropdown from "react-bootstrap/Dropdown";
-import clgimg from '../Images/clgimh.png'
+import collection1 from '../Images/collection1.png'
+import collection2 from '../Images/collection2.png'
+import collection3 from '../Images/collection3.png'
+import collection4 from '../Images/collection4.png'
+import collection5 from '../Images/collection5.png'
+import collection6 from '../Images/collection6.png'
+import collection7 from '../Images/collection7.png'
+import collection8 from '../Images/collection8.png'
+import IIt from '../Images/IIT.png'
+import { MdOutlineSort } from "react-icons/md";
+import { FaAngleDown } from "react-icons/fa";
+import { FaClock } from "react-icons/fa";
+import { IoMdArrowDropright } from "react-icons/io";
+
+
+
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import HomeTable from "./HomeTable";
+import HomeTable1 from "./HomeTable1";
 
 import Records from "./data.json";
 
@@ -274,7 +293,7 @@ const Home = () => {
   const handleFaltu = () => {
     setFaltu((prev) => !prev);
   };
-  
+
 
   return (
     <>
@@ -300,7 +319,7 @@ const Home = () => {
               <h2>Let's start your career journey.</h2>
             </div>
             <div className="home4">
-              
+
               <input
                 type="text"
                 placeholder="Search for colleges, exams, Q & A, Articles..."
@@ -364,12 +383,12 @@ const Home = () => {
         <p>Select your college</p>
         <div className="home19">
           <div className={faltu ? "home20" : "home200"} onClick={handleFaltu}>
-          Colleges
-          <hr />
+            Colleges
+            <hr />
           </div>
           <div className={faltu ? "home200" : "home20"} onClick={handleFaltu}>
-          Exams
-          <hr />
+            Exams
+            <hr />
           </div>
         </div>
         <div className="home21">
@@ -472,7 +491,7 @@ const Home = () => {
                   onClick={() => navigate("/college-info")}
                 />
               </div>
-             
+
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
@@ -509,7 +528,7 @@ const Home = () => {
                   onClick={() => navigate("/college-info")}
                 />
               </div>
-             
+
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
@@ -547,7 +566,7 @@ const Home = () => {
                   onClick={() => navigate("/college-info")}
                 />
               </div>
-             
+
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
@@ -620,7 +639,7 @@ const Home = () => {
                   onClick={() => navigate("/college-info")}
                 />
               </div>
-             
+
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
@@ -640,11 +659,11 @@ const Home = () => {
           </Slider>
         </div>
       </div>
-    
+
       <div className="home10">
         <h2>Top Universities</h2>
         <div className="home11">
-        <Slider {...settings2}>
+          <Slider {...settings2}>
             <div className="home12">
               <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
               <div className="home13">
@@ -666,7 +685,7 @@ const Home = () => {
                   onClick={() => navigate("/college-info")}
                 />
               </div>
-             
+
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
@@ -703,7 +722,7 @@ const Home = () => {
                   onClick={() => navigate("/college-info")}
                 />
               </div>
-             
+
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
@@ -741,7 +760,7 @@ const Home = () => {
                   onClick={() => navigate("/college-info")}
                 />
               </div>
-             
+
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
@@ -814,7 +833,7 @@ const Home = () => {
                   onClick={() => navigate("/college-info")}
                 />
               </div>
-             
+
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
@@ -832,55 +851,284 @@ const Home = () => {
               </div>
             </div>
           </Slider>
+        </div>
+      </div>
+
+      <div className="home30">
+        <h2>Top Collections</h2>
+
+        <div className="home31">
+          <img src={collection1} alt="" />
+          <img src={collection2} alt="" />
+          <img src={collection3} alt="" />
+          <img src={collection4} alt="" />
+        </div>
+        <div className="home31">
+          <img src={collection5} alt="" />
+          <img src={collection6} alt="" />
+          <img src={collection7} alt="" />
+          <img src={collection8} alt="" />
         </div>
       </div>
       <div className="home25">
-        <h1>Top Features College</h1>
+        <h2>Top Featured Colleges</h2>
         <div className="home26">
-          <Slider {...settings3}>
-            <div className="home29">
-              <button className="home27">City Name</button>
+          <div className="home29">
+            <button className="home27"><MdOutlineSort /> City Name <FaAngleDown /></button>
+          </div>
+          <div className="home29">
+            <button className="home28">MBA/PGDM</button>
+          </div>
+          <div className="home29">
+            <button className="home28">BE / B.Tech</button>
+          </div>
+          <div className="home29">
+            <button className="home28">BBA / BBM</button>
+          </div>
+          <div className="home29">
+            <button className="home28">BCA</button>
+          </div>
+          <div className="home29">
+            <button className="home28">B.Com / B.Com (Hons.)</button>
+          </div>
+          <div className="home29">
+            <button className="home28">B.Pharm</button>
+          </div>
+        </div>
+      </div>
+      <HomeTable />
+
+
+      <div className="home35">
+        <h2>Latest News &  Notification</h2>
+        <div className="home41">
+          <Slider {...settings2}>
+            <div className="home36">
+              <div className="home37">
+                <div className="home38">
+                  <img src={IIt} alt="" />
+                </div>
+                <div className="home39">
+                  <h3>IIT Bombay Admit Card 2024 Out Soon , Check Direct Link Here!!.....</h3>
+                  <div className="home40">
+                    <div>
+                      <p>Exam</p>
+                    </div>
+                    <span> <FaClock /> Dec 05 , 2023</span>
+                  </div>
+                </div>
+              </div>
+              <h6>Lorem ipsum dolor sit amet consectetur. Pharetra hendrerit libero eget egestas sit dictum odio scelerisque mattis. Tortor in maecenas nisl metus sodales. </h6>
+              <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
-            <div className="home29">
-              <button className="home28" style={{ width: "120px" }}>MBA/PGDM</button>
+            <div className="home36">
+              <div className="home37">
+                <div className="home38">
+                  <img src={IIt2} alt="" />
+                </div>
+                <div className="home39">
+                  <h3>Solve Important CMAT Questions From Previous Questions Papers....</h3>
+                  <div className="home40">
+                    <div>
+                      <p>Exam</p>
+                    </div>
+                    <span> <FaClock /> Dec 05 , 2023</span>
+                  </div>
+                </div>
+              </div>
+              <h6>Lorem ipsum dolor sit amet consectetur. Pharetra hendrerit libero eget egestas sit dictum odio scelerisque mattis. Tortor in maecenas nisl metus sodales. </h6>
+              <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
-            <div className="home29">
-              <button className="home28">B.sc</button>
+            <div className="home36">
+              <div className="home37">
+                <div className="home38">
+                  <img src={jain} alt="" />
+                </div>
+                <div className="home39">
+                  <h3>Jain PG 2023 Stary Vacancy, check Seat Allotment Result Soon.....</h3>
+                  <div className="home40">
+                    <div>
+                      <p>Exam</p>
+                    </div>
+                    <span> <FaClock /> Dec 05 , 2023</span>
+                  </div>
+                </div>
+              </div>
+              <h6>Lorem ipsum dolor sit amet consectetur. Pharetra hendrerit libero eget egestas sit dictum odio scelerisque mattis. Tortor in maecenas nisl metus sodales. </h6>
+              <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
-            <div className="home29">
-              <button className="home28">B.Com</button>
+            <div className="home36">
+              <div className="home37">
+                <div className="home38">
+                  <img src={IIt} alt="" />
+                </div>
+                <div className="home39">
+                  <h3>IIT Bombay Admit Card 2024 Out Soon , Check Direct Link Here!!.....</h3>
+                  <div className="home40">
+                    <div>
+                      <p>Exam</p>
+                    </div>
+                    <span> <FaClock /> Dec 05 , 2023</span>
+                  </div>
+                </div>
+              </div>
+              <h6>Lorem ipsum dolor sit amet consectetur. Pharetra hendrerit libero eget egestas sit dictum odio scelerisque mattis. Tortor in maecenas nisl metus sodales. </h6>
+              <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
-            <div className="home29">
-              <button className="home28">BA</button>
+            <div className="home36">
+              <div className="home37">
+                <div className="home38">
+                  <img src={IIt} alt="" />
+                </div>
+                <div className="home39">
+                  <h3>IIT Bombay Admit Card 2024 Out Soon , Check Direct Link Here!!.....</h3>
+                  <div className="home40">
+                    <div>
+                      <p>Exam</p>
+                    </div>
+                    <span> <FaClock /> Dec 05 , 2023</span>
+                  </div>
+                </div>
+              </div>
+              <h6>Lorem ipsum dolor sit amet consectetur. Pharetra hendrerit libero eget egestas sit dictum odio scelerisque mattis. Tortor in maecenas nisl metus sodales. </h6>
+              <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
-            <div className="home29">
-              <button className="home28">BE/B.Tech</button>
+            <div className="home36">
+              <div className="home37">
+                <div className="home38">
+                  <img src={IIt} alt="" />
+                </div>
+                <div className="home39">
+                  <h3>IIT Bombay Admit Card 2024 Out Soon , Check Direct Link Here!!.....</h3>
+                  <div className="home40">
+                    <div>
+                      <p>Exam</p>
+                    </div>
+                    <span> <FaClock /> Dec 05 , 2023</span>
+                  </div>
+                </div>
+              </div>
+              <h6>Lorem ipsum dolor sit amet consectetur. Pharetra hendrerit libero eget egestas sit dictum odio scelerisque mattis. Tortor in maecenas nisl metus sodales. </h6>
+              <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
-            <div className="home29">
-              <button className="home28">BEA/BBM</button>
-            </div>
-            <div className="home29">
-              <button className="home28">M.sc</button>
-            </div>
-            <div className="home29">
-              <button className="home28">M.A</button>
-            </div>
-            <div className="home29">
-              <button className="home28">B.F.A</button>
-            </div>
-            <div className="home29">
-              <button className="home28">M.F.A</button>
-            </div>
-            <div className="home29">
-              <button className="home28">B.Design</button>
-            </div>
-            <div className="home29">
-              <button className="home28">M.Design</button>
+            <div className="home36">
+              <div className="home37">
+                <div className="home38">
+                  <img src={IIt} alt="" />
+                </div>
+                <div className="home39">
+                  <h3>IIT Bombay Admit Card 2024 Out Soon , Check Direct Link Here!!.....</h3>
+                  <div className="home40">
+                    <div>
+                      <p>Exam</p>
+                    </div>
+                    <span> <FaClock /> Dec 05 , 2023</span>
+                  </div>
+                </div>
+              </div>
+              <h6>Lorem ipsum dolor sit amet consectetur. Pharetra hendrerit libero eget egestas sit dictum odio scelerisque mattis. Tortor in maecenas nisl metus sodales. </h6>
+              <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
           </Slider>
         </div>
       </div>
-      <HomeTable />
+      <div className="home45">
+        <h2>Top Ranking 2023</h2>
+        <div className="home46">
+          <div className="home26">
+            <button className="home47"><MdOutlineSort /> Ranking 2023 <FaAngleDown /></button>
+          </div>
+          <div className="home29">
+            <button className="home48">Agencies : </button>
+          </div>
+          <div className="home29">
+            <button className="home48">India Today</button>
+          </div>
+          <div className="home29">
+            <button className="home48">Financial Express</button>
+          </div>
+          <div className="home29">
+            <button className="home48">Outlook</button>
+          </div>
+          <div className="home29">
+            <button className="home48">IIRF</button>
+          </div>
+          <div className="home29">
+            <button className="home48">The Week</button>
+          </div>
+        </div>
+
+      </div>
+      <HomeTable1 />
+      <div className="home50">
+        <h2>Top Scholarships 2023</h2>
+        <div className="home51">
+          <div className="home52">
+            <div className="home53"><h6>TATA Scholarship-Cornell University</h6></div>
+            <div className="home54">
+              <p>International Student Eligible : <span>Yes</span></p>
+              <p>Amount : <span>Variable Amount</span></p>
+              <p>Type : <span>College Specific</span></p>
+              <p>Level Of Study  : <span>Bachelors</span></p>
+              <p>Number Of Scholorships : <span>40</span></p>
+              <h5>Read more  <IoMdArrowDropright /></h5>
+            </div>
+            <div className="home55">
+              <button>Apply Now</button>
+              <button>Get Alert</button>
+            </div>
+          </div>
+          <div className="home52">
+            <div className="home53"><h6>Hubert H. Humphery Fellows...........</h6></div>
+            <div className="home54">
+              <p>International Student Eligible : <span>Yes</span></p>
+              <p>Amount : <span>Variable Amount</span></p>
+              <p>Type : <span>College Specific</span></p>
+              <p>Level Of Study  : <span>Bachelors</span></p>
+              <p>Number Of Scholorships : <span>40</span></p>
+              <h5>Read more  <IoMdArrowDropright /></h5>
+            </div>
+            <div className="home55">
+              <button>Apply Now</button>
+              <button>Get Alert</button>
+            </div>
+          </div>
+          <div className="home52">
+            <div className="home53"><h6>Ontario Trillium Scholarship...........</h6></div>
+            <div className="home54">
+              <p>International Student Eligible : <span>Yes</span></p>
+              <p>Amount : <span>Variable Amount</span></p>
+              <p>Type : <span>College Specific</span></p>
+              <p>Level Of Study  : <span>Bachelors</span></p>
+              <p>Number Of Scholorships : <span>40</span></p>
+              <h5>Read more  <IoMdArrowDropright /></h5>
+            </div>
+            <div className="home55">
+              <button>Apply Now</button>
+              <button>Get Alert</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="home60">
+
+        <div className="home61">
+          <h1>Subscribe To Our NewsLetter</h1>
+          <div className="home62">
+            <input type="text" name="" id="" placeholder="Name" />
+            <input type="text" name="" id="" placeholder="Mobile" />
+            <input type="email" name="" id="" placeholder="Email" />
+            <input type="text" name="" id="" placeholder="Your Stream" />
+          </div>
+          <div className="home63">
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+
+
       <Footer />
       <Offcanvas show={showt} onHide={handleClose}>
         <Offcanvas.Header closeButton></Offcanvas.Header>
