@@ -262,7 +262,7 @@ code {
   border-radius: 10px;
   margin-right: 20px !important;
   padding-right: 0px;
-  height: 437.2px;
+  height: 460px;
   width: 280px !important;
 }
 .home12 img {
@@ -337,6 +337,7 @@ code {
 .home17 p{
   font-weight: 600;
   font-size: 13.21px;
+  margin-top: 5px;
 }
 .home17 img {
   width: 10px;
@@ -356,7 +357,13 @@ code {
   color: #FFFFFF;
   border: none;
   outline: none;
-  margin: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+
+}
+.home177 button:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
 }
 .home18 {
   margin-top: 30px;

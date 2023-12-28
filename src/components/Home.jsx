@@ -118,7 +118,7 @@ const Home = () => {
     autoplay: true,
   };
   const settings2 = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 200,
     slidesToShow: slideShow,
@@ -473,21 +473,21 @@ const Home = () => {
                 />
               </div>
              
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
               </div>
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Compare</p>
                 <img src={img11} alt="" />
               </div>
-              {/* <hr className="home16" /> */}
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
               <div className="home177">
                 <button>Apply Now</button>
               </div>
-              {/* <hr className="home16" /> */}
             </div>
             <div className="home12">
               <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
@@ -501,7 +501,6 @@ const Home = () => {
                   <p>20.5k Reviews</p>
                 </div>
               </div>
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>View all courses and fees</p>
                 <img
@@ -511,7 +510,6 @@ const Home = () => {
                 />
               </div>
              
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
@@ -521,11 +519,13 @@ const Home = () => {
                 <p>Compare</p>
                 <img src={img11} alt="" />
               </div>
-              {/* <hr className="home16" /> */}
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
               <div className="home177">
                 <button>Apply Now</button>
               </div>
-              {/* <hr className="home16" /> */}
             </div>
             <div className="home12">
               <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
@@ -539,7 +539,6 @@ const Home = () => {
                   <p>20.5k Reviews</p>
                 </div>
               </div>
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>View all courses and fees</p>
                 <img
@@ -549,21 +548,21 @@ const Home = () => {
                 />
               </div>
              
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
               </div>
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Compare</p>
                 <img src={img11} alt="" />
               </div>
-              {/* <hr className="home16" /> */}
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
               <div className="home177">
                 <button>Apply Now</button>
               </div>
-              {/* <hr className="home16" /> */}
             </div>
             <div className="home12">
               <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
@@ -577,7 +576,6 @@ const Home = () => {
                   <p>20.5k Reviews</p>
                 </div>
               </div>
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>View all courses and fees</p>
                 <img
@@ -586,22 +584,21 @@ const Home = () => {
                   onClick={() => navigate("/college-info")}
                 />
               </div>
-             
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
               </div>
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Compare</p>
                 <img src={img11} alt="" />
               </div>
-              {/* <hr className="home16" /> */}
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
               <div className="home177">
                 <button>Apply Now</button>
               </div>
-              {/* <hr className="home16" /> */}
             </div>
             <div className="home12">
               <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
@@ -615,7 +612,6 @@ const Home = () => {
                   <p>20.5k Reviews</p>
                 </div>
               </div>
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>View all courses and fees</p>
                 <img
@@ -625,35 +621,35 @@ const Home = () => {
                 />
               </div>
              
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
               </div>
-              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Compare</p>
                 <img src={img11} alt="" />
               </div>
-              {/* <hr className="home16" /> */}
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
               <div className="home177">
                 <button>Apply Now</button>
               </div>
-              {/* <hr className="home16" /> */}
             </div>
           </Slider>
         </div>
       </div>
     
-      <div className="home24">
-        <h1>Top Universities</h1>
+      <div className="home10">
+        <h2>Top Universities</h2>
         <div className="home11">
-          <Slider {...settings2}>
+        <Slider {...settings2}>
             <div className="home12">
-              <img className="home12img" src={img23} alt="" />
+              <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
               <div className="home13">
                 <div className="home14">
-                  <h4>Delhi University</h4>
+                  <h4>Jamai milia islamia</h4>
                   <p>30,000 yearly</p>
                 </div>
                 <div className="home15">
@@ -661,138 +657,179 @@ const Home = () => {
                   <p>20.5k Reviews</p>
                 </div>
               </div>
-              <hr className="home16" />
+              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>View all courses and fees</p>
-                <img src={img11} alt="" />
+                <img
+                  src={img11}
+                  alt=""
+                  onClick={() => navigate("/college-info")}
+                />
               </div>
-              <hr className="home16" />
+             
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
               </div>
-              <hr className="home16" />
               <div className="home17">
                 <p>Compare</p>
                 <img src={img11} alt="" />
               </div>
-              <hr className="home16" />
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
+              <div className="home177">
+                <button>Apply Now</button>
+              </div>
             </div>
             <div className="home12">
-              <img src={img24} alt="" />
-              <div className="home13">
-                <div className="home14">
-                  <h4>IP University</h4>
-                  <p>30,000 yearly</p>
-                </div>
-                <div className="home15">
-                  <h5> <i class="fa-solid fa-star"></i> 9.5/10</h5>
-                  <p>20.5k Reviews</p>
-                </div>
-              </div>
-              <hr className="home16" />
-              <div className="home17">
-                <p>View all courses and fees</p>
-                <img src={img11} alt="" />
-              </div>
-              <hr className="home16" />
-              <div className="home17">
-                <p>Download Broachers</p>
-                <img src={img11} alt="" />
-              </div>
-              <hr className="home16" />
-              <div className="home17">
-                <p>Compare</p>
-                <img src={img11} alt="" />
-              </div>
-              <hr className="home16" />
-            </div>
-            <div className="home12">
-              <img src={img25} alt="" />
-              <div className="home13">
-                <div className="home14">
-                  <h4>IGNOU Univeristy</h4>
-                  <p>30,000 yearly</p>
-                </div>
-                <div className="home15">
-                  <h5> <i class="fa-solid fa-star"></i> 9.5/10</h5>
-                  <p>20.5k Reviews</p>
-                </div>
-              </div>
-              <hr className="home16" />
-              <div className="home17">
-                <p>View all courses and fees</p>
-                <img src={img11} alt="" />
-              </div>
-              <hr className="home16" />
-              <div className="home17">
-                <p>Download Broachers</p>
-                <img src={img11} alt="" />
-              </div>
-              <hr className="home16" />
-              <div className="home17">
-                <p>Compare</p>
-                <img src={img11} alt="" />
-              </div>
-              <hr className="home16" />
-            </div>
-            <div className="home12">
-              <img src={img10} alt="" />
+              <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
               <div className="home13">
                 <div className="home14">
                   <h4>Jamai milia islamia</h4>
                   <p>30,000 yearly</p>
                 </div>
                 <div className="home15">
-                  <h5> <i class="fa-solid fa-star"></i> 9.5/10</h5>
+                  <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                   <p>20.5k Reviews</p>
                 </div>
               </div>
-              <hr className="home16" />
               <div className="home17">
                 <p>View all courses and fees</p>
-                <img src={img11} alt="" />
+                <img
+                  src={img11}
+                  alt=""
+                  onClick={() => navigate("/college-info")}
+                />
               </div>
-              <hr className="home16" />
+             
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
               </div>
-              <hr className="home16" />
+              {/* <hr className="home16" /> */}
               <div className="home17">
                 <p>Compare</p>
                 <img src={img11} alt="" />
               </div>
-              <hr className="home16" />
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
+              <div className="home177">
+                <button>Apply Now</button>
+              </div>
             </div>
             <div className="home12">
-              <img src={img12} alt="" />
+              <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
               <div className="home13">
                 <div className="home14">
                   <h4>Jamai milia islamia</h4>
                   <p>30,000 yearly</p>
                 </div>
                 <div className="home15">
-                  <h5> <i class="fa-solid fa-star"></i> 9.5/10</h5>
+                  <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                   <p>20.5k Reviews</p>
                 </div>
               </div>
-              <hr className="home16" />
               <div className="home17">
                 <p>View all courses and fees</p>
-                <img src={img11} alt="" />
+                <img
+                  src={img11}
+                  alt=""
+                  onClick={() => navigate("/college-info")}
+                />
               </div>
-              <hr className="home16" />
+             
               <div className="home17">
                 <p>Download Broachers</p>
                 <img src={img11} alt="" />
               </div>
-              <hr className="home16" />
               <div className="home17">
                 <p>Compare</p>
                 <img src={img11} alt="" />
               </div>
-              <hr className="home16" />
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
+              <div className="home177">
+                <button>Apply Now</button>
+              </div>
+            </div>
+            <div className="home12">
+              <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+              <div className="home13">
+                <div className="home14">
+                  <h4>Jamai milia islamia</h4>
+                  <p>30,000 yearly</p>
+                </div>
+                <div className="home15">
+                  <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
+                  <p>20.5k Reviews</p>
+                </div>
+              </div>
+              <div className="home17">
+                <p>View all courses and fees</p>
+                <img
+                  src={img11}
+                  alt=""
+                  onClick={() => navigate("/college-info")}
+                />
+              </div>
+              <div className="home17">
+                <p>Download Broachers</p>
+                <img src={img11} alt="" />
+              </div>
+              <div className="home17">
+                <p>Compare</p>
+                <img src={img11} alt="" />
+              </div>
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
+              <div className="home177">
+                <button>Apply Now</button>
+              </div>
+            </div>
+            <div className="home12">
+              <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+              <div className="home13">
+                <div className="home14">
+                  <h4>Jamai milia islamia</h4>
+                  <p>30,000 yearly</p>
+                </div>
+                <div className="home15">
+                  <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
+                  <p>20.5k Reviews</p>
+                </div>
+              </div>
+              <div className="home17">
+                <p>View all courses and fees</p>
+                <img
+                  src={img11}
+                  alt=""
+                  onClick={() => navigate("/college-info")}
+                />
+              </div>
+             
+              <div className="home17">
+                <p>Download Broachers</p>
+                <img src={img11} alt="" />
+              </div>
+              <div className="home17">
+                <p>Compare</p>
+                <img src={img11} alt="" />
+              </div>
+              <div className="home17">
+                <p>Speak to Expert</p>
+                <img src={img11} alt="" />
+              </div>
+              <div className="home177">
+                <button>Apply Now</button>
+              </div>
             </div>
           </Slider>
         </div>
