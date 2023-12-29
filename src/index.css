@@ -11,6 +11,7 @@ body {
   scrollbar-width: thin; /* For Firefox */
   scrollbar-color: transparent transparent; /* For Firefox */
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
+
 }
 body::-webkit-scrollbar {
   width: 0; /* For Chrome, Safari, and Opera */
@@ -191,13 +192,14 @@ code {
   color: #000000;
 }
 .home8 {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   margin-top: 30px;
 }
 .home9 {
   cursor: pointer;
 }
+
 
 .home9 img{
   width: 85px;
@@ -209,9 +211,10 @@ code {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  /* line-height: 34px; */
+  line-height: 21.79px;
   color: #11263B;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-right: 60px;
 }
 
 .home555{
@@ -848,16 +851,16 @@ code {
 }
 
 .side3 {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-left: 10%;
-  width: 60%;
+  /* width: 60%; */
 }
 .side3 h2 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
-  line-height: 34px;
+  line-height: 34.05px;
   color: #000000;
   margin: 0;
 }
@@ -866,9 +869,9 @@ code {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 21.79px;
   color: #393939;
-  margin: 0;
+  /* margin: 0; */
   margin-top: 5px;
 }
 .side4 {
@@ -894,19 +897,20 @@ code {
   margin-top: 20px;
   display: flex;
   gap: 30px;
-  border: 1px solid #349dcf;
+  border: 1px solid #001848;
   border-radius: 40px;
   height: 40px;
   align-items: center;
 }
 .side6 i {
   margin-left: 10px;
-  color: #349dcf;
+  color: #001848;
 }
 .side6 input {
   border: none;
   width: 60%;
   height: 20px;
+  outline: none;
 }
 
 .checkbox-group {
@@ -1290,10 +1294,8 @@ input[type="checkbox"]:checked + label:after {
 
 /* === common application styling ===*/
 
-.app1 {
-  position: relative;
-  z-index: 0;
-}
+
+
 
 .app2 {
   display: flex;
@@ -1337,7 +1339,7 @@ input[type="checkbox"]:checked + label:after {
 
 .app6 {
   width: 100%;
-  height: 500px;
+  height: 234px;
   max-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2602,6 +2604,10 @@ input[type="checkbox"]:checked + label:after {
   color: #FFFFFF;
   border-radius: 48px;
   border: none;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+}
+.loginn button:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
 }
 
 /* === loan navbar styling === */
@@ -2746,9 +2752,10 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .loan10 {
-  background: #ececec;
+  background: transparent;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
   margin-left: 5%;
+  margin-top: 20px;
   width: 90%;
 }
 .loan11 {
@@ -2765,8 +2772,8 @@ input[type="checkbox"]:checked + label:after {
   margin-top: 30px;
 }
 .loan13 {
-  margin-left: 5%;
-  width: 90%;
+  margin-left: 8%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2774,9 +2781,9 @@ input[type="checkbox"]:checked + label:after {
 .loan13 p {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 20.43px;
   color: #000000;
   text-align: center;
 }
@@ -2790,39 +2797,38 @@ input[type="checkbox"]:checked + label:after {
   margin-bottom: 40px;
 }
 .loan15 {
-  background: #e7e7e7;
-  width: 100%;
+  background: transparent;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  width: 185px;
+  height: 149px;
+  text-align: center;
 }
 .loan16 {
-  background: #349dcf;
+  background: #001848;
+  text-align: center;
+  width: 187px;
+  height: 22px;
 }
 .loan16 p {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
-  color: #ffffff;
+  line-height: 19.07px;
+  color: #FFFFFF;
 }
 .loan15 img {
+  width: 50px;
+  height: 17.46px;
   display: block;
   margin: auto;
   margin-top: 30px;
 }
-.loan15 p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 19px;
-  /* identical to box height */
-  text-align: center;
-  color: #696969;
-}
+
 .loan15 button {
-  background: #349dcf;
-  width: 100%;
-  height: 30px;
+  background: #001848;
+  width: 143px;
+  height: 22px;
   border: none;
   font-family: "Open Sans";
   font-style: normal;
@@ -2830,15 +2836,19 @@ input[type="checkbox"]:checked + label:after {
   font-size: 14px;
   line-height: 19px;
   text-align: center;
-
   color: #ffffff;
+  margin-top: 20px;
 }
 .loan17 {
-  padding-bottom: 10px;
+  font-size: 16px;  
+  font-weight: 400;
+  color: #696969;
+  margin-top: 20px;
 }
 .loan18 {
-  border: 1px solid #aaaaaa;
+  border: 1px solid #AAAAAA;
   width: 100%;
+
 }
 .loan18 p {
   font-family: "Open Sans";
@@ -2848,7 +2858,8 @@ input[type="checkbox"]:checked + label:after {
   line-height: 19px;
   text-align: center;
   color: #616161;
-  width: 150px;
+  /* height: 149px; */
+  width: 200px;
   padding-top: 30px;
 }
 
@@ -6105,7 +6116,7 @@ select:focus {
   transition: all 0.3s ease; /* Adding transition for smooth animation */
 }
 .home55 button:hover {
-  transform: scale(1.1); /* Increase the size by 10% on hover */
+  transform: scale(1.1); 
 }
 
 .home55 button{
@@ -6190,8 +6201,10 @@ select:focus {
 }
 
 .slick-slider {
-  z-index: -99;
+  /* z-index: -99; */
 }
+
+
 
 .dropdown-toggle {
   color: red;

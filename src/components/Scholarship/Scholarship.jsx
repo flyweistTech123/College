@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from "react";
+import './Scholarship.css'
 import { useNavigate } from "react-router-dom";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Footer from "./Footer";
-import img from "../Images/c34.png";
-import img2 from "../Images/c1.png";
-import img3 from "../Images/c85.png";
-import img4 from "../Images/c36.png";
-import img5 from "../Images/c37.png";
-import img6 from "../Images/c38.png";
+import Footer from "../Footer";
+import scholarshipimg from '../../Images/schrolarship.png';
+import img from '../../Images/clgschro.png'
+import TopNavbar from "../TopNavbar";
+import Sidebar3 from "../Sidebar3";
+import { IoMdArrowDropright } from "react-icons/io";
 
-import TopNavbar from "./TopNavbar";
 
 const Scholarship = () => {
   const navigate = useNavigate();
@@ -119,61 +117,304 @@ const Scholarship = () => {
   return (
     <>
       <div className="app1">
-        <div className="home100">
-          <i class="fa-solid fa-bars" onClick={handleShow}></i>
+        <div className="schro">
+          <TopNavbar />
         </div>
         <div className="app6">
-          <img src={img} />
+          <img src={scholarshipimg} />
         </div>
-        <div className="home2">
-          <TopNavbar />
-          {/*<div className=" sch1 app4">
-            <img src={img2} alt="" onClick={() => navigate("/")} />
-            <div className="connect4">
-              <div className="connect5">
-                <p>Courses</p>
-                <img src={img3} alt="" onClick={handleClick} />
-              </div>
-              <div className="connect5 ">
-                <p>Colleges</p>
-                <img src={img3} alt="" onClick={handleClick} />
-              </div>
-              <div className="connect5 cnt ">
-                <p>Study Guide</p>
-                <img src={img3} alt="" onClick={handleClick} />
-              </div>
-              <div className="connect5 n">
-                <p onClick={() => navigate("/test2")}>Test</p>
-              </div>
-              <div className="connect5 cnt ">
-                <p onClick={() => setShow(true)}>Get Counselling</p>
-              </div>
-            </div>
-            <div className="app3" onClick={() => setShow3(true)}>
-              <i class="fa-solid fa-user"></i>
-              <p>Login</p>
-            </div>
-          </div>*/}
-          {showNavbar ? <NavMenu /> : " "}
-
-          <div className="home5 sch2">
-            <h2>Getting Quality Education is NowMore Easy...</h2>
+        <div className="schro1">
+          <div className="home100">
+            <i class="fa-solid fa-bars" onClick={handleShow}></i>
           </div>
-          <div className="home6">
+          <div className="schro2">
+            <h2>Let's start your career journey.</h2>
+          </div>
+          <div className="home4">
+            <input
+              type="text"
+              placeholder="Search for colleges, exams, Q & A, Articles..."
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div className="schro3">
             <button onClick={() => navigate("/screen2")}>
               Explore College & University
             </button>
           </div>
         </div>
       </div>
-      <div className="home25" style={{ marginTop: "60px" }}>
+      <div className="schro5">
+        <div className="screen2">
+          <Sidebar3 />
+        </div>
+
+
+        <div className="schro12">
+          <div className="schro6">
+            <div className="schro7">
+              <div className="schro8"><h6>TATA Scholarship-Cornell University</h6></div>
+              <div className="schro9">
+                <p>International Student Eligible : <span>Yes</span></p>
+                <p>Amount : <span>Variable Amount</span></p>
+                <p>Type : <span>College Specific</span></p>
+                <p>Level Of Study  : <span>Bachelors</span></p>
+                <p>Number Of Scholorships : <span>40</span></p>
+                <h5>Read more  <IoMdArrowDropright /></h5>
+              </div>
+              <div className="schro10">
+                <button>Apply Now</button>
+                <button>Get Alert</button>
+              </div>
+            </div>
+            <div className="schro7">
+              <div className="schro8"><h6>Hubert H. Humphery Fellows...........</h6></div>
+              <div className="schro9">
+                <p>International Student Eligible : <span>Yes</span></p>
+                <p>Amount : <span>Variable Amount</span></p>
+                <p>Type : <span>College Specific</span></p>
+                <p>Level Of Study  : <span>Bachelors</span></p>
+                <p>Number Of Scholorships : <span>40</span></p>
+                <h5>Read more  <IoMdArrowDropright /></h5>
+              </div>
+              <div className="schro10">
+                <button>Apply Now</button>
+                <button>Get Alert</button>
+              </div>
+            </div>
+            <div className="schro7">
+              <div className="schro8"><h6>Ontario Trillium Scholarship...........</h6></div>
+              <div className="schro9">
+                <p>International Student Eligible : <span>Yes</span></p>
+                <p>Amount : <span>Variable Amount</span></p>
+                <p>Type : <span>College Specific</span></p>
+                <p>Level Of Study  : <span>Bachelors</span></p>
+                <p>Number Of Scholorships : <span>40</span></p>
+                <h5>Read more  <IoMdArrowDropright /></h5>
+              </div>
+              <div className="schro10">
+                <button>Apply Now</button>
+                <button>Get Alert</button>
+              </div>
+            </div>
+          </div>
+          <div className="schro11">
+          </div>
+          <div className="schro6">
+            <div className="schro7">
+              <div className="schro8"><h6>TATA Scholarship-Cornell University</h6></div>
+              <div className="schro9">
+                <p>International Student Eligible : <span>Yes</span></p>
+                <p>Amount : <span>Variable Amount</span></p>
+                <p>Type : <span>College Specific</span></p>
+                <p>Level Of Study  : <span>Bachelors</span></p>
+                <p>Number Of Scholorships : <span>40</span></p>
+                <h5>Read more  <IoMdArrowDropright /></h5>
+              </div>
+              <div className="schro10">
+                <button>Apply Now</button>
+                <button>Get Alert</button>
+              </div>
+            </div>
+            <div className="schro7">
+              <div className="schro8"><h6>Hubert H. Humphery Fellows...........</h6></div>
+              <div className="schro9">
+                <p>International Student Eligible : <span>Yes</span></p>
+                <p>Amount : <span>Variable Amount</span></p>
+                <p>Type : <span>College Specific</span></p>
+                <p>Level Of Study  : <span>Bachelors</span></p>
+                <p>Number Of Scholorships : <span>40</span></p>
+                <h5>Read more  <IoMdArrowDropright /></h5>
+              </div>
+              <div className="schro10">
+                <button>Apply Now</button>
+                <button>Get Alert</button>
+              </div>
+            </div>
+            <div className="schro7">
+              <div className="schro8"><h6>Ontario Trillium Scholarship...........</h6></div>
+              <div className="schro9">
+                <p>International Student Eligible : <span>Yes</span></p>
+                <p>Amount : <span>Variable Amount</span></p>
+                <p>Type : <span>College Specific</span></p>
+                <p>Level Of Study  : <span>Bachelors</span></p>
+                <p>Number Of Scholorships : <span>40</span></p>
+                <h5>Read more  <IoMdArrowDropright /></h5>
+              </div>
+              <div className="schro10">
+                <button>Apply Now</button>
+                <button>Get Alert</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="schro13">
+            <div className="schro14">
+              <div className="schro15">Most Popular Links</div>
+              <div className="schro16">Study in Delhi College</div>
+              <div className="schro16">Study in Chandigarh College</div>
+              <div className="schro16">Study in Delhi College</div>
+              <div className="schro16">Study in Chandigarh College</div>
+              <div className="schro16">Study in Delhi College</div>
+            </div>
+            <div className="schro17">
+              <div className="schro18">Most Applied Colleges</div>
+              <div className="schro19">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>College Name</h5>
+                  <p>College City</p>
+                </div>
+                <button>Apply</button>
+              </div>
+              <div className="schro19">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>College Name</h5>
+                  <p>College City</p>
+                </div>
+                <button>Apply</button>
+              </div>
+              <div className="schro19">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>College Name</h5>
+                  <p>College City</p>
+                </div>
+                <button>Apply</button>
+              </div>
+              <div className="schro19">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>College Name</h5>
+                  <p>College City</p>
+                </div>
+                <button>Apply</button>
+              </div>
+              <div className="schro19">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>College Name</h5>
+                  <p>College City</p>
+                </div>
+                <button>Apply</button>
+              </div>
+
+            </div>
+            <div className="schro21">
+              <div className="schro22">Most Applied Scholarships</div>
+              <div className="schro23">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>Scholarship Name</h5>
+                  <p>Amount</p>
+                </div>
+                <button>Apply</button>
+              </div>
+              <div className="schro23">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>Scholarship Name</h5>
+                  <p>Amount</p>
+                </div>
+                <button>Apply</button>
+              </div>
+              <div className="schro23">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>Scholarship Name</h5>
+                  <p>Amount</p>
+                </div>
+                <button>Apply</button>
+              </div>
+              <div className="schro23">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>Scholarship Name</h5>
+                  <p>Amount</p>
+                </div>
+                <button>Apply</button>
+              </div>
+              <div className="schro23">
+                <img src={img} alt="" />
+                <div className="schro20">
+                  <h5>Scholarship Name</h5>
+                  <p>Amount</p>
+                </div>
+                <button>Apply</button>
+              </div>
+
+            </div>
+          </div>
+          <div className="schro11">
+          </div>
+
+          <div className="schro6">
+            <div className="schro7">
+              <div className="schro8"><h6>TATA Scholarship-Cornell University</h6></div>
+              <div className="schro9">
+                <p>International Student Eligible : <span>Yes</span></p>
+                <p>Amount : <span>Variable Amount</span></p>
+                <p>Type : <span>College Specific</span></p>
+                <p>Level Of Study  : <span>Bachelors</span></p>
+                <p>Number Of Scholorships : <span>40</span></p>
+                <h5>Read more  <IoMdArrowDropright /></h5>
+              </div>
+              <div className="schro10">
+                <button>Apply Now</button>
+                <button>Get Alert</button>
+              </div>
+            </div>
+            <div className="schro7">
+              <div className="schro8"><h6>Hubert H. Humphery Fellows...........</h6></div>
+              <div className="schro9">
+                <p>International Student Eligible : <span>Yes</span></p>
+                <p>Amount : <span>Variable Amount</span></p>
+                <p>Type : <span>College Specific</span></p>
+                <p>Level Of Study  : <span>Bachelors</span></p>
+                <p>Number Of Scholorships : <span>40</span></p>
+                <h5>Read more  <IoMdArrowDropright /></h5>
+              </div>
+              <div className="schro10">
+                <button>Apply Now</button>
+                <button>Get Alert</button>
+              </div>
+            </div>
+            <div className="schro7">
+              <div className="schro8"><h6>Ontario Trillium Scholarship...........</h6></div>
+              <div className="schro9">
+                <p>International Student Eligible : <span>Yes</span></p>
+                <p>Amount : <span>Variable Amount</span></p>
+                <p>Type : <span>College Specific</span></p>
+                <p>Level Of Study  : <span>Bachelors</span></p>
+                <p>Number Of Scholorships : <span>40</span></p>
+                <h5>Read more  <IoMdArrowDropright /></h5>
+              </div>
+              <div className="schro10">
+                <button>Apply Now</button>
+                <button>Get Alert</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+      <div className="schro24">
+      </div>
+
+      {/* <div className="home25" style={{ marginTop: "60px" }}>
         <div className="home26">
           <Slider {...settings3}>
             <div className="home29">
               <button className="home27">City Name</button>
             </div>
             <div className="home29">
-              <button className="home28" style={{width:"140px"}}>MBA/PGDM</button>
+              <button className="home28" style={{ width: "140px" }}>MBA/PGDM</button>
             </div>
             <div className="home29">
               <button className="home28">B.sc</button>
@@ -475,7 +716,7 @@ const Scholarship = () => {
       </div>
       <div className="sch31">
         <img src={img6} alt="" />
-      </div>
+      </div> */}
       <Footer />
     </>
   );

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 import Footer from "./Footer";
@@ -45,6 +45,8 @@ import { MdOutlineSort } from "react-icons/md";
 import { FaAngleDown } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 import { IoMdArrowDropright } from "react-icons/io";
+import { IoArrowBackCircleOutline, IoArrowForwardCircleOutline  } from "react-icons/io5";
+
 
 
 
@@ -125,7 +127,24 @@ const Home = () => {
       link: "/profile",
     },
   ];
-
+  function SampleNextArrow(props) {
+    const { className, onClick } = props;
+    return (
+      <div className={className} onClick={onClick}>
+        <IoArrowForwardCircleOutline  color="#001848" size={30} />
+      </div>
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, onClick } = props;
+    return (
+      <div className={className} onClick={onClick} 
+      >
+        <IoArrowBackCircleOutline  color="#001848" size={30}/>
+      </div>
+    );
+  }
 
 
   const settings = {
@@ -143,6 +162,8 @@ const Home = () => {
     slidesToShow: slideShow,
     slidesToScroll: 1,
     autoplay: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
   const settings3 = {
     dots: false,
@@ -151,6 +172,17 @@ const Home = () => {
     slidesToShow: slideShow2,
     slidesToScroll: 1,
     autoplay: true,
+
+  };
+
+  const settings4 = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 8,
+    slidesToScroll: 3,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
 
 
@@ -295,6 +327,7 @@ const Home = () => {
   };
 
 
+
   return (
     <>
       <div className="home200">
@@ -338,6 +371,7 @@ const Home = () => {
       <div className="home7">
         <h2>Top Cities</h2>
         <div className="home8">
+          <Slider {...settings4} >
           <div className="home9" onClick={() => navigate("/delhi")}>
             <img src={img4} alt="" />
             <p>Delhi</p>
@@ -370,6 +404,11 @@ const Home = () => {
             <img src={img9} alt="" />
             <p>Jaipur</p>
           </div>
+          <div className="home9" onClick={() => navigate("/jaipur")} >
+            <img src={img9} alt="" />
+            <p>Jaipur</p>
+          </div>
+          </Slider>
         </div>
       </div>
 

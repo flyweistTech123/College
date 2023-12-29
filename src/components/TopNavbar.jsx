@@ -251,7 +251,7 @@ const TopNavbar = (props) => {
 
 
   const data = [
-    "Universities" , "Courses"
+    "Universities" , "Courses", "Exams"
   ]
 
   const data1 = [
@@ -282,33 +282,33 @@ const TopNavbar = (props) => {
               onClick={() => navigate("/scholarships")}
               style={{ color: props.color }}
             >
-              Exams
+              Scholarships
             </p>
-            <div ref={dropdownRef}>
+            {/* <div ref={dropdownRef}>
                 <p onClick={() => setShowNavbar2(true)} style={{color:props.color}}>Scholarships</p>
-              </div> 
+              </div>  */}
             <p
-              onClick={() => navigate("/common-applications")}
+              onClick={() => navigate("/loan")}
               style={{ color: props.color }}
             >
               Loan
             </p>
-            <p onClick={() => navigate("/loan")} style={{ color: props.color }}>
+            <p onClick={() => navigate("/common-applications")} style={{ color: props.color }}>
             Common Application
             </p>
-            <p onClick={handleClick} style={{ color: props.color }}>
+            <p style={{ color: props.color }}>
             Scholarship Test
             </p>
-            <p onClick={handleClick} style={{ color: props.color }}>
+            <p  style={{ color: props.color }}>
             Hostels
             </p>
-            <p onClick={handleClick} style={{ color: props.color }}>
+            <p  style={{ color: props.color }}>
             More
             </p>
 
 
             <div>
-              <button className="loginn">Log In</button>
+              <button className="loginn" onClick={() => setShow(true)}>Log In</button>
             </div>
 
 
@@ -344,13 +344,13 @@ const TopNavbar = (props) => {
       </div>
 
 
-
+{/* 
       <div className="nav-course">        
         <div className="newNav2">
           <div className="drop3">
             {data1.map((i , index) => (
                   <div ref={dropdownRef}>
-                    <p onClick={() => setShowNavbar(true)} style={{color:props.color}}> {i} </p>
+                    <p style={{color:props.color}}> {i} </p>
                   </div> 
             ))}
         </div>
@@ -358,7 +358,7 @@ const TopNavbar = (props) => {
       </div>
       {showNavbar ? <NavMenu2 /> : ""}
       {showNavbar2 ? <NavMenu /> : ""}
-      <MyVerticallyCenteredModal show={show} onHide={() => setShow(false)} />
+      <MyVerticallyCenteredModal show={show} onHide={() => setShow(false)} /> */}
     </>
   );
 };
