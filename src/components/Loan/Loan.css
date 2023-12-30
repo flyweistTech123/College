@@ -46,3 +46,46 @@
     line-height: 19.07px;
     color: #000000;
 }
+
+
+
+.loan35 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .loan36 {
+    font-family: Open Sans;
+    cursor: pointer;
+    width: 208.02px;
+    height: 58.67px;
+    background-color: #001848;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    line-height: 27.24px;
+  }
+  
+
+  
+  .loan37 {
+    font-family: Open Sans;
+    cursor: pointer;
+    width: 208.02px;
+    height: 58.67px;
+    background: transparent;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+ 

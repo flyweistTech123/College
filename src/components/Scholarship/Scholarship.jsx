@@ -199,6 +199,7 @@ const Scholarship = () => {
             </div>
           </div>
           <div className="schro11">
+            
           </div>
           <div className="schro6">
             <div className="schro7">

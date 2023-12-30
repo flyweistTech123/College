@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import img28 from "../Images/c1.png";
 import Dropdown from "react-bootstrap/Dropdown";
 import Modal from "react-bootstrap/Modal";
@@ -296,10 +296,11 @@ const TopNavbar = (props) => {
             <p onClick={() => navigate("/common-applications")} style={{ color: props.color }}>
             Common Application
             </p>
-            <p style={{ color: props.color }}>
+            <p  onClick={() => navigate("/scholarshiptest")} style={{ color: props.color }}>
             Scholarship Test
             </p>
-            <p  style={{ color: props.color }}>
+           
+            <p  onClick={() => navigate("/hostels")} style={{ color: props.color }}>
             Hostels
             </p>
             <p  style={{ color: props.color }}>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Loan.css'
 import LoanNavbar from "../LoanNavbar";
+import ReactApexChart from 'react-apexcharts';
 import MobileLoanNavbar from "../MobileLoanNavabr";
 import Footer from "../Footer";
 import { useNavigate } from "react-router-dom";
@@ -23,12 +24,43 @@ import img16 from "../../Images/c78.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import TopNavbar from "../TopNavbar";
+import TopPart3 from "../TopPart3";
 
 const Loan = () => {
+
+  const [chartData, setChartData] = useState({
+    series: [85, 15,],
+    options: {
+      chart: {
+        width: 354.5,
+        type: 'pie',
+      },
+      labels: ['Total Interest', 'Principal loan amount'],
+      colors: ['#001848', '#F4BC1C'], // Custom colors
+      responsive: [{
+        breakpoint: 480,
+        options: {
+          chart: {
+            width: 200
+          },
+          legend: {
+            position: 'bottom'
+          }
+        }
+      }]
+    },
+  });
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const navigate = useNavigate();
+  const [faltu, setFaltu] = useState(null);
+
+  const handleFaltu = (index) => {
+    setFaltu(index);
+  };
+
+
   return (
     <>
       <div className="app1">
@@ -39,7 +71,7 @@ const Loan = () => {
           <img src={Loanimg} />
         </div>
 
-        <div className="loan31"> 
+        <div className="loan31">
           <div className="loan30">
             <img src={img2} alt="" />
             <h5>Calculate <span>EMI</span></h5>
@@ -51,6 +83,7 @@ const Loan = () => {
             <p>Corem ipsum dolor sit amet, </p>
           </div>
         </div>
+        <TopPart3 />
       </div>
       <div className="loan10">
         <div className="loan11">
@@ -66,6 +99,17 @@ const Loan = () => {
           <img src={img12} alt="" />
         </div>
       </div>
+      <div className="loan35">
+      {["All Banks", "Govt Banks", "Private Banks", "Cooperative", "NBFCs"].map((bank, index) => (
+        <div
+          key={index}
+          className={faltu === index ? "loan36" : "loan37"}
+          onClick={() => handleFaltu(index)}
+        >
+          {bank}
+        </div>
+      ))}
+    </div>
       <div className="loan12">
         <div className="loan13">
           <p>Bank Name</p>
@@ -85,7 +129,10 @@ const Loan = () => {
             <button>Details</button>
           </div>
           <div className="loan18">
-            <p>UP to INR 7.50 lacs 10.55% above INR 7.50 Lacs 10.80%</p>
+            <p>UP to INR 7.50 lacs
+              10.55%
+              above INR 7.50 Lacs
+              10.80%</p>
           </div>
           <div className="loan18">
             <p>15 Years</p>
@@ -98,8 +145,8 @@ const Loan = () => {
           </div>
           <div className="loan18">
             <div className="ext1">
-              <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
               <button className="ext3">Apply Now</button>
+              <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
             </div>
           </div>
         </div>
@@ -126,8 +173,8 @@ const Loan = () => {
           </div>
           <div className="loan18">
             <div className="ext1">
-              <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
               <button className="ext3">Apply Now</button>
+              <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
             </div>
           </div>
         </div>
@@ -154,8 +201,8 @@ const Loan = () => {
           </div>
           <div className="loan18">
             <div className="ext1">
-              <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
               <button className="ext3">Apply Now</button>
+              <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
             </div>
           </div>
         </div>
@@ -182,8 +229,8 @@ const Loan = () => {
           </div>
           <div className="loan18">
             <div className="ext1">
-              <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
               <button className="ext3">Apply Now</button>
+              <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
             </div>
           </div>
         </div>
@@ -192,25 +239,62 @@ const Loan = () => {
         <p>Show More</p>
       </div>
       <div className="loan20">
-        <p>HOW TO PROCEED WITH YOUR APPLICATION</p>
-        <div className="loan21">
-          <div className="loan22">
-            <img src={img13} alt="" />
-            <p>Collect Letter of Admission</p>
+        <h5>loan calculator</h5>
+        <p>Education loans are crafted to provide financial support to students with aspirations of pursuing higher education in esteemed colleges within India.</p>
+      </div>
+      <div className="loan21">
+      </div>
+
+      <div className="loan24">
+        <div className="loan22">
+          <h5>EMI Calculator</h5>
+          <div className="loan23">
+            <label htmlFor="">Loan Amount</label>
+            <input type="text" name="" id="" placeholder="₹25,17,310" />
           </div>
-          <div className="loan22">
-            <img src={img14} alt="" />
-            <p>Collect Letter of Admission</p>
+          <div className="loan23">
+            <label htmlFor="">Interest Rate</label>
+            <input type="text" name="" id="" placeholder="7%" />
           </div>
-          <div className="loan22">
-            <img src={img15} alt="" />
-            <p>Collect Letter of Admission</p>
+          <div className="loan23">
+            <label htmlFor="">Tenure (Months)</label>
+            <input type="text" name="" id="" placeholder="147" />
           </div>
-          <div className="loan22">
-            <img src={img16} alt="" />
-            <p>Collect Letter of Admission</p>
+          <div className="loan23">
+            <label htmlFor="">EMI (Monthly)</label>
+            <input type="text" name="" id="" placeholder="₹₹25,550" />
+          </div>
+          <div className="loan23">
+            <label htmlFor="">Total Interest</label>
+            <input type="text" name="" id="" placeholder="₹12,38,574" />
+          </div>
+          <div className="loan25">
+            <hr />
+          </div>
+          <div className="loan23">
+            <label htmlFor="">Total Payment</label>
+            <input type="text" name="" id="" placeholder="₹37,55,850" />
+          </div>
+
+          <div className="loan26">
+            <button>Submit</button>
           </div>
         </div>
+
+        <div className="loan27">
+          <h6>Emi Payable</h6>
+          <p>188 Month</p>
+          <h6>Total Interest</h6>
+          <p>1,280</p>
+          <h6>Payable Amount</h6>
+          <p>11,280</p>
+
+          <div className="loan28">
+            <ReactApexChart options={chartData.options} series={chartData.series} type="pie" width={380} />
+          </div>
+        </div>
+      </div>
+      <div className="loan21">
       </div>
       <Footer />
       <Offcanvas show={show} onHide={handleClose}>

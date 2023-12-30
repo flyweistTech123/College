@@ -58,7 +58,8 @@
   .schro5{
     display: flex;
     /* justify-content: space-between; */
-    gap: 20px;
+    gap: 30px;
+    margin-top: 40px;
   }
   
 
@@ -69,7 +70,7 @@
 
   
 .schro6{
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     display: flex;
     /* justify-content: space-between; */
     gap: 50px;
@@ -167,6 +168,7 @@
     height: 155px;
     background-color: #D9D9D9;
     margin-top: 40px;
+    margin-bottom: 40px;
   }
 
 

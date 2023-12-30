@@ -42,6 +42,8 @@ import Kolkata from "./components/Cities/Kolkata";
 import Chennai from "./components/Cities/Chennai";
 import Agra from "./components/Cities/Agra";
 import Jaipur from "./components/Cities/Jaipur";
+import ScholarshipTest from "./components/ScholarshipTest/ScholarshipTest";
+import Hostel from "./components/Hostel/Hostel";
 
 function App() {
   return (
@@ -89,6 +91,8 @@ function App() {
           <Route path="/jaipur" element={<Jaipur />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/document" element={<Document />} />
+          <Route path="/scholarshiptest" element={<ScholarshipTest />} />
+          <Route path="/hostels" element={<Hostel />} />
         </Routes>
       </BrowserRouter>
     </>

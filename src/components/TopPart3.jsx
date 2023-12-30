@@ -7,11 +7,6 @@ import img6 from "../Images/c43.png";
 const TopPart3 = ()=>{
     return (
         <>
-<div className="app7">
-        <div className="app8">
-          <p>One Application Marquee</p>
-        </div>
-      </div>
       <div className="app9">
         <div className="app10">
           <div className="app11">

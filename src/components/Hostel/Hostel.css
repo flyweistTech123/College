@@ -1,0 +1,152 @@
+/* Your main container */
+.card {
+    width: 310px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a lifted effect */
+  }
+  
+  /* Slider container */
+  .slider-container {
+    height: 179px;
+  }
+  
+  /* Styling for each image in the slider */
+  .slick-slide img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    object-fit: cover;
+  }
+  .hostel26{
+    border: none;
+    outline: none;
+  }
+  
+  /* Card content */
+  .card-content {
+    padding: 10px;
+  }
+
+  
+
+  .hostel20{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hostel20 h5{
+    font-weight: 700;
+    font-size: 16.01px;
+    line-height: 19.08px;
+    color: #1A3B5A;
+  }
+
+
+  .hostel21{
+    display: flex;
+    gap: 5px;
+  }
+
+  .hostel21 img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .hostel21 p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13.62px;
+    color: #000000;
+  }
+
+  .hostel22{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hostel22 h5{
+    font-weight: 700;
+    font-size: 16.01px;
+    line-height: 19.08px;
+    color: #1A3B5A;
+  }
+
+
+
+
+
+  .hostel23{
+    display: flex;
+    gap: 5px;
+  }
+
+  .hostel23 img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .hostel23 p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13.62px;
+    color: #000000;
+  }
+
+  .hostel24{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+  }
+
+  .hostel24 img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .hostel24 p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13.62px;
+    color: #000000;
+  }
+
+  .hostel25{
+    
+  }
+
+
+  .hostel25 button{
+    width: 197.87px;
+    height: 42px;
+    background-color: #F4BC1C;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #FFFFFF;
+  }
+
+
+
+  .hostel29{
+    width: 100%;
+  }
+  .hostel29 h1{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34.05px;
+    color: #000000;
+  }
+
+
+
+  .hostel28{
+    display: flex;
+    gap: 70px;
+    margin-top: 40px;
+  }
