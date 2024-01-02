@@ -9,6 +9,8 @@ import Sidebar3 from "../Sidebar3";
 import host from '../../Images/hostles.png'
 import image1 from '../../Images/hostel2.png'
 import image2 from '../../Images/hostel3.png'
+import image3 from '../../Images/hostel4.png'
+import image4 from '../../Images/hostel5.png'
 import CardWithSlider from "./hostelcard";
 const Hostel = () => {
     const navigate = useNavigate();
@@ -44,7 +46,7 @@ const Hostel = () => {
     const handleClose = () => setShow2(false);
     const handleShow = () => setShow2(true);
     const [show3, setShow3] = useState(false);
-    const images = [image1, image2, image1];
+    const images = [image1, image2, image3, image4];
 
     function NavMenu() {
         return (
@@ -156,10 +158,10 @@ const Hostel = () => {
                         <CardWithSlider
                             images={images}
                         />
-                          <CardWithSlider
+                        <CardWithSlider
                             images={images}
                         />
-                          <CardWithSlider
+                        <CardWithSlider
                             images={images}
                         />
                     </div>
@@ -167,10 +169,24 @@ const Hostel = () => {
                         <CardWithSlider
                             images={images}
                         />
-                          <CardWithSlider
+                        <CardWithSlider
                             images={images}
                         />
-                          <CardWithSlider
+                        <CardWithSlider
+                            images={images}
+                        />
+                    </div>
+                    <div className="hostel30">
+                    </div>
+                    <h1>Top College Hostels Near Me</h1>
+                    <div className="hostel28">
+                        <CardWithSlider
+                            images={images}
+                        />
+                        <CardWithSlider
+                            images={images}
+                        />
+                        <CardWithSlider
                             images={images}
                         />
                     </div>
@@ -178,18 +194,29 @@ const Hostel = () => {
                         <CardWithSlider
                             images={images}
                         />
-                          <CardWithSlider
+                        <CardWithSlider
                             images={images}
                         />
-                          <CardWithSlider
+                        <CardWithSlider
                             images={images}
                         />
+                    </div>
+                    <div className="hostel30">
                     </div>
                 </div>
             </div>
 
-
-            <div className="schro24">
+            <div className="home61">
+                <h1>Subscribe To Our NewsLetter</h1>
+                <div className="home62">
+                    <input type="text" name="" id="" placeholder="Name" />
+                    <input type="text" name="" id="" placeholder="Mobile" />
+                    <input type="email" name="" id="" placeholder="Email" />
+                    <input type="text" name="" id="" placeholder="Your Stream" />
+                </div>
+                <div className="home63">
+                    <button>Submit</button>
+                </div>
             </div>
             <Footer />
         </>

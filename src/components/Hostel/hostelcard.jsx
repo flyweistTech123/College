@@ -6,7 +6,6 @@ import men from '../../Images/men.png'
 import loaction from '../../Images/loaction2.png'
 import bed from '../../Images/bad.png'
 import food from '../../Images/food.png'
-import { IoArrowBackCircleOutline, IoArrowForwardCircleOutline  } from "react-icons/io5";
 
 
 const ImageSlider = ({ images }) => {
@@ -38,8 +37,6 @@ const ImageSlider = ({ images }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
     
   };
 
@@ -56,11 +53,11 @@ const ImageSlider = ({ images }) => {
 
 const CardWithSlider = ({  images }) => {
   return (
-    <div className="card">
-      <div className="slider-container">
+    <div className="card21">
+      <div className="slider-container12">
         <ImageSlider images={images} />
       </div>
-      <div className="card-content">
+      <div className="card-content12">
         <div className='hostel20'>
         <h5>Jamia millia islamia</h5>
         <div className='hostel21'>

@@ -1175,7 +1175,7 @@ const Home = () => {
           <div className="home101">
             <img src={img3} alt="" />
             <>
-              <div className="drop100">
+              {/* <div className="drop100">
                 {Records?.map((ele, i) =>
                   ele?.item ? (
                     <Dropdown key={i}>
@@ -1211,9 +1211,9 @@ const Home = () => {
                     </Dropdown>
                   )
                 )}
-              </div>
+              </div> */}
             </>
-            <p>
+            {/* <p>
               <Dropdown>
                 <Dropdown.Toggle variant="none" id="dropdown-basic">
                   More
@@ -1225,7 +1225,7 @@ const Home = () => {
                   ))}
                 </Dropdown.Menu>
               </Dropdown>
-            </p>
+            </p> */}
             <div className="login10">
               <i class="fa-solid fa-user"></i>
               <p>Login</p>
