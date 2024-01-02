@@ -1,0 +1,136 @@
+.predictor1{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.predictor1 h1{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35.41px;
+    color: #121212;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.predictor2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.predictor3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.predictor3 label{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #000000;
+}
+
+.predictor3 select{
+    width: 294px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    background: #E7E7E7;
+    padding: 10px;
+}
+
+.predictor3 input{
+    width: 294px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    background: #E7E7E7;
+    padding: 10px;
+    outline: none;
+}
+
+
+
+
+.predictor4{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.predictor5{
+    width: auto;
+    height: 208px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.predictor6{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.predictor6 img{
+    width: 50px;
+    height: 50px;
+}
+
+.predictor6 h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #000000;
+}
+
+.predictor7{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+.predictor8{
+    /* display: flex;
+    flex-direction: column; */
+    display: flex;
+    gap: 10px;
+}
+
+.predictor8 p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17.7px;
+    color: #3D3D3D;
+}
+
+
+.predictor8 span{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17.7px;
+    color: #F4BC1C;
+}
+
+
+.predictor9 {
+    position: relative;
+    width: 1px; 
+    height: 100%; 
+    margin: 0 auto;
+  }
+  
+  .vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #000; 
+  }
+  
+
+

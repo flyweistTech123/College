@@ -44,6 +44,10 @@ import Agra from "./components/Cities/Agra";
 import Jaipur from "./components/Cities/Jaipur";
 import ScholarshipTest from "./components/ScholarshipTest/ScholarshipTest";
 import Hostel from "./components/Hostel/Hostel";
+import MockTest from "./components/MorePages/MockTest";
+import MockTest1 from "./components/MorePages/MockTest1";
+import Predictor from "./components/MorePages/CollegePredictor";
+import Review from "./components/MorePages/Review";
 
 function App() {
   return (
@@ -68,7 +72,7 @@ function App() {
           <Route path="/test" element={<Test />} />
           <Route path="/test2" element={<Test2 />} />
           <Route path="/become-partner" element={<BecomeSeller />} />
-          <Route path="/one-stop" element={<OneStop />} />
+          <Route path="/one-stop-solution" element={<OneStop />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/test-perform" element={<TestPerform />} />
           <Route path="/college" element={<College />} />
@@ -93,6 +97,10 @@ function App() {
           <Route path="/document" element={<Document />} />
           <Route path="/scholarshiptest" element={<ScholarshipTest />} />
           <Route path="/hostels" element={<Hostel />} />
+          <Route path="/mocktest" element={<MockTest />} />
+          <Route path="/tests" element={<MockTest1 />} />
+          <Route path="/college-predictor" element={<Predictor />} />
+          <Route path="/review" element={<Review />} />
         </Routes>
       </BrowserRouter>
     </>

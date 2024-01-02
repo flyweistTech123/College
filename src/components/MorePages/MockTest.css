@@ -1,0 +1,65 @@
+.numbered-list-container {
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .numbered-list-container h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.24px;
+    color: #000000;
+    margin-bottom: 20px
+  }
+  
+  .numbered-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .numbered-list li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+ 
+  
+
+  .numbered-list li li:before {
+    content: '\2022'; /* Bullet point character */
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    margin-right: 5px;
+  }
+
+  .numbered-list li li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #000000;
+    padding-left: 30px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    counter-increment: listCounter;
+  }
+  
+
+
+  .testtt1{
+    width: 80%;
+    height: 60px;
+    background: #001848;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38.13px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+  }

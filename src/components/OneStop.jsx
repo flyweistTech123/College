@@ -1,185 +1,276 @@
 import React, { useState, useEffect } from "react";
-import TopPart2 from "./TopPart2";
 import TopPart3 from "./TopPart3";
 import Footer from "./Footer";
 import Slider from "react-slick";
+import TopNavbar from "./TopNavbar";
+import { useNavigate } from "react-router-dom";
+import img from '../Images/onestopsolution.png'
 
 const OneStop = () => {
-  const [slideShow, setSlideShow] = useState(4);
 
-  useEffect(() => {
-    if (window.innerWidth < 800) {
-      setSlideShow(1);
-    } else if (window.innerWidth > 800 && window.innerWidth < 1100) {
-      setSlideShow(2);
-    } else setSlideShow(4);
-  }, []);
-  const settings3 = {
-    dots: true,
-    infinite: true,
-    speed: 200,
-    slidesToShow: slideShow,
-    slidesToScroll: 1,
-    autoplay: true,
+  const [faltu, setFaltu] = useState(null);
+
+  const handleFaltu = (index) => {
+    setFaltu(index);
   };
 
   return (
     <>
-      <TopPart2 />
+      <div className="app1">
+        <div className="schro">
+          <TopNavbar />
+        </div>
+        <div className="app6">
+          <img src={img} />
+        </div>
+        <div className="onesolution1">
+          <div className="home100">
+            <i class="fa-solid fa-bars" ></i>
+          </div>
+          <div className="onesolution2">
+            <h2>One Stop Application | pay Fees | apply loan | apply scholarships and more...</h2>
+            <p>We Aim to enhance your experience by making the process more convenient.</p>
+          </div>
+          <div className="home4">
+            <input
+              type="text"
+              placeholder="Search for colleges, exams, Q & A, Articles..."
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
       <TopPart3 />
-      <div className="home25">
-        <h4>We Tried To Help You Pick Easily</h4>
-        <div className="home26">
-          <Slider {...settings3}>
-            <div className="ont1">
-              <div className="ont2">
-                <p>College Application</p>
-              </div>
-            </div>
-            <div className="ont1">
-              <div className="ont2">
-                <p>Pay Offer Acceptance</p>
-              </div>
-            </div>
-            <div className="ont1">
-              <div className="ont2">
-                <p>Apply Scholarship</p>
-              </div>
-            </div>
-            <div className="ont1">
-              <div className="ont2">
-                <p>Apply Education Loan</p>
-              </div>
-            </div>
-            <div className="ont1">
-              <div className="ont2">
-                <p>Apply Education Loan</p>
-              </div>
-            </div>
-            <div className="ont1">
-              <div className="ont2">
-                <p>Apply Education Loan</p>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </div>
-      <div className="one1">
-        <div className="one2">
-          <div className="one3">
-            <label>TITLE</label>
-            <select>
-              <option value="">Select</option>
-              <option value="">1</option>
-              <option value="">1</option>
-            </select>
-          </div>
-          <div className="one3">
-            <label>First Name</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>Last Name</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>Gender</label>
-            <select>
-              <option value="">Select</option>
-              <option value="">1</option>
-              <option value="">2</option>
-            </select>
-          </div>
-        </div>
-        <div className="one2">
-          <div className="one3">
-            <label>Father's Name</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>Mother's Name</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>Category</label>
-            <select>
-              <option value="">Select</option>
-              <option value="">1</option>
-              <option value="">2</option>
-            </select>
-          </div>
-        </div>
-        <div className="one2">
-          <div className="one3">
-            <label>Nationality</label>
-            <select>
-              <option value="">Select</option>
-              <option value="">1</option>
-              <option value="">2</option>
-            </select>
-          </div>
-          <div className="one3">
-            <label>Contact No</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>Alternate Contact Number</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>Email</label>
-            <input type="text" />
-          </div>
-        </div>
-        <div className="one2">
-          <div className="one3">
-            <label>Aadhar No</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>Address</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>City</label>
-            <input type="text" />
-          </div>
-        </div>
-        <div className="one2">
-          <div className="one3">
-            <label>State</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>Pin Code</label>
-            <input type="text" />
-          </div>
-          <div className="one3">
-            <label>Country</label>
-            <input type="text" />
-          </div>
-        </div>
-        <div className="tst7">
-          <h6>Highest Qualification </h6>
-          <div class="radio-inline">
-            <input type="radio" id="option1" name="radio-group" />
-            <label for="option1">12th</label>
 
-            <input type="radio" id="option2" name="radio-group" />
-            <label for="option2">Diploma</label>
+      <div className="onesolution3">
+        <div className="onesolution4">
+          <h1>One Stop Application | pay Fees | apply loan | apply scholarships and more...</h1>
+          <p>We Aim to enhance your experience by making the process more convenient.</p>
+        </div>
 
-            <input type="radio" id="option3" name="radio-group" />
-            <label for="option3">Graduation</label>
-            <input type="radio" id="option3" name="radio-group" />
-            <label for="option3">Other</label>
+
+        <h2>Make a Selection: Choose Your Option</h2>
+        <div className="onesolution5">
+          {["College Application", "Pay Offer Acceptance ", "Pay Application Fee", "Lucky Draw", "Apply Scholarship", "Apply Education Loan ", "Book Campus Tour"].map((bank, index) => (
+            <div
+              key={index}
+              className={faltu === index ? "onesolution6" : "onesolution7"}
+              onClick={() => handleFaltu(index)}
+            >
+              {bank}
+            </div>
+          ))}
+        </div>
+
+        <h4>Personal Details</h4>
+
+
+        <div className="one1">
+          <div className="one2">
+            <div className="one3">
+              <label>TITLE</label>
+              <select>
+                <option value="">Select</option>
+                <option value="">1</option>
+                <option value="">1</option>
+              </select>
+            </div>
+            <div className="one3">
+              <label>First Name</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>Last Name</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>Gender</label>
+              <select>
+                <option value="">Select</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
+            </div>
+          </div>
+          <div className="one2">
+            <div className="one3">
+              <label>Father's Name</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>Mother's Name</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>Category</label>
+              <select>
+                <option value="">Select</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
+            </div>
+            <div className="one3">
+              <label>Date of Birth</label>
+              <input type="date" />
+            </div>
+          </div>
+          <div className="one2">
+            <div className="one3">
+              <label>Nationality</label>
+              <select>
+                <option value="">Select</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
+            </div>
+            <div className="one3">
+              <label>Contact No</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>Alternate Contact Number</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>Email</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div className="one2">
+            <div className="one3">
+              <label>Aadhar No</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>Address</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>City</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div className="one2">
+            <div className="one3">
+              <label>State</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>Pin Code</label>
+              <input type="text" />
+            </div>
+            <div className="one3">
+              <label>Country</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div className="one2">
+            <div className="one3">
+              <label>Highest Qualification</label>
+              <select>
+                <option value="">Select</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
+            </div>
+            <div className="one3">
+              <label>Passing Year</label>
+              <select>
+                <option value="">Select</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
+            </div>
+          </div>
+          <button className="one5">Submit</button>
+        </div>
+
+
+        <h4>Pay  Offer Acceptance</h4>
+        <div className="one1">
+          <div className="one2">
+            <div className="one3">
+              <label>Location of College</label>
+              <select>
+                <option value="">Select City</option>
+                <option value="">1</option>
+                <option value="">1</option>
+              </select>
+            </div>
+            <div className="one3">
+              <label>Course</label>
+              <select>
+                <option value="">Select Course</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
+            </div>
+            <div className="one3">
+              <label>Choose Your College</label>
+              <select>
+                <option value="">Select College</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
+            </div>
+            <div className="one3">
+              <label>Year of Intake</label>
+              <select>
+                <option value="">Year of Intake</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
+            </div>
+          </div>
+          <div className="one2">
+            <div className="one3">
+              <label>Offer Acceptance Amount</label>
+              <input type="text" placeholder="Enter Amount" />
+            </div>
           </div>
         </div>
-        <div className="one4">
-          <h5>Remarks</h5>
-          <textarea></textarea>
+        <div className="one1">
+        <h5>Document Uploads</h5>
+        <div className="document-table1">
+          <table>
+            <thead>
+              <tr>
+                <th>10th Class Marksheet</th>
+                <th>12th Class Marksheet</th>
+                <th>Graduation Documents</th>
+                <th>Aadhar Card</th>
+                <th>Upload Photo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="file" accept=".pdf, .jpg, .png" /></td>
+                <td><input type="file" accept=".pdf, .jpg, .png" /></td>
+                <td><input type="file" accept=".pdf, .jpg, .png" /></td>
+                <td><input type="file" accept=".pdf, .jpg, .png" /></td>
+                <td><input type="file" accept=".jpg, .png" /></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <button className="one5">Submit</button>
+        </div>
+
+        <div className="one1">
+
+          <div className="onesolution10">
+          <h5>Declaration</h5>
+          <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+
+          <input type="checkbox" name="" id="" />
+          <label htmlFor="">I Agree</label>
+          </div>
+        </div>
+
+        <button className="one5">Submit & Pay</button>
+       
       </div>
+
+
       <Footer />
     </>
   );

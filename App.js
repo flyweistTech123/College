@@ -43,6 +43,7 @@ import Chennai from "./components/Cities/Chennai";
 import Agra from "./components/Cities/Agra";
 import Jaipur from "./components/Cities/Jaipur";
 import ScholarshipTest from "./components/scholarshiptest";
+import Predictor from "./src/components/MorePages/CollegePredictor";
 
 function App() {
   return (
@@ -91,6 +92,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/document" element={<Document />} />
           <Route path="/scholarshiptest" element={<ScholarshipTest />} />
+          <Route path="/college-predictor" element={<Predictor />} />
         </Routes>
       </BrowserRouter>
     </>
