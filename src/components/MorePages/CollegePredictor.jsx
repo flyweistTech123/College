@@ -12,8 +12,9 @@ import clg1 from '../../Images/IIT2.png'
 const Predictor = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate('/tests')
+    navigate('/predict_now')
   }
+
   return (
     <>
       <div className="app1">
@@ -129,7 +130,7 @@ const Predictor = () => {
               <p>Practice Tests</p>
             </div>
             <div className="predictor8">
-              <span>Predict Now</span>
+              <span onClick={handleClick}>Predict Now</span>
             </div>
           </div>
         </div>
@@ -235,7 +236,7 @@ const Predictor = () => {
               <p>Practice Tests</p>
             </div>
             <div className="predictor8">
-              <span>Predict Now</span>
+              <span  onClick={handleClick}>Predict Now</span>
             </div>
           </div>
         </div>
@@ -290,7 +291,7 @@ const Predictor = () => {
               <p>Practice Tests</p>
             </div>
             <div className="predictor8">
-              <span>Predict Now</span>
+              <span  onClick={handleClick}>Predict Now</span>
             </div>
           </div>
         </div>
@@ -343,7 +344,7 @@ const Predictor = () => {
               <p>Practice Tests</p>
             </div>
             <div className="predictor8">
-              <span>Predict Now</span>
+              <span  onClick={handleClick}>Predict Now</span>
             </div>
           </div>
         </div>
@@ -396,7 +397,7 @@ const Predictor = () => {
               <p>Practice Tests</p>
             </div>
             <div className="predictor8">
-              <span>Predict Now</span>
+              <span  onClick={handleClick}>Predict Now</span>
             </div>
           </div>
         </div>
@@ -454,7 +455,7 @@ const Predictor = () => {
               <p>Practice Tests</p>
             </div>
             <div className="predictor8">
-              <span>Predict Now</span>
+              <span  onClick={handleClick}>Predict Now</span>
             </div>
           </div>
         </div>
@@ -507,7 +508,7 @@ const Predictor = () => {
               <p>Practice Tests</p>
             </div>
             <div className="predictor8">
-              <span>Predict Now</span>
+              <span  onClick={handleClick}>Predict Now</span>
             </div>
           </div>
         </div>
@@ -560,7 +561,7 @@ const Predictor = () => {
               <p>Practice Tests</p>
             </div>
             <div className="predictor8">
-              <span>Predict Now</span>
+              <span  onClick={handleClick}>Predict Now</span>
             </div>
           </div>
         </div>

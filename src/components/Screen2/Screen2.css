@@ -1,0 +1,254 @@
+
+
+.filt1 {
+    display: flex;
+    gap: 20px;
+}
+
+.filt2 {
+    font-family: Open Sans;
+    cursor: pointer;
+    width: 158px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: #F4BC1C;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24.51px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
+.filt3 {
+    font-family: Open Sans;
+    cursor: pointer;
+    width: 158px;
+    height: 42px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+.filt5{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.filt6{
+    display: flex;
+    gap: 20px;
+}
+
+.filt6 h1{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34.05px;
+    color: #000000;
+}
+
+.filt7{
+    border: 3px solid #000000;
+}
+
+
+.filt9{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* SearchInput.css */
+
+.now1 {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.search-container12 {
+    display: flex;
+    align-items: center;
+
+}
+
+.search-input1 {
+    padding: 8px;
+    border-radius: 40px;
+    width: 667px;
+    height: 46px;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding-left: 20px;
+}
+
+
+.search-input1::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.07px;
+    color: #4B4B4B;
+}
+
+.search-icon11 {
+    margin-left: -60px;
+    padding: 8px;
+}
+
+
+.now2 {
+    display: flex;
+    gap: 50px;
+}
+
+.now3 button {
+    width: 238px;
+    height: 46.08px;
+    border: none;
+    outline: none;
+    border-radius: 48px;
+    background: #F4BC1C;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #FFFFFF;
+    margin: auto;
+    transition: all 0.3s ease;
+    /* Adding transition for smooth animation */
+}
+
+.now3 button:hover {
+    transform: scale(1.1);
+    /* Increase the size by 10% on hover */
+}
+
+
+
+.now4 {
+    margin-top: 70px;
+}
+
+.now4 h1 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34.05px;
+    color: #000000;
+}
+
+
+.now20{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.filt20 {
+    width: 316px;
+    height: 404px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: 1px solid #001848;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.filt21 {
+    height: 171px;
+    width: 316px;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.filt21 img{
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    
+    top: 0;
+    left: 0;
+    width: 87px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .overlay h5 {
+    margin: 0;
+    padding: 5px;
+  }
+
+
+.filt22{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 78px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #00000080;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 2px;
+}
+
+.filt22 i{
+    color: #ffec44;
+}
+
+.filt22 h5{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13.62px;
+    color: #FFFFFF;
+}
+
+
+.filt23{
+    display: flex;
+    position: absolute;
+    top: 140px;
+    display: flex;
+    gap: 8px;
+    padding: 5px;
+}
+
+.filt23 img{
+    width: 51px;
+    height: 51px;
+}
+
+.filt23 h6{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: #FFFFFF;
+}
+
+.filt23 p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: #FFFFFF;
+}
+
+

@@ -198,7 +198,7 @@ const ScholarshipTest = () => {
                 <div className="schrotest2">
                     <h3>Online Scholarship Test Series</h3>
                     <p>Looking for a one-stop solution to practice online mock tests for entrance exams? Then you are at the right destination. Collegedunia provides you with a wide range of test series to help you prepare online for any entrance exam with ease. Get online test series for JEE Mains, JEE Advanced, MAT, CAT, NEET and other exams. We provide the latest pattern & syllabus-based Online Mock Tests with elaborate solutions & performance analysis for all Entrance and Board Examinations.</p>
-                    <h3>Selet Your Exam Categories</h3>
+                    <h3>Select Your Exam Categories</h3>
                     <div className="schrotest3">
                         {["B.Tech/BE Exams", "Medical(UG) Exams", "State(B.Tech/BE)Exams", "GATE", "CAT & MBA"].map((bank, index) => (
                             <div

@@ -230,44 +230,45 @@ const OneStop = () => {
           </div>
         </div>
         <div className="one1">
-        <h5>Document Uploads</h5>
-        <div className="document-table1">
-          <table>
-            <thead>
-              <tr>
-                <th>10th Class Marksheet</th>
-                <th>12th Class Marksheet</th>
-                <th>Graduation Documents</th>
-                <th>Aadhar Card</th>
-                <th>Upload Photo</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><input type="file" accept=".pdf, .jpg, .png" /></td>
-                <td><input type="file" accept=".pdf, .jpg, .png" /></td>
-                <td><input type="file" accept=".pdf, .jpg, .png" /></td>
-                <td><input type="file" accept=".pdf, .jpg, .png" /></td>
-                <td><input type="file" accept=".jpg, .png" /></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        </div>
-
-        <div className="one1">
-
-          <div className="onesolution10">
-          <h5>Declaration</h5>
-          <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-
-          <input type="checkbox" name="" id="" />
-          <label htmlFor="">I Agree</label>
+          <h5>Document Uploads</h5>
+          <div className="document-table1">
+            <table>
+              <thead>
+                <tr>
+                  <th>10th Class Marksheet</th>
+                  <th>12th Class Marksheet</th>
+                  <th>Graduation Documents</th>
+                  <th>Aadhar Card</th>
+                  <th>Upload Photo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="file" accept=".pdf, .jpg, .png" /></td>
+                  <td><input type="file" accept=".pdf, .jpg, .png" /></td>
+                  <td><input type="file" accept=".pdf, .jpg, .png" /></td>
+                  <td><input type="file" accept=".pdf, .jpg, .png" /></td>
+                  <td><input type="file" accept=".jpg, .png" /></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
 
+        <div className="one1">
+          <div className="onesolution10">
+            <h5>Declaration</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+          </div>
+        </div>
+
+        <div className="onesolution11">
+        <input type="checkbox" name="" id="" />
+        <label htmlFor="">I Agree</label>
+        </div>
+
         <button className="one5">Submit & Pay</button>
-       
+
       </div>
 
 

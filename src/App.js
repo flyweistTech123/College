@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 import Home from "./components/Home";
-import Screen2 from "./components/Screen2";
+import Screen2 from "./components/Screen2/Screen2";
 import Screen3 from "./components/Screen3";
 import Screen4 from "./components/Screen4";
 import Scholarship from "./components/Scholarship/Scholarship";
@@ -48,6 +48,7 @@ import MockTest from "./components/MorePages/MockTest";
 import MockTest1 from "./components/MorePages/MockTest1";
 import Predictor from "./components/MorePages/CollegePredictor";
 import Review from "./components/MorePages/Review";
+import PredictNow from "./components/MorePages/Predict_Now";
 
 function App() {
   return (
@@ -100,6 +101,7 @@ function App() {
           <Route path="/mocktest" element={<MockTest />} />
           <Route path="/tests" element={<MockTest1 />} />
           <Route path="/college-predictor" element={<Predictor />} />
+          <Route path="/predict_now" element={<PredictNow />} />
           <Route path="/review" element={<Review />} />
         </Routes>
       </BrowserRouter>

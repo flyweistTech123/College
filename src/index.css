@@ -3936,22 +3936,22 @@ input[type="checkbox"]:checked+label:after {
   width: 80%;
 }
 
-.connect13 {
-  margin-left: 5%;
+.partnerparent{
   width: 90%;
-  background: #fff;
-  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  margin-top: 50px;
 }
 
-.connect14 {
-  margin-left: 5%;
-  width: 90%;
-  padding-top: 30px;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  gap: 80px;
-  padding-bottom: 30px;
+.connect13 {
+  width: 100%;
+  height: 545px;
+  background: #FFFFFF;
+  margin: auto;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
 }
+
+
 
 .connect15 {
   background: #e4e4e4;
@@ -4375,6 +4375,87 @@ justify-content: space-between;
 }
 
 /* === become seller styling ===*/
+.partner57{
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner56{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.partner55{
+  width: 161px;
+  height: 161px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.partner55 img{
+  width: 61px;
+  height: 91px;
+  margin-bottom: 10px;
+}
+
+.partner55 h3{
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16.34px;
+  color: #000000;
+}
+.partner80{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.partner80 button{
+  width: 191px;
+  height: 45px;
+  border: 2px solid #0185C3;
+  border-radius: 30px;
+  background: #F4BC1C;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27.24px;
+  color: #FFFFFF;
+}
+
+
+
+.partner55 p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height:16.34px;
+  color: #000000;
+}
+
+
+.partner56 h3{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40.85px;
+  color: #FFFFFF;
+}
+
+.partner56 p{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #FFFFFF;
+}
 .seller1 {
   background-image: url("./Images/c88.png");
   width: 100%;
@@ -4420,11 +4501,12 @@ justify-content: space-between;
 
 .seller4 {
   margin-top: 20px;
-  margin-left: 3%;
-  width: 94%;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  padding-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
 }
 
 .connect13 h4 {
@@ -4434,14 +4516,14 @@ justify-content: space-between;
   font-size: 25px;
   line-height: 34px;
   color: #000000;
-  padding-top: 20px;
   text-align: center;
+  padding-top: 20px;
 }
 
 .connect13 p {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   color: #000000;
@@ -4449,22 +4531,31 @@ justify-content: space-between;
 }
 
 .seller5 {
-  margin-top: 40px;
-  margin-left: 5%;
-  width: 90%;
-  margin-bottom: 50px;
+  width: 221px;
+  height: 331px;
+  background: #0018484D;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-.seller5 h6 {
+.partner90{
+  margin-top: 50px;
+}
+
+.seller55{
+  margin-top: 20px;
+}
+
+.seller55 h6 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 27px;
+  line-height: 27.24px;
   color: #000000;
 }
 
-.seller5 p {
+.seller55 p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -4474,10 +4565,7 @@ justify-content: space-between;
 }
 
 .seller6 {
-  margin-top: 30px;
-  margin-left: 5%;
-  width: 90%;
-  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .seller7 {
@@ -4505,15 +4593,16 @@ justify-content: space-between;
 .seller8 label {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   color: #000000;
+  padding-bottom: 10px;
 }
 
 .seller8 input {
   border: none;
-  border-bottom: 1px solid #6d6d6d;
+  border-bottom: 1px solid #6D6D6D;
 }
 
 .seller9 {
@@ -4534,36 +4623,177 @@ justify-content: space-between;
   outline: none;
 }
 
-.seller10 {
-  background: #0185c3;
-  border-radius: 10px;
-  display: block;
-  width: 20%;
-  margin: auto;
-  margin-top: 30px;
-  border: none;
-  height: 40px;
-  color: #ffff;
+
+.partner60{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.partner61{
+  display: flex;
+  flex-direction: column;
 }
 
-.seller11 {
-  margin-top: 80px;
-  margin-left: 5%;
-  width: 40%;
-}
-
-.seller11 button {
+.partner61 label{
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 32px;
-  color: #0185c3;
-  background: #fff;
-  border: 1px solid #0185c3;
-  border-radius: 20px;
-  width: 50%;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.partner61 select{
+  width: 264px;
+  height: 39px;
+  background: #E7E7E7;
+  color: #000000;
+  border: 0.97px solid #707070;
+  border-radius: 4.86px;
+  padding-left: 5px;
+}
+.partner61 input{
+  width: 264px;
+  height: 39px;
+  background: #E7E7E7;
+  color: #000000;
+  border: 0.97px solid #707070;
+  border-radius: 4.86px;
+  padding-left: 5px;
+}
+
+.partner62{
+  margin-top: 30px;
+}
+
+.partner62 button{
+  width: 120px;
   height: 40px;
+  border: 2px solid #1048C3;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #001848;
+}
+
+.partner63{
+  margin-top: 50px;
+}
+
+.partner63 p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #000000;
+}
+
+.partner64{
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner70{
+  margin-top: 50px;
+}
+
+.partner70 label{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #000000;
+}
+
+.partner70 input{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27.24px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+
+.seller10 {
+  background: #F4BC1C;
+  border-radius: 30px;
+  display: block;
+  width: 320px;
+  height: 63px;
+  margin: auto;
+  margin-top: 30px;
+  border: none;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27.24px;
+  transition: all 0.3s ease;
+  /* Adding transition for smooth animation */
+}
+
+.seller10:hover {
+  transform: scale(1.1);
+  /* Increase the size by 10% on hover */
+}
+
+
+
+
+.seller11 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+
+
+.seller11 button {
+  width: 245px;
+  height: 53px;
+  border: 2px solid #1048C3;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #0185C3;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+  /* Adding transition for smooth animation */
+}
+
+.seller11 button:hover {
+  transform: scale(1.1);
+  /* Increase the size by 10% on hover */
+}
+
+
+
+.partner71{
+
+}
+
+.partner71 h6{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34.05px;
+  color: #000000;
+}
+
+.partner71 p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #000000;
+}
+
+
+
+.partner72{
+  width: 468px;
+  height: 276px;
+  border-radius: 5px;
+  background: #D9D9D9;
 }
 
 /*==== table styling ====*/
@@ -4898,6 +5128,27 @@ input[type="file"] {
   margin-top: 5px;
 }
 
+.onesolution10 h5{
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 25.87px;
+  color: #000000;
+}
+
+.onesolution10 p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #000000;
+}
+
+.onesolution11{
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #6D6D6D;
+}
 
 
 /*===== profile styling ====*/
@@ -6743,6 +6994,48 @@ select:focus {
   }
 
   /* screen2 styling*/
+
+
+  .schrotest3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.schrotest4 {
+    font-family: Open Sans;
+    cursor: pointer;
+    width: 224px;
+    height: 47px;
+    border-radius: 30px;
+    background-color: #F4BC1C;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24.51px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
+.schrotest5 {
+    font-family: Open Sans;
+    cursor: pointer;
+    width: 224px;
+    height: 47px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+}
   .screen20 {
     display: block;
   }
