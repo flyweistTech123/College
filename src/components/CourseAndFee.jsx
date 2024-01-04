@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import CollegeInfotoppart from "../components/CollegeInfo/CollegeInfotoppart";
 import { IoLocationSharp } from "react-icons/io5";
+import { MdDownload } from "react-icons/md";
 
 
 const CourseAndFee = () => {
@@ -77,7 +78,7 @@ const CourseAndFee = () => {
               </div>
             </div>
             <div className="clg28">
-              <p>Show More</p>
+              <button>More Courses</button>
             </div>
           </div>
           <div className="clg40">
@@ -96,7 +97,7 @@ const CourseAndFee = () => {
               </p>
             </div>
             <div className="clg42">
-              <h5>Jamia Miliya Islamia, Course & Fee Structure</h5>
+              <h5>Jamia Miliya Islamia, Course & Fees Structure</h5>
               <p>
                 Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 vulputate libero et velit interdum, ac aliquet odio mattis.
@@ -176,16 +177,6 @@ const CourseAndFee = () => {
                 Class aptent taciti sociosqu ad litora torquent per conubia
                 nostra, per inceptos himenaeos.
               </p>
-              <ul>
-                <li>CET</li>
-                <li>PGCET</li>
-                <li>AP PGCET</li>
-                <li>GATE</li>
-                <li>UGC NET</li>
-                <li>CAT</li>
-                <li>XAT</li>
-                <li>CMAT</li>
-              </ul>
             </div>
             <div className="clg43">
               <h4> Jamia Miliya Islamia Fee Payment Guidelines</h4>
@@ -195,13 +186,6 @@ const CourseAndFee = () => {
                 Class aptent taciti sociosqu ad litora torquent per conubia
                 nostra, per inceptos himenaeos.
               </p>
-              <ul>
-                <li>Go to official website</li>
-                <li>Click on Admission</li>
-                <li>Click on Apply Now</li>
-                <li>Fill out and submit the application form online</li>
-                <li>Pay the application fee online.</li>
-              </ul>
             </div>
             <div className="clg28">
               <p>Show More</p>
@@ -218,109 +202,7 @@ const CourseAndFee = () => {
                 </div>
                 <div className="clg49">
                   <button className="clg50">Interested</button>
-                  <button className="clg51">Brochure</button>
-                </div>
-              </div>
-            </div>
-            <div className="clg52">
-              <p>All Branches Technology</p>
-            </div>
-            <div className="clg53">
-              <div className="clg54">
-                <h4>Bachelor of Technology [B.Tech] (Aerospace Engineering)</h4>
-                <p>Check Eligibility</p>
-              </div>
-              <div className="clg55">
-                <h6>₹ 1,00,000</h6>
-                <p>View Detail Fees</p>
-              </div>
-              <div className="clg56">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="clg57"/>
-            <div className="clg53">
-              <div className="clg54">
-                <h4>Bachelor of Technology [B.Tech] (Aerospace Engineering)</h4>
-                <p>Check Eligibility</p>
-              </div>
-              <div className="clg55">
-                <h6>₹ 1,00,000</h6>
-                <p>View Detail Fees</p>
-              </div>
-              <div className="clg56">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="clg57"/>
-            <div className="clg53">
-              <div className="clg54">
-                <h4>Bachelor of Technology [B.Tech] (Aerospace Engineering)</h4>
-                <p>Check Eligibility</p>
-              </div>
-              <div className="clg55">
-                <h6>₹ 1,00,000</h6>
-                <p>View Detail Fees</p>
-              </div>
-              <div className="clg56">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="clg57"/>
-            <div className="clg53">
-              <div className="clg54">
-                <h4>Bachelor of Technology [B.Tech] (Aerospace Engineering)</h4>
-                <p>Check Eligibility</p>
-              </div>
-              <div className="clg55">
-                <h6>₹ 1,00,000</h6>
-                <p>View Detail Fees</p>
-              </div>
-              <div className="clg56">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="clg57"/>
-            <div className="clg53">
-              <div className="clg54">
-                <h4>Bachelor of Technology [B.Tech] (Aerospace Engineering)</h4>
-                <p>Check Eligibility</p>
-              </div>
-              <div className="clg55">
-                <h6>₹ 1,00,000</h6>
-                <p>View Detail Fees</p>
-              </div>
-              <div className="clg56">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="clg57"/>
-            <div className="clg53">
-              <div className="clg54">
-                <h4>Bachelor of Technology [B.Tech] (Aerospace Engineering)</h4>
-                <p>Check Eligibility</p>
-              </div>
-              <div className="clg55">
-                <h6>₹ 1,00,000</h6>
-                <p>View Detail Fees</p>
-              </div>
-              <div className="clg56">
-                <button>Apply Now</button>
-              </div>
-            </div>
-          </div>
-          <div className="clg44">
-            <div className="clg45">
-              <div className="clg46">
-                <p>MBA [Master of Business Administration]</p>
-              </div>
-              <div className="clg47">
-                <div className="clg48">
-                  <p>₹ 11,70,000 (4 Years) Avg. Fees</p>
-                </div>
-                <div className="clg49">
-                  <button className="clg50">Interested</button>
-                  <button className="clg51">Brochure</button>
+                  <button className="clg51">Brochure  <MdDownload /></button>
                 </div>
               </div>
             </div>

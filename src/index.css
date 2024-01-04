@@ -2288,8 +2288,8 @@ input[type="checkbox"]:checked+label:after {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 27.24px;
+  font-size: 23px;
+  line-height: 31.32px;
   color: #000000;
   text-align: center;
   padding-top: 20px;
@@ -2384,23 +2384,35 @@ input[type="checkbox"]:checked+label:after {
 
 .clg28 {
   margin-top: 20px;
+  text-align: center;
+}
+
+.clg28 button {
+  background: transparent;
+  color: #1D3969;
+  width: 212px;
+  border: 1px solid #1D3969;
+  border-radius: 35px;
+  height: 46px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
 }
 
 .clg28 p {
-  font-family: "Open Sans";
+  color: #1D3969;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700  ;
   font-size: 20px;
-  line-height: 27px;
-  color: #1d3969;
-  text-align: center;
-  padding-bottom: 30px;
+  line-height: 27.24px;
+  cursor: pointer;
 }
 
 .clg29 {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 80px;
   margin-bottom: 20px;
 }
 
@@ -2621,13 +2633,17 @@ input[type="checkbox"]:checked+label:after {
 
 .clg40 {
   margin-top: 30px;
-  background: #e7e7e7;
+  width: auto;
+  height: auto;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  padding: 30px;
 }
 
 .clg41 {
   padding-top: 30px;
-  margin-left: 5%;
-  width: 85%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
 }
 
 .clg41 p {
@@ -2635,7 +2651,7 @@ input[type="checkbox"]:checked+label:after {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 27.24px;
   color: #000000;
 }
 
@@ -2651,7 +2667,7 @@ input[type="checkbox"]:checked+label:after {
   font-weight: 600;
   font-size: 20px;
   line-height: 27px;
-  color: #1a3b5a;
+  color: #1A3B5A;
 }
 
 .clg42 p {
@@ -2659,7 +2675,7 @@ input[type="checkbox"]:checked+label:after {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 24.51px;
   color: #000000;
 }
 
@@ -2702,8 +2718,11 @@ input[type="checkbox"]:checked+label:after {
 }
 
 .clg44 {
-  background: #e7e7e7;
   margin-top: 30px;
+  width: auto;
+  height: auto;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  padding: 30px;
 }
 
 .clg45 {
@@ -2752,33 +2771,35 @@ input[type="checkbox"]:checked+label:after {
   width: 100%;
   margin-top: 10px;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .clg50 {
-  border: 1px solid #1d3969;
-  border-radius: 5px;
-  width: 49%;
-  height: 40px;
+  border: none;
+  background: #001848;
+  border-radius: 30px;
+  width: 172.18px;
+  height: 38px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 25px;
-  color: #1d3969;
+  line-height: 24.51px;
+  color: #FFFFFF;
 }
 
 .clg51 {
-  background: #33bdff;
-  border-radius: 5px;
+  border: none;
+  background: #F4BC1C;
+  border-radius: 30px;
+  width: 172.18px;
+  height: 38px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 25px;
-  color: #ffffff;
-  width: 49%;
-  border: none;
+  line-height: 24.51px;
+  color: #FFFFFF;
 }
 
 .clg52 {
@@ -2790,8 +2811,8 @@ input[type="checkbox"]:checked+label:after {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 28px;
+  line-height: 38.13px;
   color: #1a3b5a;
 }
 
@@ -2856,16 +2877,16 @@ input[type="checkbox"]:checked+label:after {
 
 .clg56 button {
   border: none;
-  background: #33bdff;
-  border-radius: 5px;
-  height: 40px;
-  width: 80%;
+  background: #F4BC1C;
+  border-radius: 30px;
+  width: 124px;
+  height: 32px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 22px;
-  color: #ffffff;
+  line-height: 21.79px;
+  color: #FFFFFF;
 }
 
 .clg57 {
