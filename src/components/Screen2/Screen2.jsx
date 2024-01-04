@@ -6,13 +6,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import TopNavbar from "../TopNavbar";
 import { FaSearch } from 'react-icons/fa';
 import { FaRegQuestionCircle } from "react-icons/fa";
-import { IoLocationOutline } from "react-icons/io5";
+import { IoLocation } from "react-icons/io5";
 import img from '../../Images/cardsimg.png'
-import star from '../../Images/star.png'
 import Sidebar from "../Sidebar";
 import { FaAngleDown } from "react-icons/fa";
+import { IoIosArrowDown } from "react-icons/io";
+
+import { IoFilterOutline } from "react-icons/io5";
 
 import clgimg from '../../Images/asinclg.png'
+import scholar from '../../Images/schrolarship12.png'
 
 
 
@@ -52,7 +55,6 @@ const Screen2 = () => {
             <div className="filt6">
               <h1>Filters</h1>
               <div className="filt7">
-
               </div>
             </div>
             <div className="filt1">
@@ -101,9 +103,13 @@ const Screen2 = () => {
 
 
           <div className="now4">
+            <div className="filt50">
             <h1>List of Top Colleges In India based on 2023 Ranking</h1>
+            <button> <IoFilterOutline /> Popularity <IoIosArrowDown /></button>
+            </div>
+       
 
-            <div className="now20">
+            <div className="filt40">
               <div className="filt20">
                 <div className="filt21">
                   <img src={img} alt="" />
@@ -114,12 +120,69 @@ const Screen2 = () => {
                     <img src={clgimg} alt="" />
                     <div>
                       <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
-                      <p>Kochi, Kerala | MCI Accredited</p>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
                     </div>
                   </div>
                 </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
 
-                {/* Other content within the card */}
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
               </div>
               <div className="filt20">
                 <div className="filt21">
@@ -131,12 +194,69 @@ const Screen2 = () => {
                     <img src={clgimg} alt="" />
                     <div>
                       <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
-                      <p>Kochi, Kerala | MCI Accredited</p>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
                     </div>
                   </div>
                 </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
 
-                {/* Other content within the card */}
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
               </div>
               <div className="filt20">
                 <div className="filt21">
@@ -148,16 +268,76 @@ const Screen2 = () => {
                     <img src={clgimg} alt="" />
                     <div>
                       <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
-                      <p>Kochi, Kerala | MCI Accredited</p>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
                     </div>
                   </div>
                 </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
 
-                {/* Other content within the card */}
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
               </div>
+              
+              
+            
 
             </div>
-            <div className="now20">
+            <div className="filt40">
               <div className="filt20">
                 <div className="filt21">
                   <img src={img} alt="" />
@@ -168,15 +348,70 @@ const Screen2 = () => {
                     <img src={clgimg} alt="" />
                     <div>
                       <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
-                      <p>Kochi, Kerala | MCI Accredited</p>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
                     </div>
                   </div>
                 </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
 
-                {/* Other content within the card */}
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
               </div>
-
-            </div><div className="now20">
               <div className="filt20">
                 <div className="filt21">
                   <img src={img} alt="" />
@@ -187,16 +422,1283 @@ const Screen2 = () => {
                     <img src={clgimg} alt="" />
                     <div>
                       <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
-                      <p>Kochi, Kerala | MCI Accredited</p>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
                     </div>
                   </div>
                 </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
 
-                {/* Other content within the card */}
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
               </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="filt40">
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+              </div>
+
 
             </div>
 
+            <div className="filt41">
+              <h1>View colleges in your budget of</h1>
+              <div className="filt42">
+              {["< 1 Lakh (13)", "1-2 Lakhs(69)", "2-3 Lakhs(34)", "3-5 Lakhs (13)", "> 5 Lakhs(73)"].map((bank, index) => (
+                <div
+                  key={index}
+                  className={activeIndex === index ? "filt43" : "filt44"}
+                  onClick={() => handleFaltu(index)}
+                >
+                  {bank}
+                </div>
+              ))}
+            </div>
+            </div>
+
+            <div className="filt40">
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              
+              
+            
+
+            </div>
+            <div className="filt40">
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="filt40">
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div className="filt41">
+              <h1>View colleges in your budget of</h1>
+              <div className="filt42">
+              {["< 1 Lakh (13)", "1-2 Lakhs(69)", "2-3 Lakhs(34)", "3-5 Lakhs (13)", "> 5 Lakhs(73)"].map((bank, index) => (
+                <div
+                  key={index}
+                  className={activeIndex === index ? "filt43" : "filt44"}
+                  onClick={() => handleFaltu(index)}
+                >
+                  {bank}
+                </div>
+              ))}
+            </div>
+            </div>
+
+            <div className="filt40">
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                
+
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+
+           
+
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+
+              </div>
+              <div className="filt20">
+                <div className="filt21">
+                  <img src={img} alt="" />
+                  <div className="filt22">
+                    <h5><i className="fa-solid fa-star"></i> 9.5/10</h5>
+                  </div>
+                  <div className="filt23">
+                    <img src={clgimg} alt="" />
+                    <div>
+                      <h6>Asia Pacific Institute of Management...Kochi , Kerala. </h6>
+                      <p> <IoLocation /> Kochi, Kerala | MCI Accredited</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="filt30">
+                  <div className="filt31"> 
+                  <h6>₹ 13,49,000</h6>
+                  <p>MBA/PGDM - 1st year fees</p>
+                  </div>
+                  <div className="filt31">
+                  <h6>NEET,JEE, EAMCET</h6>
+                  <p>EXAM Accepted</p>
+                  </div>
+                </div>
+                <div className="filt33">
+                  <div className="filt36">
+                  <p><span>#7</span> out of 281 in india 2022</p>
+                  <span>India Today</span>
+                  </div>
+                  <div className="filt36">
+                  <p><span>#8</span> out of 221 in india 2022</p>
+                  <span>This Week</span>
+                  </div>
+                </div>
+                <div className="filt34">
+                  <ul>
+                    <li>
+                    MBBS
+                    </li>
+                    <li>
+                    Admission Open
+                    </li>
+                    <li>
+                    M.Ch
+                    </li>
+                  </ul>
+                </div>
+                <div className="filt37">
+                  <ul>
+                    <li>
+                    Course Fee
+                    </li>
+                    <li>
+                    Placements
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="filt35">
+                  <div className="filt38">
+                    <button>Apply Now</button>
+                  </div>
+                  <div className="filt39">
+                    <button>Brochure</button>
+                    <button>Compare</button>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div className="filt45">
+              <img src={scholar} alt="" />
+              <div className="filt46">
+                <h1 style={{fontSize:'36px', fontWeight:'700', lineHeight:'49.03px'}}>Upto 100% Scholarships Available</h1>
+                <button>Explore Now</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

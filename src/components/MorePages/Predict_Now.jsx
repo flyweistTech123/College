@@ -66,11 +66,67 @@ const PredictNow = () => {
                                     <div className="now8">
                                         <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                                     </div>
-
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
                                 </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+
+
+
+
+                                <div className="now10">
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#7</span> out of 281 in NIRF</p>
+                                    </div>
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#8</span> out of 2</p>
+                                    </div>
+                                </div>
+                                <div className="now12">
+                                    <div className="now13">
+                                        <h3>BTech Computer Science Enigineering</h3>
+                                        <p>Round1,General,Os,Closing Rank -1590</p>
+                                    </div>
+
+                                    <div className="now14">
+                                        <h6>₹ 157,280</h6>
+                                        <h5>1st Year Fee</h5>
+                                    </div>
+                                </div>
+                                {
+                                    showMore && <div className="now12">
+                                        <div className="now13">
+                                            <h3>BTech Computer Science Enigineering</h3>
+                                            <p>Round1,General,Os,Closing Rank -1590</p>
+                                        </div>
+
+                                        <div className="now14">
+                                            <h6>₹ 157,280</h6>
+                                            <h5>1st Year Fee</h5>
+                                        </div>
+                                    </div>
+                                }
+
+
+                                <div className="now15">
+                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
+                                    <button>Apply Now</button>
+                                </div>
+
+                            </div>
+                            <div className="now5">
+                                <div className="now6">
+                                    <img src={img} alt="" />
+                                    <div className="now8">
+                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
+                                    </div>
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
                                 </div>
 
 
@@ -123,416 +179,10 @@ const PredictNow = () => {
                                     <div className="now8">
                                         <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                                     </div>
-
-                                </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
-                                </div>
-
-
-
-                                <div className="now10">
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#7</span> out of 281 in NIRF</p>
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
                                     </div>
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#8</span> out of 2</p>
-                                    </div>
-                                </div>
-                                <div className="now12">
-                                    <div className="now13">
-                                        <h3>BTech Computer Science Enigineering</h3>
-                                        <p>Round1,General,Os,Closing Rank -1590</p>
-                                    </div>
-
-                                    <div className="now14">
-                                        <h6>₹ 157,280</h6>
-                                        <h5>1st Year Fee</h5>
-                                    </div>
-                                </div>
-                                {
-                                    showMore && <div className="now12">
-                                        <div className="now13">
-                                            <h3>BTech Computer Science Enigineering</h3>
-                                            <p>Round1,General,Os,Closing Rank -1590</p>
-                                        </div>
-
-                                        <div className="now14">
-                                            <h6>₹ 157,280</h6>
-                                            <h5>1st Year Fee</h5>
-                                        </div>
-                                    </div>
-                                }
-
-
-                                <div className="now15">
-                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
-                                    <button>Apply Now</button>
-                                </div>
-
-                            </div>
-                            <div className="now5">
-                                <div className="now6">
-                                    <img src={img} alt="" />
-                                    <div className="now8">
-                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
-                                    </div>
-
-                                </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
-                                </div>
-
-
-
-                                <div className="now10">
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#7</span> out of 281 in NIRF</p>
-                                    </div>
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#8</span> out of 2</p>
-                                    </div>
-                                </div>
-                                <div className="now12">
-                                    <div className="now13">
-                                        <h3>BTech Computer Science Enigineering</h3>
-                                        <p>Round1,General,Os,Closing Rank -1590</p>
-                                    </div>
-
-                                    <div className="now14">
-                                        <h6>₹ 157,280</h6>
-                                        <h5>1st Year Fee</h5>
-                                    </div>
-                                </div>
-                                {
-                                    showMore && <div className="now12">
-                                        <div className="now13">
-                                            <h3>BTech Computer Science Enigineering</h3>
-                                            <p>Round1,General,Os,Closing Rank -1590</p>
-                                        </div>
-
-                                        <div className="now14">
-                                            <h6>₹ 157,280</h6>
-                                            <h5>1st Year Fee</h5>
-                                        </div>
-                                    </div>
-                                }
-
-
-                                <div className="now15">
-                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
-                                    <button>Apply Now</button>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div className="now21">
-                        </div>
-                        <div className="now20">
-                            <div className="now5">
-                                <div className="now6">
-                                    <img src={img} alt="" />
-                                    <div className="now8">
-                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
-                                    </div>
-
-                                </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
-                                </div>
-
-
-
-                                <div className="now10">
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#7</span> out of 281 in NIRF</p>
-                                    </div>
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#8</span> out of 2</p>
-                                    </div>
-                                </div>
-                                <div className="now12">
-                                    <div className="now13">
-                                        <h3>BTech Computer Science Enigineering</h3>
-                                        <p>Round1,General,Os,Closing Rank -1590</p>
-                                    </div>
-
-                                    <div className="now14">
-                                        <h6>₹ 157,280</h6>
-                                        <h5>1st Year Fee</h5>
-                                    </div>
-                                </div>
-                                {
-                                    showMore && <div className="now12">
-                                        <div className="now13">
-                                            <h3>BTech Computer Science Enigineering</h3>
-                                            <p>Round1,General,Os,Closing Rank -1590</p>
-                                        </div>
-
-                                        <div className="now14">
-                                            <h6>₹ 157,280</h6>
-                                            <h5>1st Year Fee</h5>
-                                        </div>
-                                    </div>
-                                }
-
-
-                                <div className="now15">
-                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
-                                    <button>Apply Now</button>
-                                </div>
-
-                            </div>
-                            <div className="now5">
-                                <div className="now6">
-                                    <img src={img} alt="" />
-                                    <div className="now8">
-                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
-                                    </div>
-
-                                </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
-                                </div>
-
-
-
-                                <div className="now10">
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#7</span> out of 281 in NIRF</p>
-                                    </div>
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#8</span> out of 2</p>
-                                    </div>
-                                </div>
-                                <div className="now12">
-                                    <div className="now13">
-                                        <h3>BTech Computer Science Enigineering</h3>
-                                        <p>Round1,General,Os,Closing Rank -1590</p>
-                                    </div>
-
-                                    <div className="now14">
-                                        <h6>₹ 157,280</h6>
-                                        <h5>1st Year Fee</h5>
-                                    </div>
-                                </div>
-                                {
-                                    showMore && <div className="now12">
-                                        <div className="now13">
-                                            <h3>BTech Computer Science Enigineering</h3>
-                                            <p>Round1,General,Os,Closing Rank -1590</p>
-                                        </div>
-
-                                        <div className="now14">
-                                            <h6>₹ 157,280</h6>
-                                            <h5>1st Year Fee</h5>
-                                        </div>
-                                    </div>
-                                }
-
-
-                                <div className="now15">
-                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
-                                    <button>Apply Now</button>
-                                </div>
-
-                            </div>
-                            <div className="now5">
-                                <div className="now6">
-                                    <img src={img} alt="" />
-                                    <div className="now8">
-                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
-                                    </div>
-
-                                </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
-                                </div>
-
-
-
-                                <div className="now10">
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#7</span> out of 281 in NIRF</p>
-                                    </div>
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#8</span> out of 2</p>
-                                    </div>
-                                </div>
-                                <div className="now12">
-                                    <div className="now13">
-                                        <h3>BTech Computer Science Enigineering</h3>
-                                        <p>Round1,General,Os,Closing Rank -1590</p>
-                                    </div>
-
-                                    <div className="now14">
-                                        <h6>₹ 157,280</h6>
-                                        <h5>1st Year Fee</h5>
-                                    </div>
-                                </div>
-                                {
-                                    showMore && <div className="now12">
-                                        <div className="now13">
-                                            <h3>BTech Computer Science Enigineering</h3>
-                                            <p>Round1,General,Os,Closing Rank -1590</p>
-                                        </div>
-
-                                        <div className="now14">
-                                            <h6>₹ 157,280</h6>
-                                            <h5>1st Year Fee</h5>
-                                        </div>
-                                    </div>
-                                }
-
-
-                                <div className="now15">
-                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
-                                    <button>Apply Now</button>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div className="now20">
-                            <div className="now5">
-                                <div className="now6">
-                                    <img src={img} alt="" />
-                                    <div className="now8">
-                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
-                                    </div>
-
-                                </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
-                                </div>
-
-
-
-                                <div className="now10">
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#7</span> out of 281 in NIRF</p>
-                                    </div>
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#8</span> out of 2</p>
-                                    </div>
-                                </div>
-                                <div className="now12">
-                                    <div className="now13">
-                                        <h3>BTech Computer Science Enigineering</h3>
-                                        <p>Round1,General,Os,Closing Rank -1590</p>
-                                    </div>
-
-                                    <div className="now14">
-                                        <h6>₹ 157,280</h6>
-                                        <h5>1st Year Fee</h5>
-                                    </div>
-                                </div>
-                                {
-                                    showMore && <div className="now12">
-                                        <div className="now13">
-                                            <h3>BTech Computer Science Enigineering</h3>
-                                            <p>Round1,General,Os,Closing Rank -1590</p>
-                                        </div>
-
-                                        <div className="now14">
-                                            <h6>₹ 157,280</h6>
-                                            <h5>1st Year Fee</h5>
-                                        </div>
-                                    </div>
-                                }
-
-
-                                <div className="now15">
-                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
-                                    <button>Apply Now</button>
-                                </div>
-
-                            </div>
-                            <div className="now5">
-                                <div className="now6">
-                                    <img src={img} alt="" />
-                                    <div className="now8">
-                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
-                                    </div>
-
-                                </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
-                                </div>
-
-
-
-                                <div className="now10">
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#7</span> out of 281 in NIRF</p>
-                                    </div>
-                                    <div className="now11">
-                                        <img src={star} alt="" />
-                                        <p><span>#8</span> out of 2</p>
-                                    </div>
-                                </div>
-                                <div className="now12">
-                                    <div className="now13">
-                                        <h3>BTech Computer Science Enigineering</h3>
-                                        <p>Round1,General,Os,Closing Rank -1590</p>
-                                    </div>
-
-                                    <div className="now14">
-                                        <h6>₹ 157,280</h6>
-                                        <h5>1st Year Fee</h5>
-                                    </div>
-                                </div>
-                                {
-                                    showMore && <div className="now12">
-                                        <div className="now13">
-                                            <h3>BTech Computer Science Enigineering</h3>
-                                            <p>Round1,General,Os,Closing Rank -1590</p>
-                                        </div>
-
-                                        <div className="now14">
-                                            <h6>₹ 157,280</h6>
-                                            <h5>1st Year Fee</h5>
-                                        </div>
-                                    </div>
-                                }
-
-
-                                <div className="now15">
-                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
-                                    <button>Apply Now</button>
-                                </div>
-
-                            </div>
-                            <div className="now5">
-                                <div className="now6">
-                                    <img src={img} alt="" />
-                                    <div className="now8">
-                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
-                                    </div>
-
-                                </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
                                 </div>
 
 
@@ -589,11 +239,10 @@ const PredictNow = () => {
                                     <div className="now8">
                                         <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                                     </div>
-
-                                </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
                                 </div>
 
 
@@ -646,11 +295,122 @@ const PredictNow = () => {
                                     <div className="now8">
                                         <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                                     </div>
-
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
                                 </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+
+
+                                <div className="now10">
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#7</span> out of 281 in NIRF</p>
+                                    </div>
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#8</span> out of 2</p>
+                                    </div>
+                                </div>
+                                <div className="now12">
+                                    <div className="now13">
+                                        <h3>BTech Computer Science Enigineering</h3>
+                                        <p>Round1,General,Os,Closing Rank -1590</p>
+                                    </div>
+
+                                    <div className="now14">
+                                        <h6>₹ 157,280</h6>
+                                        <h5>1st Year Fee</h5>
+                                    </div>
+                                </div>
+                                {
+                                    showMore && <div className="now12">
+                                        <div className="now13">
+                                            <h3>BTech Computer Science Enigineering</h3>
+                                            <p>Round1,General,Os,Closing Rank -1590</p>
+                                        </div>
+
+                                        <div className="now14">
+                                            <h6>₹ 157,280</h6>
+                                            <h5>1st Year Fee</h5>
+                                        </div>
+                                    </div>
+                                }
+
+
+                                <div className="now15">
+                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
+                                    <button>Apply Now</button>
+                                </div>
+
+                            </div>
+                            <div className="now5">
+                                <div className="now6">
+                                    <img src={img} alt="" />
+                                    <div className="now8">
+                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
+                                    </div>
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
+                                </div>
+
+
+                                <div className="now10">
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#7</span> out of 281 in NIRF</p>
+                                    </div>
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#8</span> out of 2</p>
+                                    </div>
+                                </div>
+                                <div className="now12">
+                                    <div className="now13">
+                                        <h3>BTech Computer Science Enigineering</h3>
+                                        <p>Round1,General,Os,Closing Rank -1590</p>
+                                    </div>
+
+                                    <div className="now14">
+                                        <h6>₹ 157,280</h6>
+                                        <h5>1st Year Fee</h5>
+                                    </div>
+                                </div>
+                                {
+                                    showMore && <div className="now12">
+                                        <div className="now13">
+                                            <h3>BTech Computer Science Enigineering</h3>
+                                            <p>Round1,General,Os,Closing Rank -1590</p>
+                                        </div>
+
+                                        <div className="now14">
+                                            <h6>₹ 157,280</h6>
+                                            <h5>1st Year Fee</h5>
+                                        </div>
+                                    </div>
+                                }
+
+
+                                <div className="now15">
+                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
+                                    <button>Apply Now</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="now20">
+                            <div className="now5">
+                                <div className="now6">
+                                    <img src={img} alt="" />
+                                    <div className="now8">
+                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
+                                    </div>
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
                                 </div>
 
 
@@ -703,11 +463,238 @@ const PredictNow = () => {
                                     <div className="now8">
                                         <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                                     </div>
-
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
                                 </div>
-                                <div className="now7">
-                                    <p>Asia Pacific Institute of Management...</p>
-                                    <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+
+
+
+                                <div className="now10">
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#7</span> out of 281 in NIRF</p>
+                                    </div>
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#8</span> out of 2</p>
+                                    </div>
+                                </div>
+                                <div className="now12">
+                                    <div className="now13">
+                                        <h3>BTech Computer Science Enigineering</h3>
+                                        <p>Round1,General,Os,Closing Rank -1590</p>
+                                    </div>
+
+                                    <div className="now14">
+                                        <h6>₹ 157,280</h6>
+                                        <h5>1st Year Fee</h5>
+                                    </div>
+                                </div>
+                                {
+                                    showMore && <div className="now12">
+                                        <div className="now13">
+                                            <h3>BTech Computer Science Enigineering</h3>
+                                            <p>Round1,General,Os,Closing Rank -1590</p>
+                                        </div>
+
+                                        <div className="now14">
+                                            <h6>₹ 157,280</h6>
+                                            <h5>1st Year Fee</h5>
+                                        </div>
+                                    </div>
+                                }
+
+
+                                <div className="now15">
+                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
+                                    <button>Apply Now</button>
+                                </div>
+
+                            </div>
+                            <div className="now5">
+                                <div className="now6">
+                                    <img src={img} alt="" />
+                                    <div className="now8">
+                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
+                                    </div>
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
+                                </div>
+
+
+
+                                <div className="now10">
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#7</span> out of 281 in NIRF</p>
+                                    </div>
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#8</span> out of 2</p>
+                                    </div>
+                                </div>
+                                <div className="now12">
+                                    <div className="now13">
+                                        <h3>BTech Computer Science Enigineering</h3>
+                                        <p>Round1,General,Os,Closing Rank -1590</p>
+                                    </div>
+
+                                    <div className="now14">
+                                        <h6>₹ 157,280</h6>
+                                        <h5>1st Year Fee</h5>
+                                    </div>
+                                </div>
+                                {
+                                    showMore && <div className="now12">
+                                        <div className="now13">
+                                            <h3>BTech Computer Science Enigineering</h3>
+                                            <p>Round1,General,Os,Closing Rank -1590</p>
+                                        </div>
+
+                                        <div className="now14">
+                                            <h6>₹ 157,280</h6>
+                                            <h5>1st Year Fee</h5>
+                                        </div>
+                                    </div>
+                                }
+
+
+                                <div className="now15">
+                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
+                                    <button>Apply Now</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="now21">
+                        </div>
+                        <div className="now20">
+                            <div className="now5">
+                                <div className="now6">
+                                    <img src={img} alt="" />
+                                    <div className="now8">
+                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
+                                    </div>
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
+                                </div>
+
+
+
+                                <div className="now10">
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#7</span> out of 281 in NIRF</p>
+                                    </div>
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#8</span> out of 2</p>
+                                    </div>
+                                </div>
+                                <div className="now12">
+                                    <div className="now13">
+                                        <h3>BTech Computer Science Enigineering</h3>
+                                        <p>Round1,General,Os,Closing Rank -1590</p>
+                                    </div>
+
+                                    <div className="now14">
+                                        <h6>₹ 157,280</h6>
+                                        <h5>1st Year Fee</h5>
+                                    </div>
+                                </div>
+                                {
+                                    showMore && <div className="now12">
+                                        <div className="now13">
+                                            <h3>BTech Computer Science Enigineering</h3>
+                                            <p>Round1,General,Os,Closing Rank -1590</p>
+                                        </div>
+
+                                        <div className="now14">
+                                            <h6>₹ 157,280</h6>
+                                            <h5>1st Year Fee</h5>
+                                        </div>
+                                    </div>
+                                }
+
+
+                                <div className="now15">
+                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
+                                    <button>Apply Now</button>
+                                </div>
+
+                            </div>
+                            <div className="now5">
+                                <div className="now6">
+                                    <img src={img} alt="" />
+                                    <div className="now8">
+                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
+                                    </div>
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
+                                </div>
+
+
+
+                                <div className="now10">
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#7</span> out of 281 in NIRF</p>
+                                    </div>
+                                    <div className="now11">
+                                        <img src={star} alt="" />
+                                        <p><span>#8</span> out of 2</p>
+                                    </div>
+                                </div>
+                                <div className="now12">
+                                    <div className="now13">
+                                        <h3>BTech Computer Science Enigineering</h3>
+                                        <p>Round1,General,Os,Closing Rank -1590</p>
+                                    </div>
+
+                                    <div className="now14">
+                                        <h6>₹ 157,280</h6>
+                                        <h5>1st Year Fee</h5>
+                                    </div>
+                                </div>
+                                {
+                                    showMore && <div className="now12">
+                                        <div className="now13">
+                                            <h3>BTech Computer Science Enigineering</h3>
+                                            <p>Round1,General,Os,Closing Rank -1590</p>
+                                        </div>
+
+                                        <div className="now14">
+                                            <h6>₹ 157,280</h6>
+                                            <h5>1st Year Fee</h5>
+                                        </div>
+                                    </div>
+                                }
+
+
+                                <div className="now15">
+                                    <button onClick={() => setShowMore(!showMore)}> {showMore ? 'Show Less' : 'Show More'}</button>
+                                    <button>Apply Now</button>
+                                </div>
+
+                            </div>
+                            <div className="now5">
+                                <div className="now6">
+                                    <img src={img} alt="" />
+                                    <div className="now8">
+                                        <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
+                                    </div>
+                                    <div className="now7">
+                                        <p>Asia Pacific Institute of Management...</p>
+                                        <span> <IoLocationOutline />Kochi, Kerala | MCI Accredited</span>
+                                    </div>
                                 </div>
 
 
