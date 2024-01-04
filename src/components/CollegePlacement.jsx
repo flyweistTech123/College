@@ -1,14 +1,18 @@
-import React, {useState} from "react";
-import Navbar from "./Navbar";
-import Banner from "./Banner";
+import React, { useState } from "react";
 import TopPart from "./TopPart";
 import Footer from "./Footer";
 import img8 from "../Images/c57.png";
 import img9 from "../Images/c58.png";
+import cap from '../Images/cap.png'
+import { IoIosArrowForward } from "react-icons/io";
+
+
 
 import MobileLoanNavbar from "./MobileLoanNavabr";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import CollegeInfotoppart from "../components/CollegeInfo/CollegeInfotoppart";
+import { IoLocationSharp } from "react-icons/io5";
 
 const CollegePlacement = () => {
   const [show, setShow] = useState(false);
@@ -17,7 +21,7 @@ const CollegePlacement = () => {
   const handleShow = () => setShow(true);
 
   const [flag, setFlag] = useState(false)
-  const getFlag = ()=>{
+  const getFlag = () => {
     setFlag(prev => !prev);
   }
   return (
@@ -25,155 +29,118 @@ const CollegePlacement = () => {
       <div className="loan100">
         <i class="fa-solid fa-bars" onClick={handleShow}></i>
       </div>
-      <Navbar />
-      <Banner />
+      <CollegeInfotoppart />
       <TopPart />
       <div className="clg14">
         <div className="clg15">
           <div className="clg36">
-            <h2>JMI Latest Update</h2>
-            <div className="clg37">
-              <ul>
-                <li>
-                  JMI will not follow the 10% EWS quota reservation said HC.
-                </li>
-                <li>
-                  JMI has decided to conduct an Entrance exam under CUET for 20
-                  courses.
-                </li>
-                <li>
-                  JMI UG, PG, and Diploma Admission 2023 has begun. The
-                  admission deadline is extended to April 20, 2023.
-                </li>
-                <li>
-                  JMI Admission 2023 is open for Phd under AICTE Scheme. The
-                  last date to apply is March 25, 2023.
-                </li>
-                <li>
-                  JMI Admission 2023 is open for Phd under AICTE Scheme. The
-                  last date to apply is March 25, 2023.
-                </li>
-                <li>
-                  JMI Admission 2023 is open for Phd under AICTE Scheme. The
-                  last date to apply is March 25, 2023.
-                </li>
-              </ul>
-              <p>Jamia Millia Islamia University offers various undergraduate, postgraduate, diploma, and 
-                PhD courses in a wide range of disciplines including Arts, Science, Commerce, Hospitality, 
-                Technology, Management, Architecture, Education, Polytechnic and many others. Besides its Nine 
-                faculties, the Jamia has a number of centres of learning and research, like AJK-Mass 
-                Communication Research Centre (MCRC), Academy of International Studies etc.
-From the academic year 2022, the university will offer admission on the basis of the Common University 
-Entrance Test (CUET) to 10 undergraduate courses. Admission to B.Tech and B.Arch courses are offered through 
-JEE Mains score. For all other courses, JMI conducts its own entrance test, along with an interview (for some courses).
-JMI is Highly Ranked and well-known for its 100% placement rate in all programs and courses. 
-Jamia Millia Islamia University will offer several new courses from the academic session 2022.</p>
+            <h2>Jamia Miliya Islamia, Placement Cell  2023</h2>
+            <p>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            <div className="placement-table">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Placement Percentage</td>
+                    <td>94%</td>
+                  </tr>
+                  <tr>
+                    <td>Total no of placements</td>
+                    <td>925/1000</td>
+                  </tr>
+                  <tr>
+                    <td>Total no of offers</td>
+                    <td>96/100</td>
+                  </tr>
+                  <tr>
+                    <td>Total No of Internships</td>
+                    <td>478/525</td>
+                  </tr>
+                  <tr>
+                    <td>Total no of students placed</td>
+                    <td>230/250</td>
+                  </tr>
+                  <tr>
+                    <td>Highest package offered</td>
+                    <td>12.5 Lakhs per Annum</td>
+                  </tr>
+                  <tr>
+                    <td>Average package offered</td>
+                    <td>8.5 Lakhs per Annum</td>
+                  </tr>
+                  <tr>
+                    <td>Recruiters</td>
+                    <td>Amazon, Microsoft, Prestige, +19</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
-        <div className="clg38">
+          <div className="clg38">
             <h3>Table Of Content</h3>
             <hr />
             <div className="clg39">
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
             </div>
-        </div>
-        <div className="clg38">
+          </div>
+          <div className="clg38">
             <h3>Jamia Millia Islamia, New Delhi Highlights</h3>
             <hr />
             <div className="clg39">
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
             </div>
-        </div>
-        <div className="clg38">
-            <h3>Jamia Millia Islamia, Placement Cell</h3>
+          </div>
+          <div className="clg38">
+            <h3>Jamia Miliya Islamia, Placement Process</h3>
             <hr />
             <div className="clg39">
-                <p>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit 
-                    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per 
-                    conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
-                     lobortis. Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero 
-                     et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora 
-                     torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis 
-                     condimentum lobortis.Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc 
-                     vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu 
-                     ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at 
-                     turpis condimentum lobortis.Torem ipsum dolor sit amet, consectetur adipiscing elit. 
-                     Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti 
-                     sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus 
-                     urna at turpis condimentum lobortis.Torem ipsum dolor sit amet, consectetur adipiscing 
-                     elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent 
-                     taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur 
-                     tempus urna at turpis condimentum lobortis.Torem ipsum dolor sit amet, consectetur 
-                     adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class 
-                     aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                     Curabitur tempus urna at turpis condimentum lobortis.Torem ipsum dolor sit amet, 
-                     consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio
-                      mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                      himenaeos. Curabitur tempus urna at turpis condimentum lobortis.Torem ipsum dolor sit 
-                      amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet 
-                      odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per 
-                      inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.Torem ipsum 
-                      dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, 
-                      ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia 
-                      nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.
-                      Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit 
-                      interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per 
-                      conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum 
-                      lobortis.</p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
             </div>
-        </div>
-        <div className="clg38">
-            <h3>Jamia Millia Islamia Placement Process</h3>
-            <hr />
-            <div className="clg39">
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-                <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                     ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                </p>
-            </div>
-        </div>
+          </div>
         </div>
         <div className="clg16">
           <div className="clg30">
@@ -186,80 +153,84 @@ Jamia Millia Islamia University will offer several new courses from the academic
               <button className="clg9">Apply Now</button>
             </div>
           </div>
-          <div className="clg30">
+          <div className="clg3011">
             <div className="clg33">
-              <h6 className={!flag?"clg33h6":"clg33p"} onClick={getFlag}>Featured News</h6>
-              <p className={flag?"clg33h6":"clg33p"} onClick={getFlag}>Recent News</p>
+              <h6 className={!flag ? "clg33h6" : "clg33p"} onClick={getFlag}>Featured News</h6>
+              <p className={flag ? "clg33h6" : "clg33p"} onClick={getFlag}>Recent News</p>
             </div>
             <hr className="clg34" />
             <div className="clg35">
               <img src={img9} alt="" />
-              <p>
-                Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit
-              </p>
+              <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit</p>
             </div>
             <hr className="clg34" />
             <div className="clg35">
               <img src={img9} alt="" />
-              <p>
-                Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit
-              </p>
+              <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit</p>
             </div>
             <hr className="clg34" />
             <div className="clg35">
               <img src={img9} alt="" />
-              <p>
-                Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit
-              </p>
+              <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit</p>
             </div>
             <hr className="clg34" />
             <div className="clg35" style={{ paddingBottom: "20px" }}>
               <img src={img9} alt="" />
-              <p>
-                Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit
-              </p>
+              <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit</p>
             </div>
           </div>
-          <div className="clg30">
+          <div className="clg3011">
             <div className="clg33">
-              <h6 className={!flag?"clg33h6":"clg33p"} onClick={getFlag}>Trending Articles</h6>
-              <p className={flag?"clg33h6":"clg33p"} onClick={getFlag}>Recent Articles</p>
+              <h6 className={!flag ? "clg33h6" : "clg33p"} onClick={getFlag}>Trending Articles</h6>
+              <p className={flag ? "clg33h6" : "clg33p"} onClick={getFlag}>Recent Articles</p>
             </div>
             <hr className="clg34" />
             <div className="clg35">
               <img src={img9} alt="" />
-              <p>
-                Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit
-              </p>
+              <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit</p>
             </div>
             <hr className="clg34" />
             <div className="clg35">
               <img src={img9} alt="" />
-              <p>
-                Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit
-              </p>
+              <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit</p>
             </div>
             <hr className="clg34" />
             <div className="clg35">
               <img src={img9} alt="" />
-              <p>
-                Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit
-              </p>
+              <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit</p>
             </div>
             <hr className="clg34" />
             <div className="clg35" style={{ paddingBottom: "20px" }}>
               <img src={img9} alt="" />
-              <p>
-                Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit
-              </p>
+              <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit</p>
+            </div>
+          </div>
+
+          <div className="clg3011">
+            <div className="ingooo11">
+              <img src={cap} alt="" />
+              <div className="ingooo12">
+                <p>Jamia Millia Islamia -[JMI]</p>
+                <h6>Contact Information</h6>
+              </div>
+            </div>
+
+            <div className="ingooo13">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.2738243856347!2d77.2775680742905!3d28.56153908730327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce351945f45eb%3A0xf96252dd41babf89!2sJamia%20Millia%20Islamia!5e0!3m2!1sen!2sin!4v1704371273634!5m2!1sen!2sin" width="350" height="113" loading="lazy"></iframe>
+            </div>
+
+            <div className="ingooo14">
+              <p>Address: </p>
+              <p>Jamia Millia Islamia-[JMI], New Delhi
+                Main Rd, JMI Campus,Delhi.</p>
+            </div>
+            <div className="ingooo15">
+              <span><IoLocationSharp /> View on Map-- <IoIosArrowForward /></span>
+            </div>
+
+            <div className="ingooo16">
+              <button>Show Phone & Email</button>
+              <button>Go To College Website -- <IoIosArrowForward /></button>
             </div>
           </div>
         </div>

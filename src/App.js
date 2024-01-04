@@ -7,7 +7,7 @@ import Screen3 from "./components/Screen3";
 import Screen4 from "./components/Screen4";
 import Scholarship from "./components/Scholarship/Scholarship";
 import CommonApplication from "./components/CommonApplication";
-import CollegeInfo from "./components/CollegeInfo";
+import CollegeInfo from "./components/CollegeInfo/CollegeInfo";
 import CollegePlacement from "./components/CollegePlacement";
 import CourseAndFee from "./components/CourseAndFee";
 import Admission from "./components/Admission";

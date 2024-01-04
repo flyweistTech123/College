@@ -1,0 +1,282 @@
+
+
+  .ingooo1 {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 334.24px;
+  }
+
+
+  .ingooo2 {
+    width: 100%;
+    height: 334.24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+
+
+  .ingooo2 img {
+    width: 100%;
+    height: 334.24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ingooo3 {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    width: 100%;
+  }
+
+  
+  .ingooo4 {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    gap: 30px;
+    padding: 10px;
+  }
+  .ingooo4 img{
+    width: 98px;
+    height: 100px;
+  }
+  
+  .ingooo4 h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43.58px;
+    color: #FFFFFF;
+  }
+  
+
+  .ingooo4 button{
+    width: 194px;
+    height: 47px;
+    border: none;
+    outline:  none;
+    border-radius: 30px;
+    background: #F4BC1C;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+
+
+  .ingooo5{
+    width: 100%;
+    height: 138.76px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+  }
+
+  .ingooo6{
+    display: flex;
+   gap: 60px;
+  }
+
+  .ingooo6 span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #000000;
+  }
+
+  .ingooo7{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+.ingooo7 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #000000;
+}
+
+.ingooo8{
+    display: flex;
+    gap: 20px;
+}
+
+
+.ingooo8 button:nth-child(1){
+    width: 280px;
+    height: 47px;
+    border: none;
+    outline:  none;
+    border-radius: 30px;
+    background: #001848;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+.ingooo8 button:nth-child(2){
+    width: 194px;
+    height: 47px;
+    border: none;
+    outline:  none;
+    border-radius: 30px;
+    background: #F4BC1C;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+
+.ingooo10{
+  display: flex;
+  gap: 50px;
+}
+
+
+.clg221 {
+  width: 100%;
+  height: 491px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.clg221 h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 31.32px;
+  color: #000000;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.clg222 {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.clg222 h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 31.32px;
+  color: #000000;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.clg3011 {
+  width: 100%;
+  height: 610px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+
+}
+
+
+
+.ingooo11{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.ingooo11 img{
+  width: 50px;
+  height: 50px;
+}
+
+.ingooo12 h6{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #121212;
+}
+
+.ingooo12 p{
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16.34px;
+  color: #121212;
+}
+
+.ingooo13{
+  width: auto;
+  height: 113px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+}
+
+.ingooo14{
+  display: flex;
+  padding: 10px;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+
+.ingooo14 p{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16.34px;
+  color: #000000;
+}
+
+.ingooo15{
+  text-align: center;
+}
+
+.ingooo15 span{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16.34px;
+  color: #001848;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+.ingooo16 button:nth-child(1){
+  width: 325px;
+  height: 38px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: #00AD33;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16.34px;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+
+
+.ingooo16 button:nth-child(2){
+  width: 325px;
+  height: 38px;
+  border: 1px solid #000000;
+  outline: none;
+  border-radius: 20px;
+  background: transparent;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16.34px;
+  color: #000000;
+  margin-top: 40px;
+}

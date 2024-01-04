@@ -372,39 +372,39 @@ const Home = () => {
         <h2>Top Cities</h2>
         <div className="home8">
           <Slider {...settings4} >
-          <div className="home9" onClick={() => navigate("/delhi")}>
+          <div className="home9" onClick={() => navigate("/screen2")}>
             <img src={img4} alt="" />
             <p>Delhi</p>
           </div>
-          <div className="home9" onClick={() => navigate("/mumbai")} >
+          <div className="home9" onClick={() => navigate("/screen2")} >
             <img src={img5} alt="" />
             <p>Mumbai</p>
           </div>
-          <div className="home9" onClick={() => navigate("/kolkata")}>
+          <div className="home9" onClick={() => navigate("/screen2")}>
             <img src={img6} alt="" />
             <p>Kolkata</p>
           </div>
-          <div className="home9" onClick={() => navigate("/chennai")} >
+          <div className="home9" onClick={() => navigate("/screen2")} >
             <img src={img7} alt="" />
             <p>Chennai</p>
           </div>
-          <div className="home9" onClick={() => navigate("/agra")} >
+          <div className="home9" onClick={() => navigate("/screen2")} >
             <img src={img8} alt="" />
             <p>Agra</p>
           </div>
-          <div className="home9" onClick={() => navigate("/jaipur")} >
+          <div className="home9" onClick={() => navigate("/screen2")} >
             <img src={img9} alt="" />
             <p>Jaipur</p>
           </div>
-          <div className="home9" onClick={() => navigate("/jaipur")} >
+          <div className="home9" onClick={() => navigate("/screen2")} >
             <img src={img9} alt="" />
             <p>Jaipur</p>
           </div>
-          <div className="home9" onClick={() => navigate("/jaipur")} >
+          <div className="home9" onClick={() => navigate("/screen2")} >
             <img src={img9} alt="" />
             <p>Jaipur</p>
           </div>
-          <div className="home9" onClick={() => navigate("/jaipur")} >
+          <div className="home9" onClick={() => navigate("/screen2")} >
             <img src={img9} alt="" />
             <p>Jaipur</p>
           </div>
@@ -431,7 +431,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home21">
-          <div className="home22" onClick={() => navigate("/management")}>
+          <div className="home22" onClick={() => navigate("/screen2")}>
             <img className="impimg" src={img16} alt="" />
             <div className="home23">
               <h6>Management</h6>
@@ -439,7 +439,7 @@ const Home = () => {
             </div>
             <img className="img23" src={img11} />
           </div>
-          <div className="home22" onClick={() => navigate("/management")}>
+          <div className="home22" onClick={() => navigate("/screen2")}>
             <img className="impimg" src={img14} alt="" />
             <div className="home23">
               <h6>Engineering</h6>
@@ -447,7 +447,7 @@ const Home = () => {
             </div>
             <img className="img23" src={img11} />
           </div>
-          <div className="home22" onClick={() => navigate("/management")}>
+          <div className="home22" onClick={() => navigate("/screen2")}>
             <img className="impimg" src={img15} alt="" />
             <div className="home23">
               <h6>Law</h6>
@@ -455,7 +455,7 @@ const Home = () => {
             </div>
             <img className="img23" src={img11} />
           </div>
-          <div className="home22" onClick={() => navigate("/management")}>
+          <div className="home22" onClick={() => navigate("/screen2")}>
             <img className="impimg" src={img17} alt="" />
             <div className="home23">
               <h6>Science</h6>
@@ -463,7 +463,7 @@ const Home = () => {
             </div>
             <img className="img23" src={img11} />
           </div>
-          <div className="home22" onClick={() => navigate("/management")}>
+          <div className="home22" onClick={() => navigate("/screen2")}>
             <img className="impimg" src={img18} alt="" />
             <div className="home23">
               <h6>Commerce</h6>
