@@ -49,6 +49,8 @@ import MockTest1 from "./components/MorePages/MockTest1";
 import Predictor from "./components/MorePages/CollegePredictor";
 import Review from "./components/MorePages/Review";
 import PredictNow from "./components/MorePages/Predict_Now";
+import Courses from "./components/Course/Courses";
+import Exam from "./components/Exam/Exam";
 
 function App() {
   return (
@@ -103,6 +105,8 @@ function App() {
           <Route path="/college-predictor" element={<Predictor />} />
           <Route path="/predict_now" element={<PredictNow />} />
           <Route path="/review" element={<Review />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/exam" element={<Exam />} />
         </Routes>
       </BrowserRouter>
     </>

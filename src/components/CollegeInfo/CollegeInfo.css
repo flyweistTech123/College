@@ -280,3 +280,144 @@
   color: #000000;
   margin-top: 40px;
 }
+
+
+
+.ingooo20 {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.ingooo20 h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #1D3969;
+  padding-top: 20px;
+}
+
+
+.ingooo20 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+.ingooo21 h5{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #1D3969;
+  padding-top: 20px;
+}
+
+.ingooo21 p{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+
+.ingooo21 li{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height:24.51px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+
+.ingooo22 {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.ingooo22 h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31.32px;
+  color: #1A3B5A;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.ingooo23 {
+
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.ingooo24 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.ingooo24 button {
+  background: #1d3969;
+  color: #FFFFFF;
+  width: 163.48px;
+  border: none;
+  border-radius: 35px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
+.ingooo24 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  width: 32%;
+  text-align: center;
+}
+
+
+.ingooo25 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ingooo25 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  text-align: center;
+  width: 32%;
+}

@@ -14,8 +14,6 @@ import img8 from "../Images/c8.png";
 import img9 from "../Images/c9.png";
 import img10 from "../Images/c10.png";
 import img11 from "../Images/c11.png";
-import img12 from "../Images/c12.png";
-import img13 from "../Images/c13.png";
 import img14 from "../Images/c14.png";
 import img15 from "../Images/c15.png";
 import img16 from "../Images/c16.png";

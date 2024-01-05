@@ -9,7 +9,7 @@ const Banner = ()=>{
             <img src={img} alt="" />
             <p>
                 Jamia Millia Islamia-[JMI]: Admission 2023 (open), Rankings,
-                Courses, Cutoff, Placement, Scholarship
+                Courses, Cutoff, Placement, Scholarship, 
             </p>
             </div>
         </div>

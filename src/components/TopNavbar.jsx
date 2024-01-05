@@ -6,6 +6,8 @@ import Modal from "react-bootstrap/Modal";
 import img27 from "../Images/c59.png";
 import logo from '../Images/logo.png'
 import MoreModal from "./Modals/MoreModal";
+import login from '../Images/loginpage.png'
+import google from '../Images/google.png'
 
 const TopNavbar = (props) => {
   const navigate = useNavigate();
@@ -42,6 +44,17 @@ const TopNavbar = (props) => {
 
   const closeMoremodal = () => {
     setMoremodalOpen(false);
+  }
+
+
+  const [isRegistratationmodalOpen, setRegistratationmodalOpen] = useState(false)
+
+  const openRegistratatiomodal = () => {
+    setRegistratationmodalOpen(true);
+  }
+
+  const closeRegistratatiomodal = () => {
+    setRegistratationmodalOpen(false);
   }
 
 
@@ -109,12 +122,12 @@ const TopNavbar = (props) => {
   function NavMenu2() {
     return (
       <>
-        <div className="menu1">
+        <div className="menu1" >
           <h3>Top Universities</h3>
           <div className="menu2">
             <div className="menu3">
               <h6>Delhi</h6>
-              <p>Lorem Ipsum</p>
+              <p>Jawahar lal Nehru</p>
               <p>Lorem Ipsum</p>
               <p>Lorem Ipsum</p>
               <p>Lorem Ipsum</p>
@@ -190,12 +203,12 @@ const TopNavbar = (props) => {
     // },
     {
       name: "College Predictor",
-      link:'/college-predictor',
+      link: '/college-predictor',
     },
 
     {
       name: "Review a College",
-      link:'/review',
+      link: '/review',
     },
     // {
     //   name: "Test and Services  ",
@@ -203,7 +216,7 @@ const TopNavbar = (props) => {
     // },
     {
       name: "One stop solution",
-      link:'/one-stop-solution',
+      link: '/one-stop-solution',
     },
 
     // {
@@ -213,7 +226,7 @@ const TopNavbar = (props) => {
 
     {
       name: "Become a Partner",
-      link:'/become-partner',
+      link: '/become-partner',
     },
 
     // {
@@ -245,32 +258,41 @@ const TopNavbar = (props) => {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
           <>
-            <div className="login1">
-              <div className="login2">
-                <h4>Login</h4>
-                <div className="login3">
-                  <div className="login4">
-                    <div className="login8">
-                      <div className="login6">
-                        <p>+91</p>
-                      </div>
-                      <div className="login7">
-                        <input
-                          type="text"
-                          placeholder="Enter your mobile number"
-                        />
-                      </div>
-                    </div>
-                    <div className="login9">
-                      <button>Request OTP</button>
-                    </div>
+            <div className="login3">
+              <div className="login5">
+                <img src={login} alt="" />
+              </div>
+              <div className="login4">
+                <h6>REGISTRATATION DETAILS</h6>
+                <div className="login8">
+                  <div className="login7">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Stream"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Sub-Stream"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Given Any Entrance Exam"
+                    />
                   </div>
-                  <div className="login5">
-                    <img src={img27} alt="" />
+
+                  <div className="login2">
+                    <img src={google} alt="" />
+                    <p>Google</p>
                   </div>
+                </div>
+                <div className="login9">
+                  <button>Next</button>
                 </div>
               </div>
             </div>
@@ -282,7 +304,7 @@ const TopNavbar = (props) => {
 
 
   const data = [
-    "Universities", "Courses", "Exams"
+    "Universities",
   ]
 
   const data1 = [
@@ -308,6 +330,18 @@ const TopNavbar = (props) => {
                 <p onClick={() => setShowNavbar(true)} style={{ color: props.color }}> {i} </p>
               </div>
             ))}
+            <p
+              onClick={() => navigate("/exam")}
+              style={{ color: props.color }}
+            >
+              Exams
+            </p>
+            <p
+              onClick={() => navigate("/courses")}
+              style={{ color: props.color }}
+            >
+              Courses
+            </p>
 
             <p
               onClick={() => navigate("/scholarships")}
@@ -354,6 +388,7 @@ const TopNavbar = (props) => {
             <div>
               <button className="loginn" onClick={() => setShow(true)}>Log In</button>
             </div>
+
 
 
             {/* <p style={{ color: props.color }}>

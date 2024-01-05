@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import TopPart from "./TopPart";
 import Footer from "./Footer";
 
+
 import img from "../Images/c50.png";
 import img2 from "../Images/c51.png";
 import img3 from "../Images/c52.png";
@@ -40,77 +41,87 @@ const Admission = () => {
       <TopPart />
       <div className="clg14">
         <div className="clg15">
-          <div className="clg58">
-            <div className="clg59">
-              <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
-                dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem
-                sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit,
-                sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac
-                scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu
-                tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet
-                lacinia. Aliquam in elementu
-              </p>
-            </div>
-            <div className="clg60">
-              <h5>JMI Latest Updates</h5>
-              <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-                ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                inceptos himenaeos.
-              </p>
-            </div>
-            <div className="clg60">
-              <h5>Table Of Content</h5>
-              <ul>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-              </ul>
-            </div>
-          </div>
-          <div className="clg61">
-            <h4>Highlights for Jamia Miliya Isalamia University,</h4>
-            <hr />
+        <div className="ingooo20">
+            <h5>Highlights for Jamia Miliya Isalamia University,</h5>
             <div className="clg23">
               <div className="clg24">
-                <img src={img} alt="" />
-                <p>Institution Type</p>
+                <div className="ingooo10">
+                  <img src={img} alt="" />
+                  <p>Type of Institution</p>
+                </div>
                 <p>Private</p>
               </div>
               <div className="clg24">
-                <img src={img2} alt="" />
-                <p>Courses Offered</p>
-                <p>BCA,MCA</p>
+                <div className="ingooo10">
+                  <img src={img2} alt="" />
+                  <p>Course Offered</p>
+                </div>
+                <p>BCA, MCA, BSc, MSc, BA, MA, BBA, BCom, MCom, BFA, MFA, MSW, MPhil, PG Diploma.</p>
               </div>
               <div className="clg24">
-                <img src={img5} alt="" />
-                <p>Application Mode</p>
-                <p>Online/Offline</p>
+                <div className="ingooo10">
+                  <img src={img3} alt="" />
+                  <p>Accepted Exams</p>
+                </div>
+                <p>JEE, JEE Mains, JEE Advance, APCET, GMAT,GPAT,ACET,CLAT,ACET,BBA,GPAT,EAMCET ,NEET .</p>
               </div>
               <div className="clg24">
-                <img src={img6} alt="" />
-                <p>Admission Mode</p>
+                <div className="ingooo10">
+                  <img src={img5} alt="" />
+                  <p>Application Mode</p>
+                </div>
                 <p>Online/Offline</p>
               </div>
             </div>
-            <hr />
+
+            <div className="ingooo21">
+              <h5>Jamia Miliya Isalamia University, Coimbatore BCA Admission 2023</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>BCA Eligibility Criteria</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>BCA Selection Process</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>MCA Eligibility Criteria</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>MCA Selection Process</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>MCA Selection Process</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>BSc Eligibility Criteria</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>BSc Eligibility Criteria</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>BSc Selection Process</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>MSc Eligibility Criteria</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>MSc Selection Process</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div className="ingooo21">
+              <h5>BA Eligibility Criteria</h5>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
           </div>
         </div>
         <div className="clg16">
