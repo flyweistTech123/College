@@ -14,6 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import location from '../Images/loaction.png'
 import { IoMdArrowDropright } from "react-icons/io";
+import ShortList from "./Modals/ShortList/ShortList";
 
 
 
@@ -46,6 +47,8 @@ const CommonApplication = () => {
   const [show3, setShow3] = useState(false);
 
   const [showNavbar, setShowNavbar] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
+
 
   function NavMenu() {
     return (
@@ -153,6 +156,9 @@ const CommonApplication = () => {
       </div>
       <TopPart3 />
 
+      <ShortList show={modalShow}
+        onHide={() => setModalShow(false)}/>
+
       <div className="common1">
         <div className="screen2">
           <Sidebar4 />
@@ -190,7 +196,7 @@ const CommonApplication = () => {
               <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common7">
-                <button>Short List</button>
+                <button  onClick={() => setModalShow(true)}>Short List</button>
                 <button>Read more <IoMdArrowDropright /></button>
               </div>
             </div>
@@ -226,7 +232,7 @@ const CommonApplication = () => {
               <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common7">
-                <button>Short List</button>
+                <button  onClick={() => setModalShow(true)}>Short List</button>
                 <button>Read more <IoMdArrowDropright /></button>
               </div>
             </div>

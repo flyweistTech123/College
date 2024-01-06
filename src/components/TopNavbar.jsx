@@ -247,7 +247,14 @@ const TopNavbar = (props) => {
     // },
   ];
 
+
+
   const [show, setShow] = useState(false);
+  const handleclose = () => {
+
+    setShow(false);
+    setShow12(true)
+  }
 
   function MyVerticallyCenteredModal(props) {
     console.log("Hello");
@@ -266,7 +273,7 @@ const TopNavbar = (props) => {
               </div>
               <div className="login4">
                 <h6>REGISTRATATION DETAILS</h6>
-                <div className="login8">
+                <div className="login81">
                   <div className="login7">
                     <input
                       type="text"
@@ -280,19 +287,26 @@ const TopNavbar = (props) => {
                       type="text"
                       placeholder="Sub-Stream"
                     />
+                    <div className="login122">
+                      <input type="checkbox" id="checkbox1" />
+                      <label for="checkbox1">Looking or Distance</label>
+                    </div>
+
                     <input
                       type="text"
                       placeholder="Given Any Entrance Exam"
                     />
                   </div>
-
+                  <div class="dotted-line">
+                    <span>Or</span>
+                  </div>
                   <div className="login2">
                     <img src={google} alt="" />
                     <p>Google</p>
                   </div>
                 </div>
                 <div className="login9">
-                  <button>Next</button>
+                  <button onClick={() => handleclose()}>Next</button>
                 </div>
               </div>
             </div>
@@ -301,6 +315,107 @@ const TopNavbar = (props) => {
       </Modal>
     );
   }
+
+  const handleotpclose = () => {
+
+    setShow12(false)
+    setotpshow(true)
+
+  }
+
+  const [show12, setShow12] = useState(false);
+
+  function Login122(props) {
+    console.log("Hello");
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Body>
+          <>
+            <div className="login3">
+              <div className="login5">
+                <img src={login} alt="" />
+              </div>
+              <div className="login41">
+                <h6>LOGIN</h6>
+                <div className="login8">
+                  <div className="login6">
+                    <p>+91</p>
+                  </div>
+                  <div className="login71">
+                    <input
+                      type="text"
+                      placeholder="Enter your mobile number"
+                    />
+                  </div>
+                </div>
+                <div className="login9">
+                  <button onClick={() => handleotpclose()} >Request OTP</button>
+                </div>
+              </div>
+            </div>
+          </>
+        </Modal.Body>
+      </Modal>
+    );
+  }
+
+  const [otpshow, setotpshow] = useState(false);
+  const [otp, setOtp] = useState(['', '', '', '', '', '']);
+
+  const handleOtpChange = (index, value) => {
+    const newOtp = [...otp];
+    newOtp[index] = value;
+
+    // Move focus to the next input box if a digit is entered
+    if (value && index < otp.length - 1) {
+      document.getElementById(`otp-input-${index + 1}`).focus();
+    }
+
+    setOtp(newOtp);
+  };
+
+  function Otp1(props) {
+    console.log("Hello");
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Body>
+          <>
+            <div className="otp11">
+              <div className="otp-container">
+                <h2>Enter OTP</h2>
+                <div className="otp-inputs">
+                  {otp.map((digit, index) => (
+                    <input
+                      type="text"
+                      id={`otp-input-${index}`}
+                      key={index}
+                      value={digit}
+                      onChange={(e) => handleOtpChange(index, e.target.value)}
+                      maxLength="1"
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className="login9">
+                <button>Submit</button>
+              </div>
+            </div>
+          </>
+        </Modal.Body>
+      </Modal>
+    );
+  }
+
 
 
   const data = [
@@ -440,6 +555,8 @@ const TopNavbar = (props) => {
       {showNavbar ? <NavMenu2 /> : ""}
       {showNavbar2 ? <NavMenu /> : ""}
       <MyVerticallyCenteredModal show={show} onHide={() => setShow(false)} />
+      <Login122 show={show12} onHide={() => setShow12(false)} />
+      <Otp1 show={otpshow} onHide={() => setotpshow(false)} />
     </>
   );
 };

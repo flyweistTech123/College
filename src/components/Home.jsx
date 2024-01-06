@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 import Footer from "./Footer";
@@ -43,7 +43,9 @@ import { MdOutlineSort } from "react-icons/md";
 import { FaAngleDown } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 import { IoMdArrowDropright } from "react-icons/io";
-import { IoArrowBackCircleOutline, IoArrowForwardCircleOutline  } from "react-icons/io5";
+import { IoArrowBackCircleOutline, IoArrowForwardCircleOutline } from "react-icons/io5";
+
+
 
 
 
@@ -58,6 +60,8 @@ import HomeTable1 from "./HomeTable1";
 import Records from "./data.json";
 
 import TopNavbar from "./TopNavbar";
+import Modal from "react-bootstrap/Modal";
+import ApplyNowModal from "./Modals/Login/Apply";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -129,17 +133,17 @@ const Home = () => {
     const { className, onClick } = props;
     return (
       <div className={className} onClick={onClick}>
-        <IoArrowForwardCircleOutline  color="#001848" size={30} />
+        <IoArrowForwardCircleOutline color="#001848" size={30} />
       </div>
     );
   }
-  
+
   function SamplePrevArrow(props) {
     const { className, onClick } = props;
     return (
-      <div className={className} onClick={onClick} 
+      <div className={className} onClick={onClick}
       >
-        <IoArrowBackCircleOutline  color="#001848" size={30}/>
+        <IoArrowBackCircleOutline color="#001848" size={30} />
       </div>
     );
   }
@@ -325,6 +329,11 @@ const Home = () => {
   };
 
 
+  const [modalShow, setModalShow] = useState(false);
+
+
+
+
 
   return (
     <>
@@ -370,49 +379,49 @@ const Home = () => {
         <h2>Top Cities</h2>
         <div className="home8">
           <Slider {...settings4} >
-          <div className="home9" onClick={() => navigate("/screen2")}>
-            <img src={img4} alt="" />
-            <p>Delhi</p>
-          </div>
-          <div className="home9" onClick={() => navigate("/screen2")} >
-            <img src={img5} alt="" />
-            <p>Mumbai</p>
-          </div>
-          <div className="home9" onClick={() => navigate("/screen2")}>
-            <img src={img6} alt="" />
-            <p>Kolkata</p>
-          </div>
-          <div className="home9" onClick={() => navigate("/screen2")} >
-            <img src={img7} alt="" />
-            <p>Chennai</p>
-          </div>
-          <div className="home9" onClick={() => navigate("/screen2")} >
-            <img src={img8} alt="" />
-            <p>Agra</p>
-          </div>
-          <div className="home9" onClick={() => navigate("/screen2")} >
-            <img src={img9} alt="" />
-            <p>Jaipur</p>
-          </div>
-          <div className="home9" onClick={() => navigate("/screen2")} >
-            <img src={img9} alt="" />
-            <p>Jaipur</p>
-          </div>
-          <div className="home9" onClick={() => navigate("/screen2")} >
-            <img src={img9} alt="" />
-            <p>Jaipur</p>
-          </div>
-          <div className="home9" onClick={() => navigate("/screen2")} >
-            <img src={img9} alt="" />
-            <p>Jaipur</p>
-          </div>
+            <div className="home9" onClick={() => navigate("/screen2")}>
+              <img src={img4} alt="" />
+              <p>Delhi</p>
+            </div>
+            <div className="home9" onClick={() => navigate("/screen2")} >
+              <img src={img5} alt="" />
+              <p>Mumbai</p>
+            </div>
+            <div className="home9" onClick={() => navigate("/screen2")}>
+              <img src={img6} alt="" />
+              <p>Kolkata</p>
+            </div>
+            <div className="home9" onClick={() => navigate("/screen2")} >
+              <img src={img7} alt="" />
+              <p>Chennai</p>
+            </div>
+            <div className="home9" onClick={() => navigate("/screen2")} >
+              <img src={img8} alt="" />
+              <p>Agra</p>
+            </div>
+            <div className="home9" onClick={() => navigate("/screen2")} >
+              <img src={img9} alt="" />
+              <p>Jaipur</p>
+            </div>
+            <div className="home9" onClick={() => navigate("/screen2")} >
+              <img src={img9} alt="" />
+              <p>Jaipur</p>
+            </div>
+            <div className="home9" onClick={() => navigate("/screen2")} >
+              <img src={img9} alt="" />
+              <p>Jaipur</p>
+            </div>
+            <div className="home9" onClick={() => navigate("/screen2")} >
+              <img src={img9} alt="" />
+              <p>Jaipur</p>
+            </div>
           </Slider>
         </div>
       </div>
 
       <div className="home555">
         <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
-        <button>Apply Now!</button>
+        <button onClick={() => setModalShow(true)}>Apply Now!</button>
       </div>
 
       <div className="home18">
@@ -542,7 +551,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
             <div className="home12">
@@ -580,7 +589,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
             <div className="home12">
@@ -617,7 +626,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
             <div className="home12">
@@ -653,7 +662,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
             <div className="home12">
@@ -690,7 +699,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
           </Slider>
@@ -736,7 +745,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
             <div className="home12">
@@ -774,7 +783,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
             <div className="home12">
@@ -811,7 +820,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
             <div className="home12">
@@ -847,7 +856,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
             <div className="home12">
@@ -884,7 +893,7 @@ const Home = () => {
                 <img src={img11} alt="" />
               </div>
               <div className="home177">
-                <button>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
               </div>
             </div>
           </Slider>
@@ -1111,8 +1120,8 @@ const Home = () => {
               <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
             <div className="home55">
-              <button>Apply Now</button>
-              <button>Get Alert</button>
+              <button onClick={() => setModalShow(true)}>Apply Now</button>
+              <button onClick={() => setModalShow(true)}>Get Alert</button>
             </div>
           </div>
           <div className="home52">
@@ -1126,8 +1135,8 @@ const Home = () => {
               <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
             <div className="home55">
-              <button>Apply Now</button>
-              <button>Get Alert</button>
+              <button onClick={() => setModalShow(true)}>Apply Now</button>
+              <button onClick={() => setModalShow(true)}>Get Alert</button>
             </div>
           </div>
           <div className="home52">
@@ -1141,8 +1150,8 @@ const Home = () => {
               <h5>Read more  <IoMdArrowDropright /></h5>
             </div>
             <div className="home55">
-              <button>Apply Now</button>
-              <button>Get Alert</button>
+              <button onClick={() => setModalShow(true)}>Apply Now</button>
+              <button onClick={() => setModalShow(true)}>Get Alert</button>
             </div>
           </div>
         </div>
@@ -1165,6 +1174,9 @@ const Home = () => {
         </div>
       </div>
 
+
+      <ApplyNowModal show={modalShow}
+        onHide={() => setModalShow(false)}/>
 
       <Footer />
       <Offcanvas show={showt} onHide={handleClose}>

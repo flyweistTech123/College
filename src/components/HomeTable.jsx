@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import img from "../Images/c91.png";
 import img2 from "../Images/c92.png";
 import img3 from "../Images/c106.png";
+import ApplyNowModal from "./Modals/Login/Apply";
 
 const HomeTable = () => {
+  const [modalShow, setModalShow] = useState(false);
   const data = [
     {
       id: 1,
@@ -190,7 +192,7 @@ const HomeTable = () => {
                   </td>
                   <td>
                     <div className="table13">
-                      <button>Apply Now</button>
+                      <button  onClick={() => setModalShow(true)}>Apply Now</button>
                     </div>
                   </td>
                 </tr>
@@ -199,6 +201,8 @@ const HomeTable = () => {
           </table>
         </div>
       </div>
+      <ApplyNowModal show={modalShow}
+        onHide={() => setModalShow(false)}/>
     </>
   );
 };

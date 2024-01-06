@@ -3042,6 +3042,17 @@ input[type="checkbox"]:checked+label:after {
   transform: scale(1.1);
 }
 
+.login122{
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+}
+.login122 label{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #8C8C8C;
+}
 
 .login2 img{
   width: 32px;
@@ -3075,10 +3086,90 @@ input[type="checkbox"]:checked+label:after {
   transition: all 0.3s ease;
   /* Adding transition for smooth animation */
 }
+.login9 button:hover {
+  transform: scale(1.1);
+}
+
+.login41{
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+.login41 h6{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34.05px;
+  color: #001848;
+}
+.login8{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.login71 input{
+  border: none;
+  outline: none;
+  width: 228px;
+  height: 40px;
+  border: 1.5px solid #001848;
+  border-radius: 6px;
+  padding-left: 20px;
+}
+.login6 {
+  border: 1px solid #001848;
+  border-radius: 10px;
+  width: 20%;
+  height: 40px;
+}
+.login6 p {
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  padding-top: 5px;
+  color: #001848;
+}
 
 .login9 button:hover {
   transform: scale(1.1);
 }
+
+.dotted-line {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  color: #8C8C8C;
+}
+
+.dotted-line::before,
+.dotted-line::after {
+  content: '';
+  display: inline-block;
+  width: 30%;
+  height: 1px;
+  background-color: #8C8C8C; /* Adjust the color of the dotted line */
+}
+
+.dotted-line::before {
+  margin-right: 10px; /* Adjust the spacing between the dots and the text */
+}
+
+.dotted-line::after {
+  margin-left: 10px; /* Adjust the spacing between the dots and the text */
+}
+
+.dotted-line span {
+  position: relative;
+  z-index: 1;
+  background-color: #fff; /* Adjust the background color to cover the dots */
+  padding: 0 10px; /* Adjust the padding as needed */
+}
+
 
 
 .login10 {
@@ -3116,6 +3207,51 @@ input[type="checkbox"]:checked+label:after {
   transform: scale(1.1);
   /* Increase the size by 10% on hover */
 }
+
+
+/* otp */
+.otp11{
+  margin: auto;
+  text-align: center;
+}
+
+/* Style for the OTP container */
+.otp-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style for the OTP input boxes */
+.otp-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Style for each OTP input box */
+.otp-inputs input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #001848;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Add focus style to the OTP input box */
+.otp-inputs input:focus {
+  border-color: #001848;
+}
+
+/* Style for the heading */
+.otp-container h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34.05px;
+  color: #001848;
+}
+
 
 /* === loan navbar styling === */
 

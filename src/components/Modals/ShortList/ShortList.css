@@ -1,0 +1,93 @@
+.shortli6 {}
+
+.shortli1 {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+
+.shortli1 img {
+    width: 53px;
+    height: 53px;
+}
+
+
+.shortli2 h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #000000;
+}
+
+.shortli3 {
+    display: flex;
+    gap: 70px;
+}
+
+.shortli3 img {
+    width: 14px;
+    height: 20px;
+}
+
+
+.shortli4 {
+    display: flex;
+    gap: 5px;
+}
+
+.shortli4 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #001848;
+}
+
+
+.shortli5 {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.shortli5 button:nth-child(1) {
+    width: 163px;
+    height: 39px;
+    border: none;
+    outline: none;
+    background-color: #001848;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+    /* Adding transition for smooth animation */
+}
+
+.shortli5 button:hover {
+    transform: scale(1.1);
+}
+
+
+.shortli5 button:nth-child(2) {
+    width: 163px;
+    height: 39px;
+    border: none;
+    outline: none;
+    background-color: #F4BC1C;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+
+.shortli9 {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
