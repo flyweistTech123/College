@@ -6207,17 +6207,16 @@ select:focus {
 .pay1 {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin-top: 100px;
-  margin-left: 5%;
-  width: 90%;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .pay2 {
   height: 100px;
   width: 100px;
   border-radius: 100%;
-  background-color: blue;
+  background-color: #001848;
   display: block;
   margin: auto;
 }
@@ -6232,7 +6231,7 @@ select:focus {
   height: 100px;
   width: 100px;
   border-radius: 100%;
-  background-color: grey;
+  background-color: #929292;
   display: block;
   margin: auto;
 }
@@ -6244,69 +6243,114 @@ select:focus {
 }
 
 .basic1 {
-  margin-top: 30px;
-  margin-left: 5%;
-  width: 90%;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.basic1 h3{
+  font-size: 600;
+  font-weight: 20px;
+  line-height: 27.24px;
+  color: #000000;
 }
 
 .basic2 {
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
   margin-top: 30px;
-  background: #e7e7e7;
+  padding: 50px;
   width: 100%;
 }
 
 .basic3 {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  margin-left: 2%;
-  width: 96%;
   gap: 20px;
 }
 
 .basic4 {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .basic4 label {
   color: #000;
-  font-size: 19.437px;
+  font-size: 18.437px;
   font-family: Open Sans;
   font-weight: 600;
+  line-height: 26.47px;
 }
 
 .basic4 input {
-  background: transparent;
-  border-radius: 4.859px;
+  width: auto;
+  height: 43.69px;
+  background: #E7E7E7;
+  border-radius: 30px;
   border: 0.972px solid #707070;
-  background: #e7e7e7;
-  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 10px;
 }
 
+.basic4 select {
+  width: auto;
+  height: 43.69px;
+  background: #E7E7E7;
+  border-radius: 30px;
+  border: 0.972px solid #707070;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 20px;
+}
 .basic5 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
   margin-top: 50px;
-  padding-bottom: 50px;
-  margin-left: 2%;
-  width: 96%;
 }
 
-.basic5 button {
+.basic5 button:nth-child(1) {
   border: none;
-  border-radius: 5px;
-  background: #0185c3;
-  color: #fff;
-  width: 10%;
-  height: 40px;
+  border-radius: 30px;
+  background: #001848;
+  color: #FFFFFF;
+  width: 173px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 19.44px;
+  line-height: 26.47px;
+  transition: all 0.3s ease;
+  /* Adding transition for smooth animation */
+}
+
+.basic5 button:hover {
+  transform: scale(1.1);
+}
+
+
+
+.basic5 button  {
+  border: none;
+  border-radius: 30px;
+  background:#F4BC1C  ;
+  color: #FFFFFF;
+  width: 173px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 19.44px;
+  line-height: 26.47px;
 }
 
 .recp1 {
-  background: #fff;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
   box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
-  margin-top: 30px;
-  margin-left: 5%;
-  width: 90%;
+  background: #FFFFFF;
 }
 
 .recp1 h4 {
@@ -6331,35 +6375,91 @@ select:focus {
 
 .recp2 {
   margin-top: 30px;
-  margin-left: 10%;
-  width: 40%;
-  text-align: left;
+  padding-left: 20px;
+}
+
+.recp2 p{
+  text-align: start;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #000000;
 }
 
 .recp3 {
   display: flex;
-  margin-top: 30px;
-  margin-left: 10%;
-  width: 80%;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 50px;
   padding-bottom: 50px;
+}
+
+.recp22{
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.recp22  h5{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #000000;
 }
 
 .recp3 button {
   border: none;
-  border-radius: 5px;
-  background: #0185c3;
-  color: #fff;
-  width: 10%;
-  height: 40px;
+  border-radius: 30px;
+  background: #001848;
+  color: #FFFFFF;
+  width: 173px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 19.44px;
+  line-height: 26.47px;
+  transition: all 0.3s ease;
+  /* Adding transition for smooth animation */
+}
+
+.recp3 button:hover {
+  transform: scale(1.1);
+}
+
+.recp3 button:last-child {
+  border: none;
+  border-radius: 30px;
+  background:#F4BC1C  ;
+  color: #FFFFFF;
+  width: 173px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 19.44px;
+  line-height: 26.47px;
+  transition: all 0.3s ease;
+  /* Adding transition for smooth animation */
+}
+
+.dec11{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.dec11 h3{
+  font-size: 600;
+  font-weight: 20px;
+  line-height: 27.24px;
+  color: #000000;
 }
 
 .dec1 {
-  margin-top: 80px;
-  margin-left: 5%;
-  width: 90%;
-  background: #fff;
   box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  margin-top: 30px;
+  width: 100%;
 }
 
 .dec1 h6 {
@@ -6367,15 +6467,23 @@ select:focus {
   font-size: 16px;
   font-family: Open Sans;
   font-weight: 600;
-  padding-top: 10px;
-  padding-left: 20px;
+  line-height: 21.79px;
+  padding-left: 30px;
+  padding-top: 20px;
 }
 
 .dec2 {
-  margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 5%;
   width: 50%;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.dec2 p{
+  font-weight:600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #000000;
 }
 
 .pay10 {
@@ -6390,21 +6498,47 @@ select:focus {
   font-family: Open Sans;
   font-weight: 600;
   text-align: center;
+  line-height: 21.79px;
+  color: #000000;
 }
 
 .acad1 {
-  background: #fff;
-  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
-  margin-top: 30px;
-  margin-left: 5%;
-  width: 90%;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.acad11{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+
+.acad1 h3{
+  font-size: 600;
+  font-weight: 20px;
+  line-height: 27.24px;
+  color: #000000;
 }
 
 .acad2 {
-  padding-top: 30px;
-  margin-left: 5%;
-  width: 90%;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  margin-top: 30px;
+  padding: 50px;
+  width: 100%;
 }
+
+.acad2 h6{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #000000;
+}
+
+
 
 .acad3 {
   margin-top: 30px;
@@ -6419,15 +6553,25 @@ select:focus {
 .acad3 table th {
   border-right: 1px solid #757575;
   border-bottom: 1px solid #757575;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #000000;
 }
 
 .acad3 table td {
   border-right: 1px solid #757575;
   border-bottom: 1px solid #757575;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #000000;
+  text-align: start;
 }
 
 .acad3 table tr {
-  height: 80px;
+  height: 100px;
 }
 
 .acad3 table input {
@@ -6436,6 +6580,69 @@ select:focus {
   background: #e7e7e7;
   display: block;
   margin: auto;
+  font-weight: 600;
+}
+.acad33{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.acad32{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.acad32 input{
+  border-radius: 4.859px;
+  border: 0.972px solid #707070;
+  background: #e7e7e7;
+  font-weight: 600;
+  width: 281px;
+  height: 39px;
+}
+.acad32 label{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #000000;
+}
+
+.acad34{
+  width: 100%;
+  height: 188px;
+  border: 1px solid #757575;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+.acad35{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  text-align: center;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.acad36{
+  font-weight: 700;
+  font-size: 26.25px;
+  color: #000000;
+ 
+}
+
+.acad34 p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  color: #F4BC1C;
+  text-align: center;
 }
 
 .acad3 table select {
@@ -6444,6 +6651,7 @@ select:focus {
   background: #e7e7e7;
   display: block;
   margin: auto;
+  font-weight: 600;
 }
 
 .logoimg {
@@ -6570,22 +6778,37 @@ select:focus {
 
 .cart1 {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 80px;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .cart2 {
-  width: 70%;
+  width: 772px;
+  height: 179px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cart3 {
-  width: 30%;
+  width: 405px;
+  height: 835px;
 }
 
 .cart4 {
-  margin-top: 60px;
-  margin-left: 5%;
-  width: 93%;
+  /* margin-top: 60px; */
+}
+
+.cart5{
+  margin-top: 20px;
+}
+
+.cart4 h3{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40.85px;
+  color: #000000;
 }
 
 .cart4 table {
@@ -6597,43 +6820,67 @@ select:focus {
 .cart4 table th {
   border-right: 1px solid #5e5e5e;
   border-bottom: 1px solid #5e5e5e;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #000000;
 }
 
 .cart4 table td {
   border-right: 1px solid #5e5e5e;
   border-bottom: 1px solid #5e5e5e;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #5F5E5E;
+  text-align: start;
+  padding: 20px;
 }
 
-.cart4 h3 {
-  color: #000;
-  font-size: 30px;
-  font-family: Open Sans;
+.cart4 table td select{
+  width: 260px;
+  height: 40px;
   font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #5F5E5E;
+  padding-left: 5px;
 }
+
 
 .cart6 {
-  margin-top: 120px;
-  background: #fff;
   box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
-  width: 98%;
+  margin-top: 70px;
 }
 
 .cart7 {
-  padding-top: 30px;
-  margin-left: 5%;
-  width: 90%;
-  padding-bottom: 30px;
+
+  padding: 20px;
 }
 
 .cart7 h6 {
-  color: #000;
+  color: #000000;
   font-size: 16px;
   font-family: Open Sans;
   font-weight: 600;
+  line-height: 21.79px;
 }
 
 .cart7 hr {
   background: #c0c0c0;
+}
+.cart7 h5{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #000000;
+}
+.cart7 p{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #5F5E5E;
 }
 
 .cart8 {
@@ -6642,12 +6889,20 @@ select:focus {
   align-items: center;
 }
 
-.cart8 p {
-  margin: 0;
+.cart8 label {
   color: #5f5e5e;
   font-size: 18px;
   font-family: Open Sans;
   font-weight: 600;
+  line-height: 24.51px;
+}
+
+.cart8 p {
+  color: #1A3B5A;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 21.79px;
 }
 
 .cart9 {
@@ -6655,20 +6910,36 @@ select:focus {
   justify-content: space-between;
 }
 
+.cart9 p:nth-child(1){
+  color: #434343;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 21.79px;
+}
+.cart9 p:nth-child(2){
+  color: #1A3B5A;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 21.79px;
+}
+
 .cart10 {
   border-radius: 5px;
   border: 1px solid #707070;
   background: #e7e7e7;
-  margin-top: 10px;
-  margin-left: 5%;
-  width: 90%;
-  height: 40px;
-  text-align: center;
-  color: #000;
-  text-align: center;
+  width: 330px;
+  height: 50px;
+  background: #E7E7E7;
+  color: #000000;
   font-size: 20px;
   font-family: Open Sans;
   font-weight: 600;
+  line-height: 27.24px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .cart7 button {
@@ -6692,15 +6963,54 @@ select:focus {
 }
 
 .cart12 button {
-  border: 1px solid #0185c3;
-  color: #0185c3;
+  width: 163px;
+  height: 39px;
+  border: 1px solid #001848;
+  color: #001848;
   font-size: 16px;
   font-family: Open Sans;
   font-weight: 600;
-  width: 20%;
-  background: #fff;
-  height: 40px;
+  line-height: 21.79px;
 }
+
+.cart12 input {
+  width: 589px;
+  height: 39px;
+  border: 1px solid #000000;
+  color: #000000;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 21.79px;
+  padding-left: 20px;
+}
+
+.cart122{
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.cart122 button{
+  width: 163px;
+  height: 39px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 21.79px;
+  background: #F4BC1C;
+  transition: all 0.3s ease;
+  /* Adding transition for smooth animation */
+}
+
+.cart122 button:hover {
+  transform: scale(1.1);
+}
+
 
 /* ========== document styling ======*/
 .doc1 {

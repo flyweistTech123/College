@@ -96,7 +96,7 @@ const Home = () => {
       name: "Q&A  ",
     },
     {
-      name: "Test and Services  ",
+      name: "Test and Services",
       link: "/test",
     },
     {

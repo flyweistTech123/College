@@ -5,8 +5,9 @@ import location from '../../../Images/loaction.png'
 import common2 from '../../../Images/common1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { MdDelete } from "react-icons/md";
+import { RiDeleteBin6Fill } from "react-icons/ri";
 import { FaEdit } from "react-icons/fa";
+import { Navigate, useNavigate } from 'react-router-dom';
 
 
 
@@ -33,19 +34,10 @@ const StarRating = ({ rating }) => {
 
 
 const ShortList = (props) => {
-    const [otp, setOtp] = useState(['', '', '', '']);
 
-    const handleOtpChange = (index, value) => {
-        const newOtp = [...otp];
-        newOtp[index] = value;
+    const navigate = useNavigate()
 
-        // Move focus to the next input box if a digit is entered
-        if (value && index < otp.length - 1) {
-            document.getElementById(`otp-input-${index + 1}`).focus();
-        }
 
-        setOtp(newOtp);
-    };
     return (
         <Modal
             {...props}
@@ -68,18 +60,18 @@ const ShortList = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            
-                            <div>
-                                <MdDelete />
-                                <FaEdit />
 
+                            <div className='shortli10'>
+                                <RiDeleteBin6Fill />
+                                <FaEdit />
                             </div>
                         </div>
-                       
+
                     </div>
+                    <hr />
                     <div className="shortli5">
                         <button>Add  More</button>
-                        <button>Next</button>
+                        <button  onClick={() => navigate("/cart")} >Next</button>
                     </div>
                 </div>
 
