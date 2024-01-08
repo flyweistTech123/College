@@ -84,7 +84,7 @@ const PayNow = () => {
                 </select>
               </div>
               <div className="basic4">
-                <label>First Name</label>
+                <label>First Name*</label>
                 <input type="text" />
               </div>
               <div className="basic4">
@@ -92,19 +92,19 @@ const PayNow = () => {
                 <input type="text" />
               </div>
               <div className="basic4">
-                <label>Last Name</label>
+                <label>Last Name*</label>
                 <input type="text" />
               </div>
               <div className="basic4">
-                <label>Gender </label>
+                <label>Gender*</label>
                 <input type="text" />
               </div>
               <div className="basic4">
-                <label>Category</label>
+                <label>Category*</label>
                 <input type="text" />
               </div>
               <div className="basic4">
-                <label>Nationality</label>
+                <label>Nationality*</label>
                 <input type="text" />
               </div>
               <div className="basic4">
@@ -228,11 +228,13 @@ const PayNow = () => {
                   <thead>
                     <tr>
                       <th></th>
-                      <th>10th School/institute Name</th>
-                      <th>10th Board</th>
-                      <th>10th year of passing</th>
-                      <th>10th Marking Scheme</th>
-                      <th>10th Obtained Percentage CGPA</th>
+                      <th>12th School/institute Name</th>
+                      <th>12th Board</th>
+                      <th>12th Stream</th>
+                      <th>12th year of passing</th>
+                      <th>Result status</th>
+                      <th>12th marking scheme</th>
+                      <th>12th obtained Percentage CGPA</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -243,27 +245,37 @@ const PayNow = () => {
                       </td>
                       <td>
                         <select>
-                          <option value="">Select Board</option>
+                          <option value="">Select</option>
                           <option value="">CBSE</option>
                           <option value="">ICSE</option>
                         </select>
                       </td>
                       <td>
                         <select>
-                          <option value="">YYYY</option>
+                          <option value="">Select</option>
                           <option value="">CBSE</option>
                           <option value="">ICSE</option>
                         </select>
                       </td>
                       <td>
                         <select>
-                          <option value="">Select </option>
+                          <option value="">YYYY </option>
                           <option value="">CBSE</option>
                           <option value="">ICSE</option>
                         </select>
                       </td>
                       <td>
-                        <input type="text" />
+                      <select>
+                          <option value="">Select</option>
+                          <option value="">CBSE</option>
+                          <option value="">ICSE</option>
+                        </select>
+                      </td>
+                      <td>
+
+                      </td>
+                      <td>
+
                       </td>
                     </tr>
                   </tbody>
@@ -275,16 +287,16 @@ const PayNow = () => {
                   <thead>
                     <tr>
                       <th></th>
-                      <th>10th School/institute Name</th>
-                      <th>10th Board</th>
-                      <th>10th year of passing</th>
-                      <th>10th Marking Scheme</th>
-                      <th>10th Obtained Percentage CGPA</th>
+                      <th>Graduation institute Name</th>
+                      <th>Graduation Stream</th>
+                      <th>Graduation Percentile</th>
+                      <th>Graduation Year of Passing</th>
+                      <th>Graduation Result status</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>10</td>
+                      <td>UG</td>
                       <td>
                         <input type="text" />
                       </td>
@@ -341,16 +353,17 @@ const PayNow = () => {
                   <thead>
                     <tr>
                       <th></th>
-                      <th>10th School/institute Name</th>
-                      <th>10th Board</th>
-                      <th>10th year of passing</th>
-                      <th>10th Marking Scheme</th>
-                      <th>10th Obtained Percentage CGPA</th>
+                      <th>10th class Marksheet</th>
+                      <th>12th class Marksheet</th>
+                      <th>Graduation final year Marksheet</th>
+                      <th>Rank Acheived</th>
+                      <th>Aadhar Card Upload</th>
+                      <th>Photo Upload</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>10</td>
+                      <td>UG</td>
                       <td>
                         <input type="text" />
                       </td>
@@ -377,6 +390,8 @@ const PayNow = () => {
                       </td>
                       <td>
                         <input type="text" />
+                      </td>
+                      <td>
                       </td>
                     </tr>
                   </tbody>

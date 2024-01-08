@@ -205,11 +205,16 @@ const TopNavbar = (props) => {
       name: "College Predictor",
       link: '/college-predictor',
     },
+    {
+      name: "Scholarship Test",
+      link: '/scholarshiptest',
+    },
 
     {
       name: "Review a College",
       link: '/review',
     },
+  
     // {
     //   name: "Test and Services  ",
     //   link: "/test",
