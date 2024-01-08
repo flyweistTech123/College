@@ -51,6 +51,9 @@ import Review from "./components/MorePages/Review";
 import PredictNow from "./components/MorePages/Predict_Now";
 import Courses from "./components/Course/Courses";
 import Exam from "./components/Exam/Exam";
+import Careers from "./components/Careers/Careers";
+import EngineeringCareers from "./components/Careers/EngineeringCareers/Engineering";
+import ElectricalEngineering from "./components/Careers/EngineeringCareers/Electrical_enginer";
 
 function App() {
   return (
@@ -107,6 +110,9 @@ function App() {
           <Route path="/review" element={<Review />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/exam" element={<Exam />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/engineeringcareers" element={<EngineeringCareers />} />
+          <Route path="/electricalengineering" element={<ElectricalEngineering />} />
         </Routes>
       </BrowserRouter>
     </>

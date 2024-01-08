@@ -209,6 +209,10 @@ const TopNavbar = (props) => {
       name: "Scholarship Test",
       link: '/scholarshiptest',
     },
+    {
+      name: "Community",
+      link: '/community',
+    },
 
     {
       name: "Review a College",
@@ -481,8 +485,8 @@ const TopNavbar = (props) => {
             <p onClick={() => navigate("/common-applications")} style={{ color: props.color }}>
               Common Application
             </p>
-            <p onClick={() => navigate("/scholarshiptest")} style={{ color: props.color }}>
-              Scholarship Test
+            <p onClick={() => navigate("/careers")} style={{ color: props.color }}>
+            Careers
             </p>
 
             <p onClick={() => navigate("/hostels")} style={{ color: props.color }}>
