@@ -5,15 +5,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "../Footer";
 import test from '../../Images/test.png';
-import img from '../../Images/clgschro.png'
 import TopNavbar from "../TopNavbar";
-import Sidebar3 from "../Sidebar3";
-import { IoMdArrowDropright } from "react-icons/io";
 import TopPart3 from "../TopPart3";
 import { IoShareSocial } from "react-icons/io5";
-import { FaRegClock } from "react-icons/fa";
-import { GoQuestion } from "react-icons/go";
-import { IoDocumentText } from "react-icons/io5";
+
 import { MdFileDownload } from "react-icons/md";
 import { FaPlay } from "react-icons/fa6";
 
@@ -22,6 +17,9 @@ import img1 from '../../Images/schrotest1.png'
 import img2 from '../../Images/schrotest2.png'
 import img3 from '../../Images/schrotest3.png'
 import img4 from '../../Images/IIT2.png'
+
+
+
 
 
 
@@ -69,33 +67,11 @@ const ScholarshipTest = () => {
     };
     const navigate = useNavigate();
     const [slideShow2, setSlideShow2] = useState(8);
-    useEffect(() => {
-        if (window.innerWidth < 800) {
-            setSlideShow2(3);
-        } else if (window.innerWidth > 800 && window.innerWidth < 1100) {
-            setSlideShow2(3);
-        } else setSlideShow2(8);
-    });
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 200,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: false,
-    };
+ 
 
-    const settings3 = {
-        dots: false,
-        infinite: true,
-        speed: 200,
-        slidesToShow: slideShow2,
-        slidesToScroll: 1,
-        autoplay: true,
-    };
 
     const [showNavbar, setShowNavbar] = useState(false);
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(false); 
     const [show2, setShow2] = useState(false);
     const handleClose = () => setShow2(false);
     const handleShow = () => setShow2(true);
@@ -243,7 +219,7 @@ const ScholarshipTest = () => {
                         </div>
 
                         <div className="schrotest11">
-                            <button>Start <FaPlay /></button>
+                            <button onClick={()=>navigate('/jeemaintestinstructions')}>Start <FaPlay /></button>
                             <button>Download <MdFileDownload /></button>
                         </div>
 

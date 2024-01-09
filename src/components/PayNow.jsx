@@ -5,6 +5,7 @@ import img3 from "../Images/c104.png";
 import img4 from "../Images/c105.png";
 import TopNavbar from "./TopNavbar";
 import Footer from "./Footer";
+import img5 from '../Images/application.png'
 import { MdUpload } from "react-icons/md";
 
 
@@ -16,6 +17,10 @@ const PayNow = () => {
   const decCnt = () => {
     setStep((prev) => prev - 1);
   };
+  const handlePrint = () => {
+    window.print();
+  };
+
   return (
     <>
       <div className="app1">
@@ -36,7 +41,7 @@ const PayNow = () => {
         <div className="pay10">
           <div
             className={step === 1 ? "pay2" : "pay3"}
-            onClick={() => setStep(2)}
+            onClick={() => setStep(1)}
           >
             <img src={img3} alt="" />
           </div>
@@ -45,7 +50,7 @@ const PayNow = () => {
         <div className="pay10">
           <div
             className={step === 2 ? "pay2" : "pay3"}
-            onClick={() => setStep(3)}
+            onClick={() => setStep(2)}
           >
             <img src={img4} alt="" />
           </div>
@@ -54,7 +59,7 @@ const PayNow = () => {
         <div className="pay10">
           <div
             className={step === 3 ? "pay2" : "pay3"}
-            onClick={() => setStep(1)}
+            onClick={() => setStep(3)}
           >
             <img src={img2} alt="" />
           </div>
@@ -151,13 +156,13 @@ const PayNow = () => {
             <p>Amount Received : 750</p>
           </div>
           <div className="recp22">
-          <input type="radio" name="" id="" />
-          <h5 className="repc222">I accept that fees paid is non refundable</h5>
+            <input type="radio" name="" id="" />
+            <h5 className="repc222">I accept that fees paid is non refundable</h5>
           </div>
           <p>This is system generated reciept and does not requrie signature</p>
           <div className="recp3">
             <button onClick={decCnt}>Back</button>
-            <button>Print</button>
+            <button onClick={handlePrint}>Print</button>
             <button onClick={incCnt}>Next</button>
           </div>
         </div>
@@ -265,7 +270,7 @@ const PayNow = () => {
                         </select>
                       </td>
                       <td>
-                      <select>
+                        <select>
                           <option value="">Select</option>
                           <option value="">CBSE</option>
                           <option value="">ICSE</option>
@@ -440,21 +445,145 @@ const PayNow = () => {
                   nostra, per inceptos himenaeos.
                 </p>
               </div>
-             
+
             </div>
             <div className="acad11">
-                <input type="radio" name="" id="" />
-                <label htmlFor="">I Agree terms and Conditions of these declartion</label>
-              </div>
+              <input type="radio" name="" id="" />
+              <label htmlFor="">I Agree terms and Conditions of these declartion</label>
+            </div>
             <div className="recp3">
-                <button onClick={decCnt}>Back</button>
-                <button>Save & Exit</button>
-                <button onClick={incCnt}>Next</button>
-              </div>
+              <button onClick={decCnt}>Back</button>
+              <button>Save & Exit</button>
+              <button onClick={incCnt}>Next</button>
+            </div>
           </div>
 
         </>
+      ) : step === 4 ? (
+        <>
+          <div className="Acknow1">
+            <div className="Acknow2">
+              <div className="Acknow3">
+                <div className="Acknow4">
+                  <h1>XYZ UNIVERSITY</h1>
+                  <h6>BBA-BACHELOR OF BUSINESS ADMINISTRATION (7 SPECIALIZATIONS)2023</h6>
+                  <p>APPICATION NO: X0001254845754564</p>
+                </div>
+                <div className="Acknow5">
+                  <img src={img5} alt="" />
+                </div>
+              </div>
+
+              <div className="Acknow6">
+                <h3>Personal Details</h3>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Ashish sharma" />
+                  <input type="text" placeholder="Email ID" />
+                  <input type="text" placeholder="Date of Birth" />
+                </div>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Gender" />
+                  <input type="text" placeholder="Mobile No." />
+                  <input type="text" placeholder="Nationality" />
+                </div>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Category" />
+                  <input type="text" placeholder="Additional Category" />
+                  <input type="text" placeholder="NR/International Applicant Category" className="innn1" />
+                  <input type="text" placeholder="Specialization" />
+                </div>
+                <h3>Referral Details</h3>
+                <div className="Acknow77">
+                  <input type="text" placeholder="Name of the person who refers you" />
+                  <input type="text" placeholder="Enrolment Number  of the student who referred you" />
+                </div>
+
+                <h3>Education Details</h3>
+                <h3>Class X</h3>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Board" />
+                  <input type="text" placeholder="School" />
+                  <input type="text" placeholder="Passing Year" />
+                </div>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Mark type" />
+                  <input type="text" placeholder="Percentage / CGPA" />
+                </div>
+                <h3>Class XII</h3>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Board" />
+                  <input type="text" placeholder="Passing Year" />
+                  <input type="text" placeholder="Passing Year" />
+                </div>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Stream" />
+                  <input type="text" placeholder="Mark type" />
+                  <input type="text" placeholder="Percentage / CGPA" />
+                </div>
+                <h3>Graduation</h3>
+                <div className="Acknow7">
+                  <input type="text" placeholder="College" />
+                  <input type="text" placeholder="Passing Year" />
+                  <input type="text" placeholder="Degree" />
+                </div>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Mark type" />
+                  <input type="text" placeholder="Percentage / CGPA" />
+                </div>
+                <h3>Preferences</h3>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Stream" />
+                  <input type="text" placeholder="Level" />
+                  <input type="text" placeholder="Specialization" />
+                </div>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Location" />
+                  <input type="text" placeholder="College type" />
+                  <input type="text" placeholder="Fee Range" />
+                </div>
+                <div className="Acknow7">
+                  <input type="text" placeholder="College" />
+                  <input type="text" placeholder="No PreferencesInterested in studying abroad?" />
+                  <input type="text" placeholder="Fee Range" />
+                </div>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Need Loan ?" />
+                </div>
+                <h3>Payment Details</h3>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Transaction ID" />
+                  <input type="text" placeholder="Payment Date" />
+                  <input type="text" placeholder="Mode of Payment" />
+                </div>
+                <div className="Acknow7">
+                  <input type="text" placeholder="Colleges Applied" />
+                </div>
+                <h3>Declaration</h3>
+                <div className="Acknow8">
+                  <p>I, declare that all statements made in this application for admission are correct and complete. I also understand that plagiarism, submission of
+                    false information, or omission of relevant information or credentials may result in my application being withdrawn, my admission being denied,
+                    or my admission being revoked.
+                    I, also understand that I have read the admission procedure document and the submission of application does not automatically qualify me for
+                    interview/further selection process. The Application Fee is non-refundable under any circumstances
+                    Further, I understand that Ragging is banned in the University. If I am found indulging in ragging, at any stage of my study period, I shall be
+                    liable for disciplinary action; including expulsion from the University.</p>
+
+                  <h4>Application Name:</h4>
+                  <h4>Parent Name:</h4>
+                  <h4>Date:</h4>
+                </div>
+                <div className="Acknow9">
+                  <button onClick={decCnt}>Back</button>
+                  <button onClick={handlePrint}>Print</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </>
+
       ) : (
+
         ""
       )}
 

@@ -169,6 +169,38 @@ const ElectricalEngineering = () => {
         <div className="electrical2">
             <h3>Pay Scale/ Salary for Electrical Engineer</h3>
             <p>Lorem ipsum dolor sit amet consectetur. Fermentum nulla risus porta turpis blandit sed egestas gravida. Libero quis ac sagittis in in enim. Sed lectus imperdiet mi lectus. Tempor vestibulum sed sed nam sit mattis mauris proin amet. Egestas tellus nunc feugiat pellentesque arcu nibh ut libero. Ultricies euismod pharetra consequat eu dui augue diam ac ac. Eget est turpis sed adipiscing sem sed ipsum auctor. Tortor in pulvinar lacus sed cursus ut non. Curabitur orci sagittis pulvinar</p> 
+            <div className="acad3">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Profile</th>
+                      <th>Starting Salary per Annum</th>
+                      <th>MidLevel - Salary per Annum</th>
+                      <th>Senior - Salary per Annum</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                      <p>Aerospace</p>
+                      <p>Computer Hardware</p>
+                      </td>
+                      <td>
+                      <p>3,13,741</p>
+                      <p>3,13,741</p>
+                      </td>
+                      <td>
+                      <p>89,13,741</p>
+                      <p>89,13,741</p>
+                      </td>
+                      <td>
+                      <p>32,13,741</p>
+                      <p>32,13,741</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
         </div>
         <div className="electrical2">
             <h3>Career Path for an Electrical Engineer</h3>

@@ -419,10 +419,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home555">
-        <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
-        <button onClick={() => setModalShow(true)}>Apply Now!</button>
-      </div>
+      
 
       <div className="home18">
         <h2>Explore your future</h2>
@@ -1179,6 +1176,10 @@ const Home = () => {
         onHide={() => setModalShow(false)}/>
 
       <Footer />
+      <div className="home555">
+        <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
+        <button onClick={() => setModalShow(true)}>Apply Now!</button>
+      </div>
       <Offcanvas show={showt} onHide={handleClose}>
         <Offcanvas.Header closeButton></Offcanvas.Header>
         <Offcanvas.Body>

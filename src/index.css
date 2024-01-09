@@ -249,7 +249,9 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 1;
   position: sticky;
+  bottom: 0;
 }
 
 .home555 p {
@@ -1450,13 +1452,13 @@ input[type="checkbox"]:checked+label:after {
 /* === common application styling ===*/
 
 
-.common1{
+.common1 {
   display: flex;
   gap: 30px;
   margin-top: 40px;
 }
 
-.common2{
+.common2 {
   width: 976px;
   height: 640px;
   background: #FFFFFF;
@@ -1468,41 +1470,41 @@ input[type="checkbox"]:checked+label:after {
 }
 
 
-.common2 img{
+.common2 img {
   width: 110px;
   height: 110px;
 }
 
-.common3 h1{
+.common3 h1 {
   font-weight: 600;
   font-size: 30px;
   line-height: 40.85px;
   color: #000000;
 }
 
-.common4{
+.common4 {
   display: flex;
   gap: 70px;
 }
 
-.common4 img{
+.common4 img {
   width: 14px;
   height: 20px;
 }
 
-.common5{
+.common5 {
   display: flex;
   gap: 5px;
 }
 
-.common5 p{
+.common5 p {
   font-weight: 400;
   font-size: 16px;
   line-height: 21.79px;
   color: #001848;
 }
 
-.common3 h5{
+.common3 h5 {
   font-weight: 500;
   font-size: 20px;
   line-height: 27.24px;
@@ -1510,31 +1512,31 @@ input[type="checkbox"]:checked+label:after {
   margin-top: 10px;
 }
 
-.common3 span{
+.common3 span {
   font-weight: 600;
   font-size: 16px;
   line-height: 21.79px;
   color: #000000;
 }
 
-.common6{
+.common6 {
   margin-top: 20px;
 }
 
-.common6 p{
+.common6 p {
   font-weight: 400;
   font-size: 16px;
   line-height: 21.79px;
   color: #000000;
 }
 
-.common7{
+.common7 {
   display: flex;
   gap: 50px;
   margin-top: 20px;
 }
 
-.common7 button:nth-child(1){
+.common7 button:nth-child(1) {
   width: 240px;
   height: 41px;
   border: none;
@@ -1554,7 +1556,7 @@ input[type="checkbox"]:checked+label:after {
 }
 
 
-.common7 button:nth-child(2){
+.common7 button:nth-child(2) {
   width: 240px;
   height: 41px;
   border: 1px solid #DFDFDF;
@@ -1666,7 +1668,8 @@ input[type="checkbox"]:checked+label:after {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.app11 img{
+
+.app11 img {
   width: 50px;
   height: 45.74px;
 }
@@ -2209,7 +2212,7 @@ input[type="checkbox"]:checked+label:after {
   display: flex;
   align-items: center;
   gap: 50px;
-  
+
 }
 
 
@@ -2404,7 +2407,7 @@ input[type="checkbox"]:checked+label:after {
 .clg28 p {
   color: #1D3969;
   font-style: normal;
-  font-weight: 700  ;
+  font-weight: 700;
   font-size: 20px;
   line-height: 27.24px;
   cursor: pointer;
@@ -2508,7 +2511,7 @@ input[type="checkbox"]:checked+label:after {
   gap: 20px;
 }
 
-.clg35 img{
+.clg35 img {
   width: 150px;
   height: 80px;
 }
@@ -2539,6 +2542,7 @@ input[type="checkbox"]:checked+label:after {
   color: #1A3B5A;
   text-align: center;
 }
+
 .clg36 p {
   font-family: "Open Sans";
   font-style: normal;
@@ -2550,6 +2554,7 @@ input[type="checkbox"]:checked+label:after {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .placement-table {
   margin: 30px;
 }
@@ -2977,11 +2982,11 @@ input[type="checkbox"]:checked+label:after {
 }
 
 
-.login5{
+.login5 {
   width: 50%;
 }
 
-.login4{
+.login4 {
   width: 50%;
   padding: 10px;
   text-align: center;
@@ -2992,7 +2997,7 @@ input[type="checkbox"]:checked+label:after {
 }
 
 
-.login4 h6{
+.login4 h6 {
   font-weight: 700;
   font-size: 25px;
   line-height: 34.05px;
@@ -3000,9 +3005,7 @@ input[type="checkbox"]:checked+label:after {
 }
 
 
-.login7 {
- 
-}
+.login7 {}
 
 .login7 input {
   border: none;
@@ -3015,14 +3018,14 @@ input[type="checkbox"]:checked+label:after {
   margin-top: 20px;
 }
 
-.login7 input ::placeholder{
+.login7 input ::placeholder {
   font-size: 16px;
   font-weight: 600;
   line-height: 21.79px;
   color: #8C8C8C;
 }
 
-.login2{
+.login2 {
   width: 155px;
   height: 44px;
   border-radius: 22px;
@@ -3042,30 +3045,32 @@ input[type="checkbox"]:checked+label:after {
   transform: scale(1.1);
 }
 
-.login122{
+.login122 {
   margin: auto;
   margin-top: 5px;
   text-align: center;
 }
-.login122 label{
+
+.login122 label {
   font-weight: 600;
   font-size: 16px;
   line-height: 21.79px;
   color: #8C8C8C;
 }
 
-.login2 img{
+.login2 img {
   width: 32px;
   height: 32px;
 }
 
 
-.login2 p{
+.login2 p {
   font-weight: 700;
   font-size: 20px;
   line-height: 21px;
   color: #333333;
 }
+
 .login9 {
   width: 100%;
   margin-top: 20px;
@@ -3086,30 +3091,34 @@ input[type="checkbox"]:checked+label:after {
   transition: all 0.3s ease;
   /* Adding transition for smooth animation */
 }
+
 .login9 button:hover {
   transform: scale(1.1);
 }
 
-.login41{
+.login41 {
   width: 50%;
   padding: 10px;
   text-align: center;
   margin: auto;
 }
-.login41 h6{
+
+.login41 h6 {
   font-weight: 700;
   font-size: 25px;
   line-height: 34.05px;
   color: #001848;
 }
-.login8{
+
+.login8 {
   width: 100%;
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
 }
-.login71 input{
+
+.login71 input {
   border: none;
   outline: none;
   width: 228px;
@@ -3118,12 +3127,14 @@ input[type="checkbox"]:checked+label:after {
   border-radius: 6px;
   padding-left: 20px;
 }
+
 .login6 {
   border: 1px solid #001848;
   border-radius: 10px;
   width: 20%;
   height: 40px;
 }
+
 .login6 p {
   text-align: center;
   font-family: "Open Sans";
@@ -3152,22 +3163,27 @@ input[type="checkbox"]:checked+label:after {
   display: inline-block;
   width: 30%;
   height: 1px;
-  background-color: #8C8C8C; /* Adjust the color of the dotted line */
+  background-color: #8C8C8C;
+  /* Adjust the color of the dotted line */
 }
 
 .dotted-line::before {
-  margin-right: 10px; /* Adjust the spacing between the dots and the text */
+  margin-right: 10px;
+  /* Adjust the spacing between the dots and the text */
 }
 
 .dotted-line::after {
-  margin-left: 10px; /* Adjust the spacing between the dots and the text */
+  margin-left: 10px;
+  /* Adjust the spacing between the dots and the text */
 }
 
 .dotted-line span {
   position: relative;
   z-index: 1;
-  background-color: #fff; /* Adjust the background color to cover the dots */
-  padding: 0 10px; /* Adjust the padding as needed */
+  background-color: #fff;
+  /* Adjust the background color to cover the dots */
+  padding: 0 10px;
+  /* Adjust the padding as needed */
 }
 
 
@@ -3210,7 +3226,7 @@ input[type="checkbox"]:checked+label:after {
 
 
 /* otp */
-.otp11{
+.otp11 {
   margin: auto;
   text-align: center;
 }
@@ -3566,7 +3582,7 @@ input[type="checkbox"]:checked+label:after {
   margin-top: 50px;
 }
 
-.loan20 h5{
+.loan20 h5 {
   font-weight: 700;
   font-size: 26px;
   line-height: 35.41px;
@@ -3575,14 +3591,14 @@ input[type="checkbox"]:checked+label:after {
   margin-bottom: 20px;
 }
 
-.loan20 p{
+.loan20 p {
   font-weight: 600;
   font-size: 20px;
   line-height: 27.24px;
   color: #FFFFFF;
 }
 
-.loan21{
+.loan21 {
   width: 90%;
   height: 268px;
   background-color: #E7E7E7;
@@ -3591,7 +3607,7 @@ input[type="checkbox"]:checked+label:after {
   margin-top: 50px;
 }
 
-.loan24{
+.loan24 {
   width: 90%;
   height: auto;
   margin: auto;
@@ -3605,60 +3621,62 @@ input[type="checkbox"]:checked+label:after {
 
 
 
-.loan22 h5{
+.loan22 h5 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32.68px;
 }
 
-.loan23{
+.loan23 {
   display: flex;
   /* gap: 50px; */
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
 }
-.loan23 label{
+
+.loan23 label {
   font-weight: 500;
   font-size: 20px;
   line-height: 27.24px;
 }
 
-.loan23 input{
+.loan23 input {
   width: 199.76px;
   height: 36px;
-  border:none;
+  border: none;
   outline: none;
   border-bottom: 2px solid #001848;
   background-color: #E7E7E7;
   color: #606060;
-  padding-left: 10px ;
+  padding-left: 10px;
 }
 
-.loan23 input::placeholder{
+.loan23 input::placeholder {
   font-size: 16px;
   font-weight: 600;
   color: #606060;
 }
 
-.loan25{
+.loan25 {
   color: #000000;
 }
-.loan25 hr{
+
+.loan25 hr {
   width: 520px;
   border: 1px solid #000000;
   color: #000000;
 }
 
-.loan26{
+.loan26 {
   margin-top: 50px;
 }
 
-.loan26 button{
+.loan26 button {
   width: 140px;
   height: 47px;
   border: none;
-  outline:none;
+  outline: none;
   background-color: #F4BC1C;
   font-weight: 600;
   font-size: 14px;
@@ -3674,17 +3692,16 @@ input[type="checkbox"]:checked+label:after {
   transform: scale(1.1);
 }
 
-.loan27{
+.loan27 {}
 
-}
-
-.loan27 h6{
+.loan27 h6 {
   font-size: 18px;
   font-weight: 600;
   color: #000000;
   margin-top: 60px;
 }
-.loan27 p{
+
+.loan27 p {
   font-size: 16px;
   font-weight: 600;
   color: #606060;
@@ -4147,7 +4164,7 @@ input[type="checkbox"]:checked+label:after {
   width: 80%;
 }
 
-.partnerparent{
+.partnerparent {
   width: 90%;
   margin: auto;
   margin-top: 50px;
@@ -4436,19 +4453,19 @@ input[type="checkbox"]:checked+label:after {
   width: 80%;
   display: grid;
   grid-template-columns: auto auto;
-justify-content: space-between;
+  justify-content: space-between;
   margin: auto;
   margin-top: 50px;
 }
 
 .tst2 {
- background-color: #001848;
- width: 483px;
- height: 260px;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
+  background-color: #001848;
+  width: 483px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .tst2 h4 {
@@ -4500,7 +4517,7 @@ justify-content: space-between;
   /* Increase the size by 10% on hover */
 }
 
-.tst4{
+.tst4 {
   /* text-align: center; */
   width: 80%;
   margin: auto;
@@ -4510,14 +4527,11 @@ justify-content: space-between;
 
 }
 
-.tst5 {
-}
+.tst5 {}
 
 
 
-.tst6 {
-  
-}
+.tst6 {}
 
 .tst6 p {
   font-family: "Open Sans";
@@ -4535,7 +4549,7 @@ justify-content: space-between;
   margin-top: 40px;
 }
 
-.tst7 h6{
+.tst7 h6 {
   font-size: 17.81px;
   font-weight: 600;
   line-height: 24.25px;
@@ -4586,7 +4600,7 @@ justify-content: space-between;
 }
 
 /* === become seller styling ===*/
-.partner57{
+.partner57 {
   position: absolute;
   z-index: 1;
   top: 100px;
@@ -4596,12 +4610,12 @@ justify-content: space-between;
   justify-content: space-between;
 }
 
-.partner56{
+.partner56 {
   margin-left: 30px;
   margin-right: 30px;
 }
 
-.partner55{
+.partner55 {
   width: 161px;
   height: 161px;
   background-color: #FFFFFF;
@@ -4613,26 +4627,27 @@ justify-content: space-between;
   cursor: pointer;
 }
 
-.partner55 img{
+.partner55 img {
   width: 61px;
   height: 91px;
   margin-bottom: 10px;
 }
 
-.partner55 h3{
+.partner55 h3 {
   font-weight: 600;
   font-size: 13px;
   line-height: 16.34px;
   color: #000000;
 }
-.partner80{
+
+.partner80 {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
 }
 
-.partner80 button{
+.partner80 button {
   width: 191px;
   height: 45px;
   border: 2px solid #0185C3;
@@ -4646,27 +4661,28 @@ justify-content: space-between;
 
 
 
-.partner55 p{
+.partner55 p {
   font-weight: 400;
   font-size: 12px;
-  line-height:16.34px;
+  line-height: 16.34px;
   color: #000000;
 }
 
 
-.partner56 h3{
+.partner56 h3 {
   font-weight: 700;
   font-size: 30px;
   line-height: 40.85px;
   color: #FFFFFF;
 }
 
-.partner56 p{
+.partner56 p {
   font-weight: 600;
   font-size: 18px;
   line-height: 24.51px;
   color: #FFFFFF;
 }
+
 .seller1 {
   background-image: url("./Images/c88.png");
   width: 100%;
@@ -4749,11 +4765,11 @@ justify-content: space-between;
   padding: 20px;
 }
 
-.partner90{
+.partner90 {
   margin-top: 50px;
 }
 
-.seller55{
+.seller55 {
   margin-top: 20px;
 }
 
@@ -4835,17 +4851,18 @@ justify-content: space-between;
 }
 
 
-.partner60{
+.partner60 {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
-.partner61{
+
+.partner61 {
   display: flex;
   flex-direction: column;
 }
 
-.partner61 label{
+.partner61 label {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -4855,16 +4872,7 @@ justify-content: space-between;
   padding-bottom: 10px;
 }
 
-.partner61 select{
-  width: 264px;
-  height: 39px;
-  background: #E7E7E7;
-  color: #000000;
-  border: 0.97px solid #707070;
-  border-radius: 4.86px;
-  padding-left: 5px;
-}
-.partner61 input{
+.partner61 select {
   width: 264px;
   height: 39px;
   background: #E7E7E7;
@@ -4874,11 +4882,21 @@ justify-content: space-between;
   padding-left: 5px;
 }
 
-.partner62{
+.partner61 input {
+  width: 264px;
+  height: 39px;
+  background: #E7E7E7;
+  color: #000000;
+  border: 0.97px solid #707070;
+  border-radius: 4.86px;
+  padding-left: 5px;
+}
+
+.partner62 {
   margin-top: 30px;
 }
 
-.partner62 button{
+.partner62 button {
   width: 120px;
   height: 40px;
   border: 2px solid #1048C3;
@@ -4889,34 +4907,34 @@ justify-content: space-between;
   color: #001848;
 }
 
-.partner63{
+.partner63 {
   margin-top: 50px;
 }
 
-.partner63 p{
+.partner63 p {
   font-weight: 400;
   font-size: 20px;
   line-height: 27.24px;
   color: #000000;
 }
 
-.partner64{
+.partner64 {
   display: flex;
   justify-content: space-between;
 }
 
-.partner70{
+.partner70 {
   margin-top: 50px;
 }
 
-.partner70 label{
+.partner70 label {
   font-weight: 400;
   font-size: 20px;
   line-height: 27.24px;
   color: #000000;
 }
 
-.partner70 input{
+.partner70 input {
   font-weight: 400;
   font-size: 15px;
   line-height: 27.24px;
@@ -4980,18 +4998,16 @@ justify-content: space-between;
 
 
 
-.partner71{
+.partner71 {}
 
-}
-
-.partner71 h6{
+.partner71 h6 {
   font-weight: 700;
   font-size: 25px;
   line-height: 34.05px;
   color: #000000;
 }
 
-.partner71 p{
+.partner71 p {
   font-weight: 400;
   font-size: 20px;
   line-height: 27.24px;
@@ -5000,7 +5016,7 @@ justify-content: space-between;
 
 
 
-.partner72{
+.partner72 {
   width: 468px;
   height: 276px;
   border-radius: 5px;
@@ -5120,7 +5136,7 @@ table td {
 /* ==== one stop styling ====*/
 
 
-.onesolution1{
+.onesolution1 {
   position: absolute;
   z-index: 1;
   top: 60px;
@@ -5134,6 +5150,7 @@ table td {
   margin-top: 30px;
   text-align: center;
 }
+
 .onesolution2 h2 {
   color: #FFFFFF;
   font-size: 30px;
@@ -5156,10 +5173,10 @@ table td {
 .onesolution3 {
   width: 90%;
   margin: auto;
- 
+
 }
 
-.onesolution3 h2{
+.onesolution3 h2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 43.58px;
@@ -5169,7 +5186,7 @@ table td {
 }
 
 
-.onesolution3 h4{
+.onesolution3 h4 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32.68px;
@@ -5177,7 +5194,7 @@ table td {
   margin-top: 50px;
 }
 
-.onesolution4{
+.onesolution4 {
   width: 100%;
   height: 160px;
   background: #001848;
@@ -5188,13 +5205,13 @@ table td {
   padding-top: 20px;
 }
 
-.onesolution4 h1{
+.onesolution4 h1 {
   font-weight: 700;
   font-size: 26px;
   line-height: 35.41px;
 }
 
-.onesolution4 p{
+.onesolution4 p {
   font-weight: 600;
   font-size: 20px;
   line-height: 27.24px;
@@ -5211,7 +5228,7 @@ table td {
 .onesolution6 {
   font-family: Open Sans;
   cursor: pointer;
-  width:auto;
+  width: auto;
   height: 58.67px;
   background-color: #001848;
   font-weight: 600;
@@ -5221,7 +5238,7 @@ table td {
   text-align: center;
   padding: 10px;
   line-height: 27.24px;
-  
+
 }
 
 
@@ -5319,12 +5336,13 @@ table td {
   border-collapse: collapse;
 }
 
-.document-table1 table th, td {
+.document-table1 table th,
+td {
   border: 1px solid #ddd;
   text-align: center;
 }
 
-.document-table1 table  th {
+.document-table1 table th {
   background: #FFFFFF;
   font-weight: 600;
   font-size: 16px;
@@ -5339,21 +5357,21 @@ input[type="file"] {
   margin-top: 5px;
 }
 
-.onesolution10 h5{
+.onesolution10 h5 {
   font-weight: 600;
   font-size: 19px;
   line-height: 25.87px;
   color: #000000;
 }
 
-.onesolution10 p{
+.onesolution10 p {
   font-weight: 400;
   font-size: 16px;
   line-height: 21.79px;
   color: #000000;
 }
 
-.onesolution11{
+.onesolution11 {
   margin-top: 20px;
   font-weight: 400;
   font-size: 16px;
@@ -6007,6 +6025,7 @@ input[type="file"] {
   margin-top: 10px;
   transition: all 0.3s ease;
 }
+
 .ext2:hover {
   transform: scale(1.1);
 }
@@ -6249,7 +6268,7 @@ select:focus {
   margin-top: 60px;
 }
 
-.basic1 h3{
+.basic1 h3 {
   font-size: 600;
   font-weight: 20px;
   line-height: 27.24px;
@@ -6305,6 +6324,7 @@ select:focus {
   font-size: 16px;
   padding-left: 20px;
 }
+
 .basic5 {
   display: flex;
   justify-content: center;
@@ -6332,10 +6352,10 @@ select:focus {
 
 
 
-.basic5 button  {
+.basic5 button {
   border: none;
   border-radius: 30px;
-  background:#F4BC1C  ;
+  background: #F4BC1C;
   color: #FFFFFF;
   width: 173px;
   height: 46px;
@@ -6378,7 +6398,7 @@ select:focus {
   padding-left: 20px;
 }
 
-.recp2 p{
+.recp2 p {
   text-align: start;
   font-weight: 600;
   font-size: 20px;
@@ -6394,7 +6414,7 @@ select:focus {
   padding-bottom: 50px;
 }
 
-.recp22{
+.recp22 {
   display: flex;
   gap: 10px;
   text-align: center;
@@ -6402,7 +6422,7 @@ select:focus {
   justify-content: center;
 }
 
-.recp22  h5{
+.recp22 h5 {
   font-weight: 700;
   font-size: 20px;
   line-height: 27.24px;
@@ -6430,7 +6450,7 @@ select:focus {
 .recp3 button:last-child {
   border: none;
   border-radius: 30px;
-  background:#F4BC1C  ;
+  background: #F4BC1C;
   color: #FFFFFF;
   width: 173px;
   height: 46px;
@@ -6441,14 +6461,14 @@ select:focus {
   /* Adding transition for smooth animation */
 }
 
-.dec11{
+.dec11 {
   width: 80%;
   height: auto;
   margin: auto;
   margin-top: 60px;
 }
 
-.dec11 h3{
+.dec11 h3 {
   font-size: 600;
   font-weight: 20px;
   line-height: 27.24px;
@@ -6479,8 +6499,8 @@ select:focus {
   padding-bottom: 30px;
 }
 
-.dec2 p{
-  font-weight:600;
+.dec2 p {
+  font-weight: 600;
   font-size: 16px;
   line-height: 21.79px;
   color: #000000;
@@ -6509,14 +6529,14 @@ select:focus {
   margin-top: 60px;
 }
 
-.acad11{
+.acad11 {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
 }
 
 
-.acad1 h3{
+.acad1 h3 {
   font-size: 600;
   font-weight: 20px;
   line-height: 27.24px;
@@ -6531,7 +6551,7 @@ select:focus {
   width: 100%;
 }
 
-.acad2 h6{
+.acad2 h6 {
   font-weight: 600;
   font-size: 16px;
   line-height: 21.79px;
@@ -6582,19 +6602,20 @@ select:focus {
   margin: auto;
   font-weight: 600;
 }
-.acad33{
+
+.acad33 {
   display: flex;
   gap: 50px;
   margin-bottom: 20px;
 }
 
-.acad32{
+.acad32 {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.acad32 input{
+.acad32 input {
   border-radius: 4.859px;
   border: 0.972px solid #707070;
   background: #e7e7e7;
@@ -6602,14 +6623,15 @@ select:focus {
   width: 281px;
   height: 39px;
 }
-.acad32 label{
+
+.acad32 label {
   font-weight: 600;
   font-size: 16px;
   line-height: 21.79px;
   color: #000000;
 }
 
-.acad34{
+.acad34 {
   width: 100%;
   height: 188px;
   border: 1px solid #757575;
@@ -6620,7 +6642,8 @@ select:focus {
   align-items: center;
 
 }
-.acad35{
+
+.acad35 {
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -6630,14 +6653,14 @@ select:focus {
   cursor: pointer;
 }
 
-.acad36{
+.acad36 {
   font-weight: 700;
   font-size: 26.25px;
   color: #000000;
- 
+
 }
 
-.acad34 p{
+.acad34 p {
   font-size: 16px;
   font-weight: 600;
   line-height: 21.79px;
@@ -6653,6 +6676,178 @@ select:focus {
   margin: auto;
   font-weight: 600;
 }
+
+.Acknow1{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.Acknow2{
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  margin-top: 30px;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.Acknow3{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+
+
+.Acknow4 h1{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32.68px;
+  color: #000000;
+  text-align: center;
+}
+
+.Acknow4 h6{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #000000;
+  text-align: center;
+
+}
+.Acknow4 p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #000000;
+  text-align: center;
+}
+
+.Acknow5 img{
+  width: 200px;
+  height: 250px;
+}
+.Acknow6{
+  padding-left: 50px;
+}
+
+.Acknow6 h3{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24.51px;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.Acknow7{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.Acknow7 input{
+  width: 240px;
+  height: 41.92px;
+  border: 1.1px solid #1A3B5A;
+  outline: none;
+  background: #E7E7E7;
+  padding-left: 10px;
+  border-radius: 7.31px;
+}
+
+
+
+.Acknow7 input::placeholder{
+  font-weight: 600;
+  font-size: 14.61px;
+  line-height: 19.9px;
+  color:#3F3F3F;
+}
+.Acknow77{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.Acknow77 input{
+  width: 450px;
+  height: 41.92px;
+  border: 1.1px solid #1A3B5A;
+  outline: none;
+  background: #E7E7E7;
+  padding-left: 10px;
+  border-radius: 7.31px;
+}
+.Acknow77 input::placeholder{
+  font-weight: 600;
+  font-size: 14.61px;
+  line-height: 19.9px;
+  color:#3F3F3F;
+}
+
+.Acknow8{
+  margin-top: 20px;
+}
+
+.Acknow8 p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color:#000000;
+}
+
+.Acknow8 h4{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24.51px;
+  color:#000000;
+  margin-top: 10px; 
+}
+
+.Acknow9 {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+
+
+.Acknow9 button {
+  border: none;
+  border-radius: 30px;
+  background: #001848;
+  color: #FFFFFF;
+  width: 115px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 19.44px;
+  line-height: 26.47px;
+  transition: all 0.3s ease;
+  /* Adding transition for smooth animation */
+}
+
+.Acknow9 button:hover {
+  transform: scale(1.1);
+}
+
+.Acknow9 button:last-child {
+  border: none;
+  border-radius: 30px;
+  background: #F4BC1C;
+  color: #FFFFFF;
+  width: 115px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 19.44px;
+  line-height: 26.47px;
+  transition: all 0.3s ease;
+  /* Adding transition for smooth animation */
+}
+
+
 
 .logoimg {
   width: 120px;
@@ -6683,8 +6878,9 @@ select:focus {
   font-size: 16px;
   font-family: Open Sans;
   font-weight: 400;
-  line-height:21.79px ;
+  line-height: 21.79px;
 }
+
 .review2 h6 {
   color: #000000;
   font-size: 18px;
@@ -6732,7 +6928,8 @@ select:focus {
   gap: 20px;
   align-items: center;
 }
-.infra3 p{
+
+.infra3 p {
   font-weight: 700;
   font-size: 18px;
   line-height: 24.51px;
@@ -6800,11 +6997,11 @@ select:focus {
   /* margin-top: 60px; */
 }
 
-.cart5{
+.cart5 {
   margin-top: 20px;
 }
 
-.cart4 h3{
+.cart4 h3 {
   font-weight: 600;
   font-size: 30px;
   line-height: 40.85px;
@@ -6838,7 +7035,7 @@ select:focus {
   padding: 20px;
 }
 
-.cart4 table td select{
+.cart4 table td select {
   width: 260px;
   height: 40px;
   font-weight: 600;
@@ -6870,13 +7067,15 @@ select:focus {
 .cart7 hr {
   background: #c0c0c0;
 }
-.cart7 h5{
+
+.cart7 h5 {
   font-weight: 600;
   font-size: 16px;
   line-height: 21.79px;
   color: #000000;
 }
-.cart7 p{
+
+.cart7 p {
   font-weight: 600;
   font-size: 18px;
   line-height: 24.51px;
@@ -6910,14 +7109,15 @@ select:focus {
   justify-content: space-between;
 }
 
-.cart9 p:nth-child(1){
+.cart9 p:nth-child(1) {
   color: #434343;
   font-size: 16px;
   font-family: Open Sans;
   font-weight: 600;
   line-height: 21.79px;
 }
-.cart9 p:nth-child(2){
+
+.cart9 p:nth-child(2) {
   color: #1A3B5A;
   font-size: 16px;
   font-family: Open Sans;
@@ -6985,13 +7185,13 @@ select:focus {
   padding-left: 20px;
 }
 
-.cart122{
+.cart122 {
   text-align: center;
   margin-top: 20px;
 
 }
 
-.cart122 button{
+.cart122 button {
   width: 163px;
   height: 39px;
   border: none;
@@ -7541,9 +7741,9 @@ select:focus {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-}
+  }
 
-.schrotest4 {
+  .schrotest4 {
     font-family: Open Sans;
     cursor: pointer;
     width: 224px;
@@ -7557,11 +7757,11 @@ select:focus {
     text-align: center;
     padding: 10px;
 
-}
+  }
 
 
 
-.schrotest5 {
+  .schrotest5 {
     font-family: Open Sans;
     cursor: pointer;
     width: 224px;
@@ -7576,7 +7776,8 @@ select:focus {
     text-align: center;
     padding: 10px;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
-}
+  }
+
   .screen20 {
     display: block;
   }
