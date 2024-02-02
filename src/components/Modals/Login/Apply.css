@@ -9,10 +9,8 @@
 
 .Apply12 {
     display: flex;
-    text-align: center;
-    justify-content: space-between;
     align-items: center;
-    gap: 70px;
+    gap: 50px;
 }
 
 .Apply12 h2 {
@@ -23,8 +21,9 @@
 }
 
 .Apply12 img {
-    width: 130px;
-    height: 130px;
+    width: 92px;
+    height: 81px;
+    cursor: pointer;
 }
 
 

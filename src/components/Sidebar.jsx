@@ -68,12 +68,39 @@ const Sidebar = () => {
         </div>
         <div className="side4">
           <div className="side5">
-            <h5>Stream</h5>
+            <h5>City</h5>
             <i class="fa-light fa-dash"></i>
           </div>
           <div className="side6">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="Find Stream" />
+          </div>
+          <div class="checkbox-group">
+                <input type="checkbox" id="checkbox1" />
+                <label for="checkbox1">New Delhi</label>
+                <br />
+                <input type="checkbox" id="checkbox2" />
+                <label for="checkbox2">Chennai</label>
+                <br />
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">Kolkata</label>
+                <br />
+                <input type="checkbox" id="checkbox4" />
+                <label for="checkbox4">Tamil Nadu</label>
+                <br />
+                <input type="checkbox" id="checkbox5" />
+                <label for="checkbox5">Noida</label>
+           </div>
+           <hr className="side7" />
+        </div>
+        <div className="side4">
+          <div className="side5">
+            <h5>Stream</h5>
+            <i class="fa-light fa-dash"></i>
+          </div>
+          <div className="side6">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Find Program Type" />
           </div>
           <div class="checkbox-group">
                 <input type="checkbox" id="checkbox1" />
@@ -85,11 +112,12 @@ const Sidebar = () => {
                 <input type="checkbox" id="checkbox3" />
                 <label for="checkbox3">Arts</label>
                 <br />
-                <input type="checkbox" id="checkbox4" />
-                <label for="checkbox4">Computer Science</label>
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">Computer Science</label>
                 <br />
-                <input type="checkbox" id="checkbox5" />
-                <label for="checkbox5">Commerce</label>
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">Commerce</label>
+                <br />
            </div>
            <hr className="side7" />
         </div>
@@ -100,11 +128,11 @@ const Sidebar = () => {
           </div>
           <div className="side6">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Find Program Type" />
+            <input type="text" placeholder="Entrance Exam" />
           </div>
           <div class="checkbox-group">
                 <input type="checkbox" id="checkbox1" />
-                <label for="checkbox1">Full Time</label>
+                <label for="checkbox1">Full time</label>
                 <br />
                 <input type="checkbox" id="checkbox2" />
                 <label for="checkbox2">Part Time</label>
@@ -122,7 +150,7 @@ const Sidebar = () => {
           </div>
           <div className="side6">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Entrance Exam" />
+            <input type="text" placeholder="Find Program Type" />
           </div>
           <div class="checkbox-group">
                 <input type="checkbox" id="checkbox1" />
@@ -134,20 +162,21 @@ const Sidebar = () => {
                 <input type="checkbox" id="checkbox3" />
                 <label for="checkbox3">MAT</label>
                 <br />
-                <input type="checkbox" id="checkbox4" />
-                <label for="checkbox4">JEE MAIN</label>
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">JEE MAIN</label>
                 <br />
-                <input type="checkbox" id="checkbox5" />
-                <label for="checkbox5">CMAT</label>
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">CMAT</label>
                 <br />
-                <input type="checkbox" id="checkbox5" />
-                <label for="checkbox5">XAT</label>
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">XAT</label>
+                <br />
            </div>
            <hr className="side7" />
         </div>
         <div className="side4">
           <div className="side5">
-            <h5>Average Fee Per Year</h5>
+            <h5>Avg. Fee Per Year</h5>
             <i class="fa-light fa-dash"></i>
           </div>
           <div className="side6">
@@ -156,22 +185,22 @@ const Sidebar = () => {
           </div>
           <div class="checkbox-group">
                 <input type="checkbox" id="checkbox1" />
-                <label for="checkbox1">0-25k</label>
+                <label for="checkbox1">0- 25k [0]</label>
                 <br />
                 <input type="checkbox" id="checkbox2" />
-                <label for="checkbox2">0-35k</label>
+                <label for="checkbox2">25k - 50k [0]</label>
                 <br />
                 <input type="checkbox" id="checkbox3" />
-                <label for="checkbox3">0-50k</label>
+                <label for="checkbox3">50k - 75k [20]</label>
                 <br />
                 <input type="checkbox" id="checkbox4" />
-                <label for="checkbox4">0-100k</label>
+                <label for="checkbox4">75k - 1L [15]</label>
                 <br />
                 <input type="checkbox" id="checkbox5" />
-                <label for="checkbox5">0-300k</label>
+                <label for="checkbox5">1L - 2L [10]</label>
                 <br />
                 <input type="checkbox" id="checkbox5" />
-                <label for="checkbox5">0-500k</label>
+                <label for="checkbox5">Above 2L [102]</label>
            </div>
            <hr className="side7" />
         </div>
@@ -222,6 +251,62 @@ const Sidebar = () => {
         <div className="side4">
           <div className="side5">
             <h5>Affiliation</h5>
+            <i class="fa-light fa-dash"></i>
+          </div>
+          <div className="side6">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Find Affiliation" />
+          </div>
+          <div class="checkbox-group">
+                <input type="checkbox" id="checkbox1" />
+                <label for="checkbox1">Lorem Ipsum</label>
+                <br />
+                <input type="checkbox" id="checkbox2" />
+                <label for="checkbox2">Lorem Ipsum</label>
+                <br />
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">Lorem Ipsum</label>
+                <br />
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">Lorem Ipsum</label>
+                <br />
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">Lorem Ipsum</label>
+                <br />
+           </div>
+           <hr className="side7" />
+        </div>
+        <div className="side4">
+          <div className="side5">
+            <h5>Course Duration </h5>
+            <i class="fa-light fa-dash"></i>
+          </div>
+          <div className="side6">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Find Affiliation" />
+          </div>
+          <div class="checkbox-group">
+                <input type="checkbox" id="checkbox1" />
+                <label for="checkbox1">Lorem Ipsum</label>
+                <br />
+                <input type="checkbox" id="checkbox2" />
+                <label for="checkbox2">Lorem Ipsum</label>
+                <br />
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">Lorem Ipsum</label>
+                <br />
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">Lorem Ipsum</label>
+                <br />
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3">Lorem Ipsum</label>
+                <br />
+           </div>
+           <hr className="side7" />
+        </div>
+        <div className="side4">
+          <div className="side5">
+            <h5>Institute Grade</h5>
             <i class="fa-light fa-dash"></i>
           </div>
           <div className="side6">

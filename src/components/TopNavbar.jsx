@@ -1,14 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import img28 from "../Images/c1.png";
-import Dropdown from "react-bootstrap/Dropdown";
 import Modal from "react-bootstrap/Modal";
-import img27 from "../Images/c59.png";
 import logo from '../Images/logo.png'
 import MoreModal from "./Modals/MoreModal";
 import login from '../Images/loginpage.png'
 import google from '../Images/google.png'
-
+import prfileicon from '../Images/profileimg.png'
 const TopNavbar = (props) => {
   const navigate = useNavigate();
   const [showNavbar, setShowNavbar] = useState(false);
@@ -56,6 +53,13 @@ const TopNavbar = (props) => {
   const closeRegistratatiomodal = () => {
     setRegistratationmodalOpen(false);
   }
+  const initialShowProfile = localStorage.getItem('showProfile') === 'true';
+
+  const [showProfile, setShowProfile] = useState(initialShowProfile);
+
+  useEffect(() => {
+    localStorage.setItem('showProfile', showProfile);
+  }, [showProfile]);
 
 
   function NavMenu() {
@@ -197,10 +201,7 @@ const TopNavbar = (props) => {
       name: "Mock Test",
       link: "/mocktest",
     },
-    // {
-    //   name: "Institute",
-    //   link: "/screen2",
-    // },
+
     {
       name: "College Predictor",
       link: '/college-predictor',
@@ -218,42 +219,16 @@ const TopNavbar = (props) => {
       name: "Review a College",
       link: '/review',
     },
-  
-    // {
-    //   name: "Test and Services  ",
-    //   link: "/test",
-    // },
+
     {
       name: "One stop solution",
       link: '/one-stop-solution',
     },
 
-    // {
-    //   name: "Loan",
-    //   link: "/loan",
-    // },
-
     {
       name: "Become a Partner",
       link: '/become-partner',
     },
-
-    // {
-    //   name: "Counsellor Connect",
-    //   link: "/council-connect",
-    // },
-    // {
-    //   name: "Become a partner",
-    //   link: "/become-partner",
-    // },
-    // {
-    //   name: "One Stop Solution",
-    //   link: "/one-stop",
-    // },
-    // {
-    //   name: "Profile",
-    //   link: "/profile",
-    // },
   ];
 
 
@@ -373,6 +348,13 @@ const TopNavbar = (props) => {
     );
   }
 
+  const handleotpclose1 = () => {
+
+    setotpshow(false)
+    setShowProfile(true)
+
+  }
+
   const [otpshow, setotpshow] = useState(false);
   const [otp, setOtp] = useState(['', '', '', '', '', '']);
 
@@ -416,7 +398,7 @@ const TopNavbar = (props) => {
                 </div>
               </div>
               <div className="login9">
-                <button>Submit</button>
+                <button onClick={() => handleotpclose1()}>Submit</button>
               </div>
             </div>
           </>
@@ -455,16 +437,16 @@ const TopNavbar = (props) => {
               </div>
             ))}
             <p
-              onClick={() => navigate("/exam")}
-              style={{ color: props.color }}
-            >
-              Exams
-            </p>
-            <p
               onClick={() => navigate("/courses")}
               style={{ color: props.color }}
             >
               Courses
+            </p>
+            <p
+              onClick={() => navigate("/exam")}
+              style={{ color: props.color }}
+            >
+              Exams
             </p>
 
             <p
@@ -473,9 +455,6 @@ const TopNavbar = (props) => {
             >
               Scholarships
             </p>
-            {/* <div ref={dropdownRef}>
-                <p onClick={() => setShowNavbar2(true)} style={{color:props.color}}>Scholarships</p>
-              </div>  */}
             <p
               onClick={() => navigate("/loan")}
               style={{ color: props.color }}
@@ -486,7 +465,7 @@ const TopNavbar = (props) => {
               Common Application
             </p>
             <p onClick={() => navigate("/careers")} style={{ color: props.color }}>
-            Careers
+              Careers
             </p>
 
             <p onClick={() => navigate("/hostels")} style={{ color: props.color }}>
@@ -509,9 +488,21 @@ const TopNavbar = (props) => {
               </MoreModal>
             )}
 
-            <div>
-              <button className="loginn" onClick={() => setShow(true)}>Log In</button>
-            </div>
+            {showProfile ? (
+              <div className="profileicons">
+                <p style={{ color: props.color }}>
+                  <img src={prfileicon} alt="jjjj" onClick={() => navigate('/profile')} />
+                </p>
+              </div>
+
+
+            ) : (
+              <div>
+                <button className="loginn" onClick={() => setShow(true)}>
+                  Login
+                </button>
+              </div>
+            )}
 
 
 
@@ -552,7 +543,7 @@ const TopNavbar = (props) => {
 
       {/* <div className="nav-course">
         <div className="newNav2">
-          <div className="drop3">
+          <div className="drop4">
             {data1.map((i, index) => (
               <div ref={dropdownRef}>
                 <p style={{ color: props.color }}> {i} </p>

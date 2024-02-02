@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import Modal from "react-bootstrap/Modal";
 import './Apply.css'
-import logo from '../../../Images/logo.png'
+import logo from '../../../Images/applylogo.png'
 import { FaRegUser } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaGraduationCap } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -25,17 +26,19 @@ const ApplyNowModal = (props) => {
 
         setOtp(newOtp);
     };
+
+    const navigate = useNavigate()
     return (
         <Modal
             {...props}
             size="sl"
             aria-labelledby="contained-modal-title-vcenter"
             centered
-        >
+            >
             <Modal.Body>
                 <div className="Apply11">
                     <div className="Apply12">
-                        <img src={logo} alt="" />
+                        <img src={logo} alt="" onClick={()=>navigate('/')} />
                         <h2>Register Now To Apply</h2>
                     </div>
 

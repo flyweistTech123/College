@@ -55,7 +55,7 @@ const Footer = () => {
             <p className="foot5">Delhi</p>
             <p className="foot5">Maharashtra</p>
             <p className="foot5">West Bengal</p>
-            <p className="foot5">Madhya Pradesh</p>
+            <p className="foot5" style={{color:"#FFFFFF"}}>Madhya Pradesh</p>
           </div>
         </div>
         <div className="foot8">
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
         <hr className="foot6" />
         <div className="foot7">
-          <h3>Terms & Conditions | Privacy Policy | 2023 College Hub Internet Co.</h3>
+          <h3> <span style={{color:'#353535'}}>Terms & Conditions</span> | Privacy Policy | 2023 College Hub Internet Co.</h3>
         </div>
       </div>
     </>
