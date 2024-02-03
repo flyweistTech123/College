@@ -36,7 +36,6 @@ const JEEMaintest = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    const navigate = useNavigate();
     const [step, setStep] = useState(0);
     const incCnt = () => {
         setStep((prev) => prev + 1);

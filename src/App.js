@@ -55,6 +55,8 @@ import Careers from "./components/Careers/Careers";
 import EngineeringCareers from "./components/Careers/EngineeringCareers/Engineering";
 import ElectricalEngineering from "./components/Careers/EngineeringCareers/Electrical_enginer";
 import JEEMaintest from "./components/ScholarshipTest/JeeMaintest/JeeMaintest";
+import Community from "./components/Community/Community";
+import Compare from "./components/Community/Compare";
 
 function App() {
   return (
@@ -115,6 +117,8 @@ function App() {
           <Route path="/engineeringcareers" element={<EngineeringCareers />} />
           <Route path="/electricalengineering" element={<ElectricalEngineering />} />
           <Route path="/jeemaintestinstructions" element={<JEEMaintest />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/compare" element={<Compare />} />
         </Routes>
       </BrowserRouter>
     </>

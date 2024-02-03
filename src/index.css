@@ -14,8 +14,8 @@ body {
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
-  width: 0;
+::-webkit-scrollbar {
+  display: none;
 }
 
 code {
