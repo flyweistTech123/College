@@ -1,7 +1,7 @@
 .review21{
     width: 90%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .review22 h1{
@@ -21,7 +21,56 @@
 }
 
 
+.review23{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.review23 h6{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #4B4B4B;
+}
+
+.review24{
+    width: 238px;
+    height: 47px;
+    border: 1px solid #8F8F8F;
+    border-radius: 6px;
+    position: relative;
+}
+
+.review24 p{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #4B4B4B;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.review24 img{
+    position: absolute;
+    width: 188px;
+    height: 47px;
+    bottom: 0.1px;
+    left: 0;
+}
 
 
 
+.review25{
+    display: flex;
+}
+
+
+.review26 {
+
+}
   
