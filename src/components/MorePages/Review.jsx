@@ -44,7 +44,7 @@ const Review = () => {
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
           <div className="schro3">
-            <button onClick={() => navigate("/screen2")}>
+            <button onClick={() => navigate("/writereview")}>
               Start Writing Your Review
             </button>
           </div>
@@ -58,7 +58,7 @@ const Review = () => {
 
         <div className="review23">
           <h6>Unlock Your Referral Code to Start Earning</h6>
-          <div className="review24">
+          <div className="review24" >
             <img src={refercode} alt="" />
             <p>Unlock Code CCOO980 </p>
           </div>

@@ -57,6 +57,7 @@ import ElectricalEngineering from "./components/Careers/EngineeringCareers/Elect
 import JEEMaintest from "./components/ScholarshipTest/JeeMaintest/JeeMaintest";
 import Community from "./components/Community/Community";
 import Compare from "./components/Community/Compare";
+import WritingReview from "./components/WritingReview/WritingReview";
 
 function App() {
   return (
@@ -119,6 +120,7 @@ function App() {
           <Route path="/jeemaintestinstructions" element={<JEEMaintest />} />
           <Route path="/community" element={<Community />} />
           <Route path="/compare" element={<Compare />} />
+          <Route path="/writereview" element={<WritingReview />} />
         </Routes>
       </BrowserRouter>
     </>
