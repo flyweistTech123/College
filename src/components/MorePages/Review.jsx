@@ -10,6 +10,9 @@ import refer1 from '../../Images/refer12.png'
 import refer2 from '../../Images/refer13.png'
 import refer3 from '../../Images/refer14.png'
 import refer4 from '../../Images/refer15.png'
+import refer5 from '../../Images/review16.png'
+import refer6 from '../../Images/review17.png'
+import refer7 from '../../Images/review18.png'
 
 
 const Review = () => {
@@ -77,6 +80,16 @@ const Review = () => {
           <div className="review26">
             <img src={refer4} alt="" />
             <p>Rahul 4th Winner</p>
+          </div>
+
+          <div className="review26">
+            <div className="review27">
+              <img src={refer5} alt="" />
+              <img src={refer6} alt="" />
+              <img src={refer7} alt="" />
+            </div>
+
+            <p>7+more Winners</p>
           </div>
         </div>
         <div className="review22">
