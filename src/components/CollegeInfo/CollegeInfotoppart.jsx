@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import TopNavbar from "../TopNavbar";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdMessage } from "react-icons/md";
@@ -11,11 +11,17 @@ import img26 from "../../Images/Rectangle 71.png";
 import img27 from '../../Images/Rectangle 4.png'
 import img28 from '../../Images/clginfo.png'
 import {useNavigate, useLocation} from "react-router-dom";
+import Shortlist from '../Modals/Login/Shortlist';
+import Brochure from '../Modals/Login/Brochure';
 
 
 export const CollegeInfotoppart = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const [modalShow, setModalShow] = useState(false);
+  const [modalShow2, setModalShow2] = useState(false);
+
+
   return (
     <>
       <div className="ingooo1">
@@ -46,11 +52,16 @@ export const CollegeInfotoppart = () => {
         <div className="ingooo7">
           <p>The National Institutional Ranking Framework (NIRF) has been accepted by the MoE and launched by Hono</p>
           <div className="ingooo8">
-            <button>Shortlist For Common Application</button>
-            <button>Brochure <MdDownload /></button>
+            <button  onClick={() => setModalShow(true)}>Shortlist For Common Application</button>
+            <button onClick={() => setModalShow2(true)}>Brochure <MdDownload /></button>
           </div>
         </div>
       </div>
+      
+      <Shortlist show={modalShow}
+        onHide={() => setModalShow(false)} />
+           <Brochure show={modalShow2}
+        onHide={() => setModalShow2(false)} />
     </>
 
   )

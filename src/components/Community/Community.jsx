@@ -41,7 +41,7 @@ import './Community.css'
 
 
 const Community = () => {
-    const navigate  = useNavigate()
+    const navigate = useNavigate()
     const [step, setStep] = useState(0);
     const incCnt = () => {
         setStep((prev) => prev + 1);
@@ -78,7 +78,7 @@ const Community = () => {
 
                         <div className="community4">
                             <img src={img28} alt="" />
-                            <h2>Jamia Millia Islamia -[JMI]: Admission 2023 (open), Rankings,Courses, Cutoff, Placement,Scholarship</h2>
+                            <h2>Jamia Millia Islamia -[JMI]: Admission 2023 (open) New Delhi - Community</h2>
                             <div className='community9'>
                                 <p>Start Conversation On OfficialAdmission Community</p>
                                 {step == 1 ? (
@@ -471,7 +471,7 @@ const Community = () => {
                                 </div>
 
                                 <div className='community45'>
-                                    <button onClick={()=>navigate('/compare')}>Compare</button>
+                                    <button onClick={() => navigate('/compare')}>Compare</button>
                                 </div>
                             </div>
                         </div>
@@ -617,7 +617,20 @@ const Community = () => {
             )}
 
 
-
+            <div className="home60">
+                <div className="home61">
+                    <h1>Subscribe To Our NewsLetter</h1>
+                    <div className="home62">
+                        <input type="text" name="" id="" placeholder="Name" />
+                        <input type="text" name="" id="" placeholder="Mobile" />
+                        <input type="email" name="" id="" placeholder="Email" />
+                        <input type="text" name="" id="" placeholder="Your Stream" />
+                    </div>
+                    <div className="home63">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
 
 
             <Footer />
