@@ -1,17 +1,29 @@
 .now1323 {
   margin-top: 20px;
+  width: 80%;
+}
+
+.conatiner_screen232345{
+  width: 95%;
+  margin: auto;
 }
 
 .conatiner_screen2323 {
   display: flex;
   border-top: 1px solid #9a9a9a;
-  margin-top: 50px;
   gap: 20px;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.conatiner_screen23234{
+  width: 20%;
 }
 
 .filt1 {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
 }
 
 .filt2 {
@@ -69,7 +81,7 @@
 
 .filt50 {
   display: flex;
-  gap: 170px;
+  justify-content: space-between;
 }
 
 .filt50 button {
@@ -116,8 +128,8 @@
 
 .now221 {
   display: flex;
-  gap: 120px;
   margin-top: 40px;
+  justify-content: space-between;
 }
 
 .now3 button {
@@ -412,7 +424,7 @@
 
 .filt40 {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
   margin-top: 50px;
 }
 

@@ -152,7 +152,7 @@ const Courses = () => {
         <h1>Don’t Know What to Choose Choose by your level ?</h1>
 
         <div className="course2" >
-          <div className="course3">
+          <div className="course3" onClick={()=>navigate('/courses_details')}>
             <div className="course4">
               <img src={course1} alt="" />
               <div className="course5">

@@ -42,8 +42,9 @@ const Screen2 = () => {
         </div>
       </div>
 
+      <div className="conatiner_screen232345">
       <div className="conatiner_screen2323">
-        <div className="">
+        <div className="conatiner_screen23234">
           <Sidebar />
         </div>
 
@@ -1784,6 +1785,9 @@ const Screen2 = () => {
           </div>
         </div>
       </div>
+      </div>
+
+
       <Footer />
 
     </>

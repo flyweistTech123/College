@@ -58,6 +58,8 @@ import JEEMaintest from "./components/ScholarshipTest/JeeMaintest/JeeMaintest";
 import Community from "./components/Community/Community";
 import Compare from "./components/Community/Compare";
 import WritingReview from "./components/WritingReview/WritingReview";
+import Courses_details from "./components/Course/Course_details";
+import Course_Review from "./components/Course/Course_Review";
 
 function App() {
   return (
@@ -121,6 +123,8 @@ function App() {
           <Route path="/community" element={<Community />} />
           <Route path="/compare" element={<Compare />} />
           <Route path="/writereview" element={<WritingReview />} />
+          <Route path="/courses_details" element={<Courses_details />} />
+          <Route path="/course_review" element={<Course_Review />} />
         </Routes>
       </BrowserRouter>
     </>

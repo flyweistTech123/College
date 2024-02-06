@@ -956,7 +956,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home25">
-          <h2>Top Featured Colleges</h2>
+          <h2 style={{marginBottom:'50px'}}>Top Featured Colleges</h2>
           <div className="home26">
             <div className="home29">
               <button className="home27"><MdOutlineSort /> City Name <FaAngleDown /></button>

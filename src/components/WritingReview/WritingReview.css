@@ -1,5 +1,6 @@
 .writereview {
   text-align: center;
+  margin-top: 50px;
 }
 
 .writereview h3 {
@@ -214,7 +215,7 @@
   background: #ffffff;
   margin-top: 30px;
   width: 100%;
-  height: 3443px;
+  height: auto;
   padding: 50px;
 }
 
