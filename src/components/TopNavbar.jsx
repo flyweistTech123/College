@@ -471,6 +471,9 @@ const TopNavbar = (props) => {
             <p onClick={() => navigate("/hostels")} style={{ color: props.color }}>
               Hostels
             </p>
+            <p onClick={() => navigate("/hostels")} style={{ color: props.color }}>
+              Internships
+            </p>
             <p style={{ color: props.color }} onClick={openMoremodal}>
               More
             </p>
@@ -503,55 +506,10 @@ const TopNavbar = (props) => {
                 </button>
               </div>
             )}
-
-
-
-            {/* <p style={{ color: props.color }}>
-              <span onClick={handleShow} className="modal-trigger">
-                More
-              </span>
-
-              <Modal show={showModal} onHide={handleClose} className="modalll12">
-                <Modal.Header closeButton>
-                  <Modal.Title>More</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  <ul className="custom-dropdown">
-                    {moreMenu.map((ele, i) => (
-                      <li key={i}>
-                        <a href={ele?.link}>{ele?.name}</a>
-                      </li>
-                    ))}
-                  </ul>
-                </Modal.Body>
-              </Modal>
-            </p> */}
           </div>
 
         </div>
-        {/* <div className="newNav3">
-          <div className="login10" style={{ marginTop: "-31px" }}>
-            <i class="fa-solid fa-user" style={{ color: props.color }}></i>
-            <p onClick={() => setShow(true)} style={{ color: props.color }}>
-            Log In
-            </p>
-          </div>
-        </div> */}
       </div>
-
-
-
-      {/* <div className="nav-course">
-        <div className="newNav2">
-          <div className="drop4">
-            {data1.map((i, index) => (
-              <div ref={dropdownRef}>
-                <p style={{ color: props.color }}> {i} </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div> */}
       {showNavbar ? <NavMenu2 /> : ""}
       {showNavbar2 ? <NavMenu /> : ""}
       <MyVerticallyCenteredModal show={show} onHide={() => setShow(false)} />

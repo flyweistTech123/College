@@ -12,6 +12,7 @@ import img8 from "../Images/c57.png";
 import img9 from "../Images/c58.png";
 import img6 from "../Images/c55.png";
 import cap from '../Images/cap.png'
+import newimg from '../Images/newimg.png'
 import { IoIosArrowForward } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
 
@@ -23,7 +24,7 @@ import CollegeInfotoppart from "./CollegeInfo/CollegeInfotoppart";
 
 const Admission = () => {
   const [show, setShow] = useState(false);
-  
+
   const [flag, setFlag] = useState(false)
 
   const getFlag = () => {
@@ -41,7 +42,10 @@ const Admission = () => {
       <TopPart />
       <div className="clg14">
         <div className="clg15">
-        <div className="ingooo20">
+          <div className="clg155">
+            <p>Ad Management</p>
+          </div>
+          <div className="ingooo20">
             <h5>Highlights for Jamia Miliya Isalamia University,</h5>
             <div className="clg23">
               <div className="clg24">
@@ -63,7 +67,7 @@ const Admission = () => {
                   <img src={img3} alt="" />
                   <p>Accepted Exams</p>
                 </div>
-                <p>JEE, JEE Mains, JEE Advance, APCET, GMAT,GPAT,ACET,CLAT,ACET,BBA,GPAT,EAMCET ,NEET .</p>
+                <p>JEE, JEE Mains, JEE Advance, APCET, GMAT,GPAT,ACET,CLAT,ACET,BBA</p>
               </div>
               <div className="clg24">
                 <div className="ingooo10">
@@ -189,6 +193,51 @@ const Admission = () => {
           </div>
 
           <div className="clg3011">
+            <div className="newclasas1">
+              <p>Students aslo visited</p>
+              <div className="newclasas4">
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="clg3011">
             <div className="ingooo11">
               <img src={cap} alt="" />
               <div className="ingooo12">
@@ -214,6 +263,20 @@ const Admission = () => {
               <button>Show Phone & Email</button>
               <button>Go To College Website -- <IoIosArrowForward /></button>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="home60">
+        <div className="home61">
+          <h1>Subscribe To Our NewsLetter</h1>
+          <div className="home62">
+            <input type="text" name="" id="" placeholder="Name" />
+            <input type="text" name="" id="" placeholder="Mobile" />
+            <input type="email" name="" id="" placeholder="Email" />
+            <input type="text" name="" id="" placeholder="Your Stream" />
+          </div>
+          <div className="home63">
+            <button>Submit</button>
           </div>
         </div>
       </div>

@@ -28,6 +28,12 @@ import img24 from "../Images/c24.png";
 import img25 from "../Images/c25.png";
 import img26 from "../Images/c26.png";
 import IIt2 from '../Images/IIT2.png'
+import star from '../Images/star122.png'
+import clgcity1 from '../Images/clgcity.png'
+import clgcity2 from '../Images/clgcity1.png'
+import clgcity3 from '../Images/clgcity2.png'
+import clgcity4 from '../Images/clgcity3.png'
+import clgcity5 from '../Images/clgcity4.png'
 import jain from '../Images/jain.png'
 import Dropdown from "react-bootstrap/Dropdown";
 import collection1 from '../Images/collection1.png'
@@ -421,43 +427,43 @@ const Home = () => {
           <div className="home8">
             <Slider {...settings4}>
               <div className="home9" onClick={() => navigate("/screen2")}>
-                <img src={img4} alt="" />
+                <img src={clgcity1} alt="" />
                 <p>Delhi</p>
               </div>
               <div className="home9" onClick={() => navigate("/screen2")} >
-                <img src={img5} alt="" />
+                <img src={clgcity2} alt="" />
                 <p>Mumbai</p>
               </div>
               <div className="home9" onClick={() => navigate("/screen2")}>
-                <img src={img6} alt="" />
+                <img src={clgcity3} alt="" />
                 <p>Kolkata</p>
               </div>
               <div className="home9" onClick={() => navigate("/screen2")} >
-                <img src={img7} alt="" />
+                <img src={clgcity4} alt="" />
                 <p>Chennai</p>
               </div>
               <div className="home9" onClick={() => navigate("/screen2")} >
-                <img src={img8} alt="" />
+                <img src={clgcity3} alt="" />
                 <p>Agra</p>
               </div>
               <div className="home9" onClick={() => navigate("/screen2")} >
-                <img src={img9} alt="" />
+                <img src={clgcity5} alt="" />
                 <p>Jaipur</p>
               </div>
               <div className="home9" onClick={() => navigate("/screen2")} >
-                <img src={img9} alt="" />
+                <img src={clgcity5} alt="" />
                 <p>Jaipur</p>
               </div>
               <div className="home9" onClick={() => navigate("/screen2")} >
-                <img src={img9} alt="" />
+                <img src={clgcity5} alt="" />
                 <p>Jaipur</p>
               </div>
               <div className="home9" onClick={() => navigate("/screen2")} >
-                <img src={img9} alt="" />
+                <img src={clgcity5} alt="" />
                 <p>Jaipur</p>
               </div>
               <div className="home9" onClick={() => navigate("/screen2")} >
-                <img src={img9} alt="" />
+                <img src={clgcity5} alt="" />
                 <p>Jaipur</p>
               </div>
             </Slider>
@@ -557,13 +563,18 @@ const Home = () => {
             <Slider {...settings2}>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -591,17 +602,23 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -629,17 +646,23 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -666,17 +689,23 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -702,17 +731,23 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -739,25 +774,35 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
             </Slider>
           </div>
         </div>
 
+
         <div className="home10">
-          <h2>Top Universities</h2>
+          <div className="home10789">
+            <h2>Top Universities</h2>
+            <p>View All</p>
+          </div>
           <div className="home11">
             <Slider {...settings2}>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -785,17 +830,23 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -823,17 +874,23 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -860,17 +917,23 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -896,17 +959,23 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
               <div className="home12">
                 <img className="home12img" src={img10} alt="" onClick={() => navigate("/college-info")} />
+                <div className="filt22star">
+                  <div className="ratingstar11">
+                    <img src={star} alt="" />
+                    <h5>9.5/10</h5>
+                  </div>
+                </div>
                 <div className="home13">
                   <div className="home14">
                     <h4>Jamai milia islamia</h4>
                     <p>30,000 yearly</p>
                   </div>
                   <div className="home15">
-                    <h5><i class="fa-solid fa-star"></i> 9.5/10</h5>
                     <p>20.5k Reviews</p>
                   </div>
                 </div>
@@ -933,6 +1002,7 @@ const Home = () => {
                 </div>
                 <div className="home177">
                   <button onClick={() => setModalShow(true)}>Apply Now</button>
+                  <button onClick={() => navigate('/compare')}>Compare</button>
                 </div>
               </div>
             </Slider>
@@ -940,8 +1010,11 @@ const Home = () => {
         </div>
 
         <div className="home30">
-          <h2>Top Collections</h2>
 
+          <div className="home10789">
+            <h2>Top Collections</h2>
+            <p>View All</p>
+          </div>
           <div className="home31">
             <img src={collection1} alt="" />
             <img src={collection2} alt="" />
@@ -956,7 +1029,10 @@ const Home = () => {
           </div>
         </div>
         <div className="home25">
-          <h2 style={{marginBottom:'50px'}}>Top Featured Colleges</h2>
+          <div className="home10789">
+            <h2>Top Featured Colleges</h2>
+            <p>View All</p>
+          </div>
           <div className="home26">
             <div className="home29">
               <button className="home27"><MdOutlineSort /> City Name <FaAngleDown /></button>
@@ -1222,10 +1298,10 @@ const Home = () => {
         onHide={() => setModalShow(false)} />
 
       <Footer />
-      {/* <div className="home555">
+      <div className="home555">
         <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
         <button onClick={() => setModalShow(true)}>Apply Now!</button>
-      </div> */}
+      </div>
       <Offcanvas show={showt} onHide={handleClose}>
         <Offcanvas.Header closeButton></Offcanvas.Header>
         <Offcanvas.Body>

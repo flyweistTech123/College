@@ -34,19 +34,27 @@
   
   .ingooo4 {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
     position: absolute;
     top: 200px;
-    gap: 30px;
-    padding: 10px;
+    left: 60px;
   }
-  .ingooo4 img{
+  .ingooo41{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+  }
+  .ingooo41 img{
     width: 98px;
     height: 100px;
   }
   
-  .ingooo4 h2 {
+  .ingooo41 h2 {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 43.58px;
     color: #FFFFFF;
   }
@@ -420,4 +428,77 @@
   color: #000000;
   text-align: center;
   width: 32%;
+}
+
+
+
+
+
+.newclasas1{
+
+}
+
+.newclasas1 p{
+  font-family: 'Manrope', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21.86px;
+  color: #001848;
+  text-align: center;
+  margin: 0;
+}
+
+
+.newclasas2{
+  display: flex;
+  gap: 10px;
+  border-top: 1px solid #BCBCBC;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+.newclasas2 img{
+  width: 45px;
+  height: 45px;
+}
+
+.newclasas3{
+}
+
+.newclasas3 h6{
+  font-family: 'Manrope', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.86px;
+  color: #000000;
+  margin: 0;
+}
+
+
+.newclasas3 span{
+  font-family: 'Manrope', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.86px;
+  color: #3D3D3D;
+  margin: 0;
+}
+
+.newclasas3 h5{
+  font-family: 'Manrope', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.86px;
+  color: #F4BC1C;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.newclasas4{
+  margin-top: 10px;
 }

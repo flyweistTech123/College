@@ -12,6 +12,7 @@ import img7 from "../Images/c56.png";
 import img8 from "../Images/c57.png";
 import img9 from "../Images/c58.png";
 import cap from '../Images/cap.png';
+import newimg from '../Images/newimg.png'
 import { IoIosArrowForward } from "react-icons/io";
 
 
@@ -41,6 +42,9 @@ const Gallery = () => {
       <TopPart />
       <div className="clg14">
         <div className="clg15">
+          <div className="clg155">
+            <p>Ad Management</p>
+          </div>
           <div className="gal1">
             <h4>Infrastructure Image</h4>
             <div className="gal2">
@@ -158,6 +162,51 @@ const Gallery = () => {
           </div>
 
           <div className="clg3011">
+            <div className="newclasas1">
+              <p>Students aslo visited</p>
+              <div className="newclasas4">
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="clg3011">
             <div className="ingooo11">
               <img src={cap} alt="" />
               <div className="ingooo12">
@@ -183,6 +232,20 @@ const Gallery = () => {
               <button>Show Phone & Email</button>
               <button>Go To College Website -- <IoIosArrowForward /></button>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="home60">
+        <div className="home61">
+          <h1>Subscribe To Our NewsLetter</h1>
+          <div className="home62">
+            <input type="text" name="" id="" placeholder="Name" />
+            <input type="text" name="" id="" placeholder="Mobile" />
+            <input type="email" name="" id="" placeholder="Email" />
+            <input type="text" name="" id="" placeholder="Your Stream" />
+          </div>
+          <div className="home63">
+            <button>Submit</button>
           </div>
         </div>
       </div>

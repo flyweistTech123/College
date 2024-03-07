@@ -13,6 +13,7 @@ import img6 from "../Images/c113.png";
 import img8 from "../Images/c57.png";
 import img9 from "../Images/c58.png";
 import cap from '../Images/cap.png'
+import newimg from '../Images/newimg.png'
 
 
 import MobileLoanNavbar from "./MobileLoanNavabr";
@@ -43,6 +44,9 @@ const Infrastructure = () => {
       <TopPart />
       <div className="clg14">
         <div className="clg15">
+          <div className="clg155">
+            <p>Ad Management</p>
+          </div>
           <div className="infra1">
             <div className="infra2">
               <div className="infra3">
@@ -71,116 +75,116 @@ const Infrastructure = () => {
               </div>
             </div>
           </div>
-            <div className="infra4">
-                <h5>Library</h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
-            <div className="infra4">
-                <h5> DigitalLibrary</h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
-            <div className="infra4">
-                <h5>Network Facilities</h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
-            <div className="infra4">
-                <h5>Cisco Networking Academy</h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
-            <div className="infra4">
-                <h5>Hostels</h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
-            <div className="infra4">
-                <h5>Sports Facilities</h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
-            <div className="infra4">
-                <h5>Guest House</h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
-            <div className="infra4">
-                <h5>Canteen</h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
-            <div className="infra4">
-                <h5>Amenities Complex</h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
-            <div className="infra4">
-                <h5>Banks & ATM </h5>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum 
-                    est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin 
-                    lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-                     lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-                     himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec 
-                     ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. 
-                     Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                </p>
-            </div>
+          <div className="infra4">
+            <h5>Library</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
+          <div className="infra4">
+            <h5> DigitalLibrary</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
+          <div className="infra4">
+            <h5>Network Facilities</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
+          <div className="infra4">
+            <h5>Cisco Networking Academy</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
+          <div className="infra4">
+            <h5>Hostels</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
+          <div className="infra4">
+            <h5>Sports Facilities</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
+          <div className="infra4">
+            <h5>Guest House</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
+          <div className="infra4">
+            <h5>Canteen</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
+          <div className="infra4">
+            <h5>Amenities Complex</h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
+          <div className="infra4">
+            <h5>Banks & ATM </h5>
+            <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+              est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin
+              lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
+              lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec
+              ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+              Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+            </p>
+          </div>
         </div>
         <div className="clg16">
           <div className="clg30">
@@ -247,6 +251,51 @@ const Infrastructure = () => {
           </div>
 
           <div className="clg3011">
+            <div className="newclasas1">
+              <p>Students aslo visited</p>
+              <div className="newclasas4">
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+                <div className="newclasas2">
+                  <img src={newimg} alt="" />
+                  <div className="newclasas3">
+                    <h6>India institute of Management [ IIM ]</h6>
+                    <span>Indore, Madhya Pradesh | 8.7 / 10</span><br />
+                    <span>BE/B.Tech</span>
+                    <h5> ₹ 46.09 k First Year Fees</h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="clg3011">
             <div className="ingooo11">
               <img src={cap} alt="" />
               <div className="ingooo12">
@@ -272,6 +321,20 @@ const Infrastructure = () => {
               <button>Show Phone & Email</button>
               <button>Go To College Website -- <IoIosArrowForward /></button>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="home60">
+        <div className="home61">
+          <h1>Subscribe To Our NewsLetter</h1>
+          <div className="home62">
+            <input type="text" name="" id="" placeholder="Name" />
+            <input type="text" name="" id="" placeholder="Mobile" />
+            <input type="email" name="" id="" placeholder="Email" />
+            <input type="text" name="" id="" placeholder="Your Stream" />
+          </div>
+          <div className="home63">
+            <button>Submit</button>
           </div>
         </div>
       </div>

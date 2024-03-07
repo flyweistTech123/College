@@ -10,7 +10,7 @@ import { FaStar } from "react-icons/fa6";
 import img26 from "../../Images/Rectangle 71.png";
 import img27 from '../../Images/Rectangle 4.png'
 import img28 from '../../Images/clginfo.png'
-import {useNavigate, useLocation} from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import Shortlist from '../Modals/Login/Shortlist';
 import Brochure from '../Modals/Login/Brochure';
 
@@ -30,12 +30,13 @@ export const CollegeInfotoppart = () => {
           <img src={img27} alt="" />
         </div>
         <div className="ingooo3">
-          <TopNavbar color="#1A3B5A" />
-
+          <TopNavbar />
           <div className="ingooo4">
-            <img src={img28} alt="" />
-            <h2>Jamia Millia Islamia -[JMI]: Admission 2023 (open), Rankings,Courses, Cutoff, Placement,Scholarship</h2>
-            <button onClick={()=>navigate("/gallery")}> <IoMdPhotos /> View Gallery</button>
+            <div className='ingooo41'>
+              <img src={img28} alt="" />
+              <h2>Jamia Millia Islamia -[JMI]: Admission 2023 (open), Rankings,Courses, Cutoff, Placement,Scholarship</h2>
+            </div>
+            <button onClick={() => navigate("/gallery")}> <IoMdPhotos /> View Gallery</button>
           </div>
         </div>
       </div>
@@ -52,15 +53,15 @@ export const CollegeInfotoppart = () => {
         <div className="ingooo7">
           <p>The National Institutional Ranking Framework (NIRF) has been accepted by the MoE and launched by Hono</p>
           <div className="ingooo8">
-            <button  onClick={() => setModalShow(true)}>Shortlist For Common Application</button>
+            <button onClick={() => setModalShow(true)}>Shortlist For Common Application</button>
             <button onClick={() => setModalShow2(true)}>Brochure <MdDownload /></button>
           </div>
         </div>
       </div>
-      
+
       <Shortlist show={modalShow}
         onHide={() => setModalShow(false)} />
-           <Brochure show={modalShow2}
+      <Brochure show={modalShow2}
         onHide={() => setModalShow2(false)} />
     </>
 
