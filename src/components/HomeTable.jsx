@@ -3,9 +3,13 @@ import img from "../Images/c91.png";
 import img2 from "../Images/c92.png";
 import img3 from "../Images/c106.png";
 import ApplyNowModal from "./Modals/Login/Apply";
+import Brochure from './Modals/Login/Brochure';
+import { useNavigate } from "react-router-dom";
 
 const HomeTable = () => {
   const [modalShow, setModalShow] = useState(false);
+  const [modalShow2, setModalShow2] = useState(false);
+  const navigate = useNavigate();
   const data = [
     {
       id: 1,
@@ -194,8 +198,8 @@ const HomeTable = () => {
                     <div className="table13">
                       <button onClick={() => setModalShow(true)}>Apply Now</button>
                       <div className="table13121">
-                        <button onClick={() => setModalShow(true)}>Brochure</button>
-                        <button onClick={() => setModalShow(true)}>Compare</button>
+                        <button onClick={() => setModalShow2(true)}>Brochure</button>
+                        <button  onClick={() => navigate('/compare')}>Compare</button>
                       </div>
                     </div>
                   </td>
@@ -207,6 +211,8 @@ const HomeTable = () => {
       </div>
       <ApplyNowModal show={modalShow}
         onHide={() => setModalShow(false)} />
+      <Brochure show={modalShow2}
+        onHide={() => setModalShow2(false)} />
     </>
   );
 };

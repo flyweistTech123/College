@@ -29,6 +29,8 @@ import career20 from '../../Images/career20.png'
 import career21 from '../../Images/career21.png'
 import career22 from '../../Images/career22.png'
 import career23 from '../../Images/career23.png'
+import career24 from '../../Images/career24.png'
+import ApplyNowModal from "../Modals/Login/Apply";
 
 
 const Careers = () => {
@@ -42,70 +44,8 @@ const Careers = () => {
   const handleClose = () => setShow2(false);
   const handleShow = () => setShow2(true);
   const [show3, setShow3] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
 
-  function NavMenu() {
-    return (
-      <>
-        <div className="menu1">
-          <h3>Top Universities</h3>
-          <div className="menu2">
-            <div className="menu3">
-              <h6>Delhi</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Mumbai</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Chennai</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Bangalore</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-          </div>
-        </div>
-      </>
-    );
-  }
 
   const handleClick = () => {
     setShowNavbar((prev) => !prev);
@@ -149,111 +89,149 @@ const Careers = () => {
           <h3>Choose By Interest</h3>
 
           <div className="caree6">
-            <div className="caree7"  onClick={() => navigate("/engineeringcareers")}>
-              <img src={career1} alt="" />
-              <h3>Engineering</h3>
-            </div>
-            <div className="caree7" onClick={() => navigate("/engineeringcareers")}>
-              <img src={career2} alt="" />
-              <h3>Law</h3>
+            <div className="caree7" onClick={()=>navigate('/engineeringcareers')}>
+              <div className="caree8">
+                <img src={career1} alt="" />
+              </div>
+              <h5>Engineering</h5>
             </div>
             <div className="caree7">
-              <img src={career3} alt="" />
-              <h3>Aerospace & Aviation</h3>
-            </div>
-          </div>
-          <div className="caree6">
-            <div className="caree7">
-              <img src={career4} alt="" />
-              <h3>Agricultural</h3>
+              <div className="caree8">
+                <img src={career2} alt="" />
+              </div>
+              <h5>Law</h5>
             </div>
             <div className="caree7">
-              <img src={career5} alt="" />
-              <h3>Animation,Web Design</h3>
+              <div className="caree8">
+                <img src={career4} alt="" />
+              </div>
+              <h5>Aerospace & Aviation</h5>
             </div>
             <div className="caree7">
-              <img src={career6} alt="" />
-              <h3>Management</h3>
-            </div>
-          </div>
-          <div className="caree6">
-            <div className="caree7">
-              <img src={career7} alt="" />
-              <h3>HealthCare</h3>
+              <div className="caree8">
+                <img src={career5} alt="" />
+              </div>
+              <h5>Agricultural</h5>
             </div>
             <div className="caree7">
-              <img src={career8} alt="" />
-              <h3>Journalism</h3>
+              <div className="caree8">
+                <img src={career6} alt="" />
+              </div>
+              <h5>Animation,Web Design</h5>
             </div>
             <div className="caree7">
-              <img src={career9} alt="" />
-              <h3>Media & Entertainment</h3>
-            </div>
-          </div>
-          <div className="caree6">
-            <div className="caree7">
-              <img src={career10} alt="" />
-              <h3>Design</h3>
+              <div className="caree8">
+                <img src={career7} alt="" />
+              </div>
+              <h5>Management</h5>
             </div>
             <div className="caree7">
-              <img src={career11} alt="" />
-              <h3>Banking</h3>
+              <div className="caree8">
+                <img src={career8} alt="" />
+              </div>
+              <h5>HealthCare</h5>
             </div>
             <div className="caree7">
-              <img src={career12} alt="" />
-              <h3>Finance</h3>
-            </div>
-          </div>
-          <div className="caree6">
-            <div className="caree7">
-              <img src={career13} alt="" />
-              <h3>Food Processing</h3>
+              <div className="caree8">
+                <img src={career9} alt="" />
+              </div>
+              <h5>Journalism</h5>
             </div>
             <div className="caree7">
-              <img src={career14} alt="" />
-              <h3>Humanities & Arts</h3>
+              <div className="caree8">
+                <img src={career10} alt="" />
+              </div>
+              <h5>Media & Entertainment</h5>
             </div>
             <div className="caree7">
-              <img src={career15} alt="" />
-              <h3>Information Technology</h3>
-            </div>
-          </div>
-          <div className="caree6">
-            <div className="caree7">
-              <img src={career16} alt="" />
-              <h3>Hotel Management</h3>
+              <div className="caree8">
+                <img src={career11} alt="" />
+              </div>
+              <h5>Design</h5>
             </div>
             <div className="caree7">
-              <img src={career17} alt="" />
-              <h3>Arts</h3>
+              <div className="caree8">
+                <img src={career12} alt="" />
+              </div>
+              <h5>Banking</h5>
             </div>
             <div className="caree7">
-              <img src={career18} alt="" />
-              <h3>Vocational Course</h3>
-            </div>
-          </div>
-          <div className="caree6">
-            <div className="caree7">
-              <img src={career19} alt="" />
-              <h3>Educational & Skill Development</h3>
+              <div className="caree8">
+                <img src={career13} alt="" />
+              </div>
+              <h5>Finance</h5>
             </div>
             <div className="caree7">
-              <img src={career20} alt="" />
-              <h3>Marketing</h3>
+              <div className="caree8">
+                <img src={career14} alt="" />
+              </div>
+              <h5>Food Processing</h5>
             </div>
             <div className="caree7">
-              <img src={career21} alt="" />
-              <h3>Merchant Navy</h3>
-            </div>
-          </div>
-          <div className="caree6">
-            <div className="caree7">
-              <img src={career22} alt="" />
-              <h3>Sciences</h3>
+              <div className="caree8">
+                <img src={career15} alt="" />
+              </div>
+              <h5>Humanities & Arts</h5>
             </div>
             <div className="caree7">
-              <img src={career23} alt="" />
-              <h3>Physical Education</h3>
+              <div className="caree8">
+                <img src={career16} alt="" />
+              </div>
+              <h5>Information Technology</h5>
+            </div>
+            <div className="caree7">
+              <div className="caree8">
+                <img src={career17} alt="" />
+              </div>
+              <h5>Hotel Management</h5>
+            </div>
+            <div className="caree7">
+              <div className="caree8">
+                <img src={career18} alt="" />
+              </div>
+              <h5>Arts</h5>
+            </div>
+            <div className="caree7">
+              <div className="caree8">
+                <img src={career19} alt="" />
+              </div>
+              <h5>Vocational Course</h5>
+            </div>
+            <div className="caree7">
+              <div className="caree8">
+                <img src={career20} alt="" />
+              </div>
+              <h5>Educational & Skill Development</h5>
+            </div>
+            <div className="caree7">
+              <div className="caree8">
+                <img src={career21} alt="" />
+              </div>
+              <h5>Marketing</h5>
+            </div>
+            <div className="caree7">
+              <div className="caree8">
+                <img src={career22} alt="" />
+              </div>
+              <h5>Merchant Navy</h5>
+            </div>
+            <div className="caree7">
+              <div className="caree8">
+                <img src={career23} alt="" />
+              </div>
+              <h5>Sciences</h5>
+            </div>
+            <div className="caree7">
+              <div className="caree8">
+                <img src={career24} alt="" />
+              </div>
+              <h5>Physical Education</h5>
+            </div>
+            <div className="caree7">
+              <div className="caree8">
+                <img src={career13} alt="" />
+              </div>
+              <h5>Finance</h5>
             </div>
           </div>
 
@@ -275,6 +253,13 @@ const Careers = () => {
 
 
       <Footer />
+      <div className="home555">
+        <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
+        <button onClick={() => setModalShow(true)}>Apply Now!</button>
+      </div>
+
+      <ApplyNowModal show={modalShow}
+        onHide={() => setModalShow(false)} />
     </>
   );
 };

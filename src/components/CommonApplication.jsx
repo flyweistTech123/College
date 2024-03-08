@@ -15,6 +15,8 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import location from '../Images/loaction.png'
 import { IoMdArrowDropright } from "react-icons/io";
 import ShortList from "./Modals/ShortList/ShortList";
+import ApplyNowModal from "./Modals/Login/Apply";
+import Sidebar3 from "./Sidebar3";
 
 
 
@@ -48,71 +50,11 @@ const CommonApplication = () => {
 
   const [showNavbar, setShowNavbar] = useState(false);
   const [modalShow, setModalShow] = useState(false);
+  const [modalShow1, setModalShow1] = useState(false);
 
 
-  function NavMenu() {
-    return (
-      <>
-        <div className="menu1">
-          <h3>Top Universities</h3>
-          <div className="menu2">
-            <div className="menu3">
-              <h6>Delhi</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Mumbai</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Chennai</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Bangalore</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-          </div>
-        </div>
-      </>
-    )
-  }
+
+
 
   const handleClick = () => {
     setShowNavbar(prev => !prev);
@@ -157,47 +99,47 @@ const CommonApplication = () => {
       <TopPart3 />
 
       <ShortList show={modalShow}
-        onHide={() => setModalShow(false)}/>
+        onHide={() => setModalShow(false)} />
 
       <div className="common1">
         <div className="screen2">
-          <Sidebar4 />
+          <Sidebar3 />
         </div>
 
-        <div>
+        <div className="common50">
           <div className="common2">
             <img src={common2} alt="" />
             <div className="common3">
               <h1>Parul University Vaddora (PUV)</h1>
-              <div className="common4"><StarRating rating={5} /> 
-              <div className="common5">
-              <img src={location} alt=""  />
-              <p>Vaddora</p>
-              </div>
-              
+              <div className="common4"><StarRating rating={5} />
+                <div className="common5">
+                  <img src={location} alt="" />
+                  <p>Vaddora</p>
+                </div>
+
               </div>
               <h5>Parul University offers various undergraduate, postgraduate, diploma, and PhD courses in a wide range of discipline</h5>
               <div className="common6">
-              <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common7">
-                <button  onClick={() => setModalShow(true)}>Short List</button>
-                <button>Read more <IoMdArrowDropright /></button>
+                <button onClick={() => setModalShow(true)}>Short List</button>
+                <button onClick={() => setModalShow1(true)}>Read more <IoMdArrowDropright /></button>
               </div>
             </div>
           </div>
@@ -205,35 +147,35 @@ const CommonApplication = () => {
             <img src={common2} alt="" />
             <div className="common3">
               <h1>Parul University Vaddora (PUV)</h1>
-              <div className="common4"><StarRating rating={5} /> 
-              <div className="common5">
-              <img src={location} alt=""  />
-              <p>Vaddora</p>
-              </div>
-              
+              <div className="common4"><StarRating rating={5} />
+                <div className="common5">
+                  <img src={location} alt="" />
+                  <p>Vaddora</p>
+                </div>
+
               </div>
               <h5>Parul University offers various undergraduate, postgraduate, diploma, and PhD courses in a wide range of discipline</h5>
               <div className="common6">
-              <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common7">
-                <button  onClick={() => setModalShow(true)}>Short List</button>
-                <button>Read more <IoMdArrowDropright /></button>
+                <button onClick={() => setModalShow(true)}>Short List</button>
+                <button onClick={() => setModalShow1(true)}>Read more <IoMdArrowDropright /></button>
               </div>
             </div>
           </div>
@@ -241,35 +183,35 @@ const CommonApplication = () => {
             <img src={common2} alt="" />
             <div className="common3">
               <h1>Parul University Vaddora (PUV)</h1>
-              <div className="common4"><StarRating rating={5} /> 
-              <div className="common5">
-              <img src={location} alt=""  />
-              <p>Vaddora</p>
-              </div>
-              
+              <div className="common4"><StarRating rating={5} />
+                <div className="common5">
+                  <img src={location} alt="" />
+                  <p>Vaddora</p>
+                </div>
+
               </div>
               <h5>Parul University offers various undergraduate, postgraduate, diploma, and PhD courses in a wide range of discipline</h5>
               <div className="common6">
-              <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common7">
-                <button>Short List</button>
-                <button>Read more <IoMdArrowDropright /></button>
+                <button onClick={() => setModalShow(true)}>Short List</button>
+                <button onClick={() => setModalShow1(true)}>Read more <IoMdArrowDropright /></button>
               </div>
             </div>
           </div>
@@ -277,35 +219,35 @@ const CommonApplication = () => {
             <img src={common2} alt="" />
             <div className="common3">
               <h1>Parul University Vaddora (PUV)</h1>
-              <div className="common4"><StarRating rating={5} /> 
-              <div className="common5">
-              <img src={location} alt=""  />
-              <p>Vaddora</p>
-              </div>
-              
+              <div className="common4"><StarRating rating={5} />
+                <div className="common5">
+                  <img src={location} alt="" />
+                  <p>Vaddora</p>
+                </div>
+
               </div>
               <h5>Parul University offers various undergraduate, postgraduate, diploma, and PhD courses in a wide range of discipline</h5>
               <div className="common6">
-              <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common7">
-                <button>Short List</button>
-                <button>Read more <IoMdArrowDropright /></button>
+                <button onClick={() => setModalShow(true)}>Short List</button>
+                <button onClick={() => setModalShow1(true)}>Read more <IoMdArrowDropright /></button>
               </div>
             </div>
           </div>
@@ -313,35 +255,35 @@ const CommonApplication = () => {
             <img src={common2} alt="" />
             <div className="common3">
               <h1>Parul University Vaddora (PUV)</h1>
-              <div className="common4"><StarRating rating={5} /> 
-              <div className="common5">
-              <img src={location} alt=""  />
-              <p>Vaddora</p>
-              </div>
-              
+              <div className="common4"><StarRating rating={5} />
+                <div className="common5">
+                  <img src={location} alt="" />
+                  <p>Vaddora</p>
+                </div>
+
               </div>
               <h5>Parul University offers various undergraduate, postgraduate, diploma, and PhD courses in a wide range of discipline</h5>
               <div className="common6">
-              <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Info :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Placements :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Courses & Fees :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Admissions :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Cut Off :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common6">
-              <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
+                <p><span>Scholarships :</span> Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risu</p>
               </div>
               <div className="common7">
-                <button>Short List</button>
-                <button>Read more <IoMdArrowDropright /></button>
+                <button onClick={() => setModalShow(true)}>Short List</button>
+                <button onClick={() => setModalShow1(true)}>Read more <IoMdArrowDropright /></button>
               </div>
             </div>
           </div>
@@ -350,484 +292,14 @@ const CommonApplication = () => {
 
       <div className="loan21">
       </div>
-
-
-
-      {/* <div className="app14">
-        <h3>We Tried To Help You Pick Easily</h3>
-        <div className="app15">
-          <div className="app16">
-            <p>Preferred City</p>
-          </div>
-          <div className="app16">
-            <p>Course Level</p>
-          </div>
-          <div className="app16">
-            <p>Course Stream</p>
-          </div>
-          <div className="app16">
-            <p>Degree Type</p>
-          </div>
-        </div>
-        <div className="app17">
-          <div className="app16">
-            <p>Payment Mode</p>
-          </div>
-          <div className="app16">
-            <p>Course Type</p>
-          </div>
-          <div className="app16">
-            <p>Engineering</p>
-          </div>
-          <div className="app16">
-            <p>Management UG</p>
-          </div>
-          <div className="app16">
-            <p>Computer </p>
-          </div>
-        </div>
-        <div className="app18">
-          <div className="app19">
-            <p>Pharmacy</p>
-          </div>
-          <div className="app19">
-            <p>Law</p>
-          </div>
-          <div className="app19">
-            <p>Medical</p>
-          </div>
-          <div className="app19">
-            <p>B.Tech</p>
-          </div>
-          <div className="app19">
-            <p>MBA</p>
-          </div>
-          <div className="app19">
-            <p>PGDM</p>
-          </div>
-          <div className="app19">
-            <p>MBA</p>
-          </div>
-        </div>
-        <div className="app18" style={{marginLeft:"40px"}}>
-          <div className="app19">
-            <p>BCA</p>
-          </div>
-          <div className="app19">
-            <p>B.Pharma</p>
-          </div>
-          <div className="app19">
-            <p>Scholarship</p>
-          </div>
-        </div>
-      </div>
-      <div className="app20">
-        <div className="app21">
-          <div className="app23">
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-            <div className="app24">
-              <div className="app25">
-                <img src={img7} alt="" />
-                <div className="app26">
-                  <h6>340 Courses</h6>
-                  <p>
-                    <i class="fa-solid fa-indian-rupee-sign"></i>5,000
-                  </p>
-                </div>
-              </div>
-              <div className="app27">
-                <h5>Parul University Vadodra</h5>
-              </div>
-              <div className="app28">
-                <button>Short List</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="app22">
-          <div className="app29">
-            <div className="app30">
-              <p>Register for the scholarship Test Now</p>
-              <button>Register Now</button>
-            </div>
-            <div className="app31">
-              <img src={img8} alt="" />
-            </div>
-          </div>
-          <div className="app29">
-            <div className="app30">
-              <p>Register for the scholarship Test Now</p>
-              <button>Register Now</button>
-            </div>
-            <div className="app31">
-              <img src={img8} alt="" />
-            </div>
-          </div>
-          <div className="app29">
-            <div className="app30">
-              <p>Register for the scholarship Test Now</p>
-              <button>Register Now</button>
-            </div>
-            <div className="app31">
-              <img src={img8} alt="" />
-            </div>
-          </div>
-          <div className="app29">
-            <div className="app30">
-              <p>Register for the scholarship Test Now</p>
-              <button>Register Now</button>
-            </div>
-            <div className="app31">
-              <img src={img8} alt="" />
-            </div>
-          </div>
-          <div className="app29">
-            <div className="app30">
-              <p>Register for the scholarship Test Now</p>
-              <button>Register Now</button>
-            </div>
-            <div className="app31">
-              <img src={img8} alt="" />
-            </div>
-          </div>
-          <div className="app29">
-            <div className="app30">
-              <p>Register for the scholarship Test Now</p>
-              <button>Register Now</button>
-            </div>
-            <div className="app31">
-              <img src={img8} alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="app7">
-        <div className="app33">
-          <p>Why College Hub ONE APPLICATION is the right choice for you</p>
-          <ul className="app32">
-            <li>FRIENDLY</li>
-            <li>FAST</li>
-            <li>EASY</li>
-          </ul>
-        </div>
-      </div>
-      <div className="app34">
-        <div className="app35">
-          <h6>Connect with India's Top Counsellor</h6>
-          <p>Need Confidence Choosing your university or Courses.</p>
-          <p>Call us at 99523020120</p>
-        </div>
-        <div className="app36">
-          <div className="app37">
-            <img src={img9} alt="" />
-            <h5>Neha Sharma</h5>
-            <p>Counselling Finance</p>
-            <h6>6000+ students | 7+ yrs exp</h6>
-          </div>
-          <div className="app37">
-            <img src={img9} alt="" />
-            <h5>Neha Sharma</h5>
-            <p>Counselling Finance</p>
-            <h6>6000+ students | 7+ yrs exp</h6>
-          </div>
-          <div className="app37">
-            <img src={img9} alt="" />
-            <h5>Neha Sharma</h5>
-            <p>Counselling Finance</p>
-            <h6>6000+ students | 7+ yrs exp</h6>
-          </div>
-          <div className="app37">
-            <img src={img9} alt="" />
-            <h5>Neha Sharma</h5>
-            <p>Counselling Finance</p>
-            <h6>6000+ students | 7+ yrs exp</h6>
-          </div>
-        </div>
-      </div>
-      <div className="app38">
-        <div className="app29">
-          <div className="app30">
-            <p>Register for the scholarship Test Now</p>
-            <button>Register Now</button>
-          </div>
-          <div className="app31">
-            <img src={img8} alt="" />
-          </div>
-        </div>
-        <div className="app29">
-          <div className="app30">
-            <p>Register for the scholarship Test Now</p>
-            <button>Register Now</button>
-          </div>
-          <div className="app31">
-            <img src={img8} alt="" />
-          </div>
-        </div>
-        <div className="app29">
-          <div className="app30">
-            <p>Register for the scholarship Test Now</p>
-            <button>Register Now</button>
-          </div>
-          <div className="app31">
-            <img src={img8} alt="" />
-          </div>
-        </div>
-      </div> */}
       <Footer />
+      <div className="home555">
+        <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
+        <button onClick={() => setModalShow1(true)}>Apply Now!</button>
+      </div>
+
+      <ApplyNowModal show={modalShow1}
+        onHide={() => setModalShow1(false)} />
       <Offcanvas show={show2} onHide={handleClose}>
         <Offcanvas.Header closeButton>
         </Offcanvas.Header>

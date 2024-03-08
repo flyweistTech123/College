@@ -9,11 +9,13 @@ import img from '../../Images/clgschro.png'
 import TopNavbar from "../TopNavbar";
 import Sidebar3 from "../Sidebar3";
 import { IoMdArrowDropright } from "react-icons/io";
+import ApplyNowModal from "../Modals/Login/Apply";
 
 
 const Scholarship = () => {
   const navigate = useNavigate();
   const [slideShow2, setSlideShow2] = useState(8);
+  const [modalShow, setModalShow] = useState(false);
   useEffect(() => {
     if (window.innerWidth < 800) {
       setSlideShow2(3);
@@ -46,73 +48,7 @@ const Scholarship = () => {
   const handleShow = () => setShow2(true);
   const [show3, setShow3] = useState(false);
 
-  function NavMenu() {
-    return (
-      <>
-        <div className="menu1">
-          <h3>Top Universities</h3>
-          <div className="menu2">
-            <div className="menu3">
-              <h6>Delhi</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Mumbai</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Chennai</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Bangalore</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-          </div>
-        </div>
-      </>
-    );
-  }
 
-  const handleClick = () => {
-    setShowNavbar((prev) => !prev);
-  };
 
   return (
     <>
@@ -145,7 +81,7 @@ const Scholarship = () => {
         </div>
       </div>
       <div className="schro5">
-        <div className="screen2">
+        <div className="schro58">
           <Sidebar3 />
         </div>
 
@@ -199,8 +135,9 @@ const Scholarship = () => {
             </div>
           </div>
           <div className="schro11">
-            
+
           </div>
+
           <div className="schro6">
             <div className="schro7">
               <div className="schro8"><h6>TATA Scholarship-Cornell University</h6></div>
@@ -398,327 +335,26 @@ const Scholarship = () => {
             </div>
           </div>
 
+          <div className="examm15">
+            Load more
+          </div>
+
+
         </div>
-
-
 
       </div>
 
 
       <div className="schro24">
       </div>
-
-      {/* <div className="home25" style={{ marginTop: "60px" }}>
-        <div className="home26">
-          <Slider {...settings3}>
-            <div className="home29">
-              <button className="home27">City Name</button>
-            </div>
-            <div className="home29">
-              <button className="home28" style={{ width: "140px" }}>MBA/PGDM</button>
-            </div>
-            <div className="home29">
-              <button className="home28">B.sc</button>
-            </div>
-            <div className="home29">
-              <button className="home28">B.Com</button>
-            </div>
-            <div className="home29">
-              <button className="home28">BA</button>
-            </div>
-            <div className="home29">
-              <button className="home28">BE/B.Tech</button>
-            </div>
-            <div className="home29">
-              <button className="home28">BEA/BBM</button>
-            </div>
-            <div className="home29">
-              <button className="home28">M.sc</button>
-            </div>
-            <div className="home29">
-              <button className="home28">M.A</button>
-            </div>
-            <div className="home29">
-              <button className="home28">B.F.A</button>
-            </div>
-            <div className="home29">
-              <button className="home28">M.F.A</button>
-            </div>
-            <div className="home29">
-              <button className="home28">B.Design</button>
-            </div>
-            <div className="home29">
-              <button className="home28">M.Design</button>
-            </div>
-          </Slider>
-        </div>
-      </div>
-      <div className="sch5">
-        <div className="sch6">
-          <div className="sch14">
-            <div className="sch15">
-              <h6>Shree Ram College-Delhi University</h6>
-              <hr className="sch16" />
-              <div className="sch17">
-                <ul>
-                  <li>International student eligible : yes</li>
-                  <li>Amount : Variable Amount</li>
-                  <li>Type : Full-Ride-Scholarship</li>
-                  <li>Level of Study : Bachelor</li>
-                  <li>No. of Scholarships : 20</li>
-                </ul>
-                <p onClick={() => navigate("/read-more")}>Read More</p>
-              </div>
-              <div className="sch18">
-                <button className="sch19">Apply Now</button>
-                <button className="sch20">Get Alert</button>
-              </div>
-            </div>
-            <div className="sch15">
-              <h6>Shree Ram College-Delhi University</h6>
-              <hr className="sch16" />
-              <div className="sch17">
-                <ul>
-                  <li>International student eligible : yes</li>
-                  <li>Amount : Variable Amount</li>
-                  <li>Type : Full-Ride-Scholarship</li>
-                  <li>Level of Study : Bachelor</li>
-                  <li>No. of Scholarships : 20</li>
-                </ul>
-                <p>Read More</p>
-              </div>
-              <div className="sch18">
-                <button className="sch19">Apply Now</button>
-                <button className="sch20">Get Alert</button>
-              </div>
-            </div>
-            <div className="sch15">
-              <h6>Shree Ram College-Delhi University</h6>
-              <hr className="sch16" />
-              <div className="sch17">
-                <ul>
-                  <li>International student eligible : yes</li>
-                  <li>Amount : Variable Amount</li>
-                  <li>Type : Full-Ride-Scholarship</li>
-                  <li>Level of Study : Bachelor</li>
-                  <li>No. of Scholarships : 20</li>
-                </ul>
-                <p>Read More</p>
-              </div>
-              <div className="sch18">
-                <button className="sch19">Apply Now</button>
-                <button className="sch20">Get Alert</button>
-              </div>
-            </div>
-            <div className="sch15">
-              <h6>Shree Ram College-Delhi University</h6>
-              <hr className="sch16" />
-              <div className="sch17">
-                <ul>
-                  <li>International student eligible : yes</li>
-                  <li>Amount : Variable Amount</li>
-                  <li>Type : Full-Ride-Scholarship</li>
-                  <li>Level of Study : Bachelor</li>
-                  <li>No. of Scholarships : 20</li>
-                </ul>
-                <p>Read More</p>
-              </div>
-              <div className="sch18">
-                <button className="sch19">Apply Now</button>
-                <button className="sch20">Get Alert</button>
-              </div>
-            </div>
-            <div className="sch15">
-              <h6>Shree Ram College-Delhi University</h6>
-              <hr className="sch16" />
-              <div className="sch17">
-                <ul>
-                  <li>International student eligible : yes</li>
-                  <li>Amount : Variable Amount</li>
-                  <li>Type : Full-Ride-Scholarship</li>
-                  <li>Level of Study : Bachelor</li>
-                  <li>No. of Scholarships : 20</li>
-                </ul>
-                <p>Read More</p>
-              </div>
-              <div className="sch18">
-                <button className="sch19">Apply Now</button>
-                <button className="sch20">Get Alert</button>
-              </div>
-            </div>
-            <div className="sch15">
-              <h6>Shree Ram College-Delhi University</h6>
-              <hr className="sch16" />
-              <div className="sch17">
-                <ul>
-                  <li>International student eligible : yes</li>
-                  <li>Amount : Variable Amount</li>
-                  <li>Type : Full-Ride-Scholarship</li>
-                  <li>Level of Study : Bachelor</li>
-                  <li>No. of Scholarships : 20</li>
-                </ul>
-                <p>Read More</p>
-              </div>
-              <div className="sch18">
-                <button className="sch19">Apply Now</button>
-                <button className="sch20">Get Alert</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="sch7">
-          <div className="sch8">
-            <h4>Application for Admission are Open</h4>
-            <hr className="sch9" />
-            <div className="sch10">
-              <div className="sch11">
-                <img src={img4} alt="" />
-                <div className="sch12">
-                  <h6>Lorem Ipsum</h6>
-                  <p>Dorem Ipsum dolor sit amet.</p>
-                </div>
-              </div>
-              <div className="sch13">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="sch9" />
-            <div className="sch10">
-              <div className="sch11">
-                <img src={img4} alt="" />
-                <div className="sch12">
-                  <h6>Lorem Ipsum</h6>
-                  <p>Dorem Ipsum dolor sit amet.</p>
-                </div>
-              </div>
-              <div className="sch13">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="sch9" />
-            <div className="sch10">
-              <div className="sch11">
-                <img src={img4} alt="" />
-                <div className="sch12">
-                  <h6>Lorem Ipsum</h6>
-                  <p>Dorem Ipsum dolor sit amet.</p>
-                </div>
-              </div>
-              <div className="sch13">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="sch9" />
-            <div className="sch10">
-              <div className="sch11">
-                <img src={img4} alt="" />
-                <div className="sch12">
-                  <h6>Lorem Ipsum</h6>
-                  <p>Dorem Ipsum dolor sit amet.</p>
-                </div>
-              </div>
-              <div className="sch13">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="sch9" />
-            <div className="sch10">
-              <div className="sch11">
-                <img src={img4} alt="" />
-                <div className="sch12">
-                  <h6>Lorem Ipsum</h6>
-                  <p>Dorem Ipsum dolor sit amet.</p>
-                </div>
-              </div>
-              <div className="sch13">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="sch9" />
-            <div className="sch10">
-              <div className="sch11">
-                <img src={img4} alt="" />
-                <div className="sch12">
-                  <h6>Lorem Ipsum</h6>
-                  <p>Dorem Ipsum dolor sit amet.</p>
-                </div>
-              </div>
-              <div className="sch13">
-                <button>Apply Now</button>
-              </div>
-            </div>
-            <hr className="sch9" />
-          </div>
-        </div>
-      </div>
-      <div className="sch21">
-        <div className="sch22">
-          <h6>Top Rated Scholarship</h6>
-          <hr className="sch23" />
-          <div className="sch24">
-            <h5>Ontario Graduate Scholarship</h5>
-            <p>Amount: $10,847, Deadline: June 2023</p>
-          </div>
-          <hr className="sch25" />
-          <div className="sch24">
-            <h5>Ontario Graduate Scholarship</h5>
-            <p>Amount: $10,847, Deadline: June 2023</p>
-          </div>
-          <hr className="sch25" />
-          <div className="sch24">
-            <h5>Ontario Graduate Scholarship</h5>
-            <p>Amount: $10,847, Deadline: June 2023</p>
-          </div>
-          <hr className="sch25" />
-          <div className="sch24">
-            <h5>Ontario Graduate Scholarship</h5>
-            <p>Amount: $10,847, Deadline: June 2023</p>
-          </div>
-        </div>
-        <div className="sch26">
-          <img src={img5} alt="" />
-        </div>
-        <div className="sch27">
-          <h6>Scholarship Helpline Number</h6>
-          <div className="sch28">
-            <p>Helpline Number 2230220230</p>
-          </div>
-          <div className="sch29">
-            <p>Most Popular Links</p>
-          </div>
-          <div className="sch30">
-            <p>Study in Delhi College</p>
-          </div>
-          <div className="sch30">
-            <p>Study in Chandigarh College</p>
-          </div>
-          <div className="sch30">
-            <p>Study in Mumbai College</p>
-          </div>
-          <div className="sch30">
-            <p>Study in Pune College</p>
-          </div>
-          <div className="sch30">
-            <p>Study in Bangalore College</p>
-          </div>
-          <div className="sch30">
-            <p>Study in Jaipur College</p>
-          </div>
-          <div className="sch30">
-            <p>Study in Noida College</p>
-          </div>
-          <div className="sch30">
-            <p>Study in Amity College</p>
-          </div>
-          <div className="sch30">
-            <p>Study in Ontario College</p>
-          </div>
-        </div>
-      </div>
-      <div className="sch31">
-        <img src={img6} alt="" />
-      </div> */}
       <Footer />
+      <div className="home555">
+        <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
+        <button onClick={() => setModalShow(true)}>Apply Now!</button>
+      </div>
+
+      <ApplyNowModal show={modalShow}
+        onHide={() => setModalShow(false)} />
     </>
   );
 };

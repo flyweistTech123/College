@@ -63,6 +63,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import HomeTable from "./HomeTable";
 import HomeTable1 from "./HomeTable1";
 
+
 import Records from "./data.json";
 
 import TopNavbar from "./TopNavbar";
@@ -1296,6 +1297,7 @@ const Home = () => {
 
       <ApplyNowModal show={modalShow}
         onHide={() => setModalShow(false)} />
+
 
       <Footer />
       <div className="home555">

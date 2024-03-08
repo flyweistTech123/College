@@ -32,6 +32,7 @@ import img25 from "../../Images/c25.png";
 import img26 from "../../Images/c26.png";
 import IIt2 from '../../Images/IIT2.png'
 import { IoIosArrowForward } from "react-icons/io";
+import ApplyNowModal from "../Modals/Login/Apply";
 
 
 
@@ -48,70 +49,8 @@ const Courses = () => {
   const handleClose = () => setShow2(false);
   const handleShow = () => setShow2(true);
   const [show3, setShow3] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
 
-  function NavMenu() {
-    return (
-      <>
-        <div className="menu1">
-          <h3>Top Universities</h3>
-          <div className="menu2">
-            <div className="menu3">
-              <h6>Delhi</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Mumbai</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Chennai</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-            <div className="menu3">
-              <h6>Bangalore</h6>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="menu4"></div>
-          </div>
-        </div>
-      </>
-    );
-  }
 
   const handleClick = () => {
     setShowNavbar((prev) => !prev);
@@ -152,7 +91,7 @@ const Courses = () => {
         <h1>Don’t Know What to Choose Choose by your level ?</h1>
 
         <div className="course2" >
-          <div className="course3" onClick={()=>navigate('/courses_details')}>
+          <div className="course3" onClick={() => navigate('/courses_details')}>
             <div className="course4">
               <img src={course1} alt="" />
               <div className="course5">
@@ -617,6 +556,13 @@ const Courses = () => {
       </div>
 
       <Footer />
+      <div className="home555">
+        <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
+        <button onClick={() => setModalShow(true)}>Apply Now!</button>
+      </div>
+
+      <ApplyNowModal show={modalShow}
+        onHide={() => setModalShow(false)} />
     </>
   );
 };

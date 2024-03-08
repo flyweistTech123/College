@@ -17,16 +17,15 @@ import img9 from "../../Images/c71.png";
 import img10 from "../../Images/c72.png";
 import img11 from "../../Images/c73.png";
 import img12 from "../../Images/c74.png";
-import img13 from "../../Images/c75.png";
-import img14 from "../../Images/c76.png";
-import img15 from "../../Images/c77.png";
-import img16 from "../../Images/c78.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import TopNavbar from "../TopNavbar";
 import TopPart3 from "../TopPart3";
 
+import ApplyNowModal from "../Modals/Login/Apply";
+
 const Loan = () => {
+  const [modalShow, setModalShow] = useState(false);
 
   const [chartData, setChartData] = useState({
     series: [85, 15,],
@@ -100,16 +99,16 @@ const Loan = () => {
         </div>
       </div>
       <div className="loan35">
-      {["All Banks", "Govt Banks", "Private Banks", "Cooperative", "NBFCs"].map((bank, index) => (
-        <div
-          key={index}
-          className={faltu === index ? "loan36" : "loan37"}
-          onClick={() => handleFaltu(index)}
-        >
-          {bank}
-        </div>
-      ))}
-    </div>
+        {["All Banks", "Govt Banks", "Private Banks", "Cooperative", "NBFCs"].map((bank, index) => (
+          <div
+            key={index}
+            className={faltu === index ? "loan36" : "loan37"}
+            onClick={() => handleFaltu(index)}
+          >
+            {bank}
+          </div>
+        ))}
+      </div>
       <div className="loan12">
         <div className="loan13">
           <p>Bank Name</p>
@@ -145,7 +144,7 @@ const Loan = () => {
           </div>
           <div className="loan18">
             <div className="ext1">
-              <button className="ext3">Apply Now</button>
+              <button className="ext3" onClick={() => setModalShow(true)}>Apply Now</button>
               <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
             </div>
           </div>
@@ -173,7 +172,7 @@ const Loan = () => {
           </div>
           <div className="loan18">
             <div className="ext1">
-              <button className="ext3">Apply Now</button>
+              <button className="ext3" onClick={() => setModalShow(true)}>Apply Now</button>
               <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
             </div>
           </div>
@@ -201,7 +200,7 @@ const Loan = () => {
           </div>
           <div className="loan18">
             <div className="ext1">
-              <button className="ext3">Apply Now</button>
+              <button className="ext3" onClick={() => setModalShow(true)}>Apply Now</button>
               <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
             </div>
           </div>
@@ -229,7 +228,7 @@ const Loan = () => {
           </div>
           <div className="loan18">
             <div className="ext1">
-              <button className="ext3">Apply Now</button>
+              <button className="ext3" onClick={() => setModalShow(true)}>Apply Now</button>
               <button className="ext2" onClick={() => navigate("/eligibility-check")}>Eligibility Check</button>
             </div>
           </div>
@@ -297,6 +296,11 @@ const Loan = () => {
       <div className="loan21">
       </div>
       <Footer />
+      <div className="home555">
+        <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
+        <button onClick={() => setModalShow(true)}>Apply Now!</button>
+      </div>
+
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title></Offcanvas.Title>
@@ -305,6 +309,9 @@ const Loan = () => {
           <MobileLoanNavbar />
         </Offcanvas.Body>
       </Offcanvas>
+
+      <ApplyNowModal show={modalShow}
+        onHide={() => setModalShow(false)} />
     </>
   );
 };

@@ -6,7 +6,244 @@ import MoreModal from "./Modals/MoreModal";
 import login from '../Images/loginpage.png'
 import google from '../Images/google.png'
 import prfileicon from '../Images/profileimg.png'
+import Overlay from 'react-bootstrap/Overlay';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Popover from 'react-bootstrap/Popover';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import Universities from "./PopoverUniversityModal/Universities";.
+
+
+
+
 const TopNavbar = (props) => {
+
+  const popover = (
+    <Popover id="popover-basic" style={{ border: 'none' }}>
+      <Popover.Body className="popover5">
+        <h4>Top Universities</h4>
+        <div className="popover1">
+          <div className="popover2">
+            <h4>Delhi</h4>
+            <div className="popover3">
+              <p onClick={() => navigate('/college-info')}>Jawahar lal Nehru</p>
+              <p onClick={() => navigate('/college-info')}>IGNOU</p>
+              <p onClick={() => navigate('/college-info')}>Jamia Miliya Islamia</p>
+              <p onClick={() => navigate('/college-info')}>IP University</p>
+              <p onClick={() => navigate('/college-info')}>Jawahar lal Nehru</p>
+              <p onClick={() => navigate('/college-info')}>IGNOU</p>
+              <p onClick={() => navigate('/college-info')}>Jamia Miliya Islamia</p>
+              <p onClick={() => navigate('/college-info')}>IP University</p>
+              <p onClick={() => navigate('/college-info')}>Jawahar lal Nehru</p>
+              <p onClick={() => navigate('/college-info')}>IGNOU</p>
+              <p onClick={() => navigate('/college-info')}>Jamia Miliya Islamia</p>
+              <p onClick={() => navigate('/college-info')}>IP University</p>
+              <p onClick={() => navigate('/college-info')}>Jawahar lal Nehru</p>
+              <p onClick={() => navigate('/college-info')}>IGNOU</p>
+              <p onClick={() => navigate('/college-info')}>Jamia Miliya Islamia</p>
+              <p onClick={() => navigate('/college-info')}>IP University</p>
+            </div>
+          </div>
+          <div className="popover2">
+            <h4>Mumbai</h4>
+            <div className="popover3">
+              <p>University of Mumbai</p>
+              <p>Kishan chand</p>
+              <p>ST. XAVIER</p>
+              <p>Wilson University</p>
+              <p>University of mumbai</p>
+              <p>Kishan chand</p>
+              <p>ST. XAVIER</p>
+              <p>Wilson University</p>
+              <p>University of Mumbai</p>
+              <p>Kishan chand</p>
+              <p>ST. XAVIER</p>
+              <p>Wilson University</p>
+              <p>University of mumbai</p>
+              <p>Kishan chand</p>
+              <p>ST. XAVIER</p>
+              <p>Wilson University</p>
+            </div>
+          </div>
+          <div className="popover2">
+            <h4>Chennai</h4>
+            <div className="popover3">
+              <p>University of Chennai</p>
+              <p>University of Madras</p>
+              <p>Vels University</p>
+              <p>Wilson University</p>
+              <p>University of Chennai</p>
+              <p>University of Madras</p>
+              <p>Vels University</p>
+              <p>Wilson University</p>
+              <p>University of Chennai</p>
+              <p>University of Madras</p>
+              <p>Vels University</p>
+              <p>Wilson University</p>
+              <p>University of Chennai</p>
+              <p>University of Madras</p>
+              <p>Vels University</p>
+              <p>Wilson University</p>
+            </div>
+          </div>
+
+          <div className="popover2" style={{ border: "none" }}>
+            <h4>Bangalore</h4>
+            <div className="popover3">
+              <p>Bangalore University</p>
+              <p>REVA University</p>
+              <p>ST. Joseph University</p>
+              <p>IIT of Science</p>
+              <p>Bangalore University</p>
+              <p>REVA University</p>
+              <p>ST. Joseph University</p>
+              <p>IIT of Science</p>
+              <p>Bangalore University</p>
+              <p>REVA University</p>
+              <p>ST. Joseph University</p>
+              <p>IIT of Science</p>
+
+            </div>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </Popover.Body>
+    </Popover>
+  );
+  const popover1 = (
+    <Popover id="popover-basic" style={{ border: 'none' }}>
+      <Popover.Body className="popover51">
+        <h4>Top Courses</h4>
+        <div className="popover1">
+          <div className="popover2">
+            <h4>Management</h4>
+            <div className="popover3">
+              <p onClick={() => navigate('/courses')}>B.Tech /BA</p>
+              <p onClick={() => navigate('/courses')}>Business tools</p>
+              <p onClick={() => navigate('/courses')}>Communication</p>
+              <p onClick={() => navigate('/courses')}>CSR</p>
+              <p onClick={() => navigate('/courses')}>Business analytics</p>
+              <p onClick={() => navigate('/courses')}>Business tools</p>
+              <p onClick={() => navigate('/courses')}>Communication</p>
+              <p onClick={() => navigate('/courses')}>CSR</p>
+              <p onClick={() => navigate('/courses')}>Business analytics</p>
+              <p onClick={() => navigate('/courses')}>Business tools</p>
+              <p onClick={() => navigate('/courses')}>Communication</p>
+              <p onClick={() => navigate('/courses')}>CSR</p>
+              <p onClick={() => navigate('/courses')}>Business analytics</p>
+              <p onClick={() => navigate('/courses')}>Business tools</p>
+              <p onClick={() => navigate('/courses')}>Communication</p>
+              <p onClick={() => navigate('/courses')}>CSR</p>
+            </div>
+          </div>
+          <div className="popover2">
+            <h4>Finance</h4>
+            <div className="popover3">
+              <p>Accounting</p>
+              <p>Banking</p>
+              <p>Investing</p>
+              <p>Law</p>
+              <p>Insurance</p>
+            </div>
+          </div>
+          <div className="popover2">
+            <h4>Design</h4>
+            <div className="popover3">
+              <p>UX UI Design</p>
+              <p>Graphic Design</p>
+              <p>Interaction Design</p>
+              <p>Universal Design</p>
+              <p>Architect Design </p>
+            </div>
+          </div>
+
+          <div className="popover2" style={{ border: "none" }}>
+            <h4>Health Care</h4>
+            <div className="popover3">
+              <p>Fitness & Nutrition</p>
+              <p>Health Care Research</p>
+              <p>Health Care Management</p>
+            </div>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </Popover.Body>
+    </Popover>
+  );
+  const popover2 = (
+    <Popover id="popover-basic" style={{ border: 'none' }}>
+      <Popover.Body className="popover52">
+        <h4>Top Exams</h4>
+        <div className="popover1">
+          <div className="popover2">
+            <div className="popover3">
+              <p onClick={() => navigate('/exam')}>CAT</p>
+              <p onClick={() => navigate('/exam')}>UGC NET</p>
+              <p onClick={() => navigate('/exam')}>IES Exams</p>
+              <p onClick={() => navigate('/exam')}>NEET- UG</p>
+              <p onClick={() => navigate('/exam')}>IBPS RRB</p>
+              <p onClick={() => navigate('/exam')}>CAT</p>
+              <p onClick={() => navigate('/exam')}>UGC NET</p>
+              <p onClick={() => navigate('/exam')}>IES Exams</p>
+              <p onClick={() => navigate('/exam')}>NEET- UG</p>
+              <p onClick={() => navigate('/exam')}>IBPS RRB</p>
+              <p onClick={() => navigate('/exam')}>CAT</p>
+              <p onClick={() => navigate('/exam')}>UGC NET</p>
+              <p onClick={() => navigate('/exam')}>IES Exams</p>
+              <p onClick={() => navigate('/exam')}>NEET- UG</p>
+              <p onClick={() => navigate('/exam')}>IBPS RRB</p>
+            </div>
+          </div>
+          <div className="popover2">
+            <div className="popover3">
+              <p onClick={() => navigate('/exam')}>NDA</p>
+              <p onClick={() => navigate('/exam')}>CA</p>
+              <p onClick={() => navigate('/exam')}>NID</p>
+              <p onClick={() => navigate('/exam')}>IIT- JEE</p>
+              <p onClick={() => navigate('/exam')}>UPSC</p>
+            </div>
+          </div>
+          <div className="popover2">
+            <div className="popover3">
+              <p onClick={() => navigate('/exam')}>CAT</p>
+              <p onClick={() => navigate('/exam')}>UGC NET</p>
+              <p onClick={() => navigate('/exam')}>IES Exams</p>
+              <p onClick={() => navigate('/exam')}>NEET- UG</p>
+              <p onClick={() => navigate('/exam')}>IBPS RRB</p>
+              <p onClick={() => navigate('/exam')}>CAT</p>
+              <p onClick={() => navigate('/exam')}>UGC NET</p>
+              <p onClick={() => navigate('/exam')}>IES Exams</p>
+              <p onClick={() => navigate('/exam')}>NEET- UG</p>
+              <p onClick={() => navigate('/exam')}>IBPS RRB</p>
+              <p onClick={() => navigate('/exam')}>CAT</p>
+              <p onClick={() => navigate('/exam')}>UGC NET</p>
+              <p onClick={() => navigate('/exam')}>IES Exams</p>
+              <p onClick={() => navigate('/exam')}>NEET- UG</p>
+              <p onClick={() => navigate('/exam')}>IBPS RRB</p>
+            </div>
+          </div>
+
+          <div className="popover2" style={{ border: "none" }}>
+            <div className="popover3">
+              <p onClick={() => navigate('/exam')}>NDA</p>
+              <p onClick={() => navigate('/exam')}>CA</p>
+              <p onClick={() => navigate('/exam')}>NID</p>
+              <p onClick={() => navigate('/exam')}>IIT- JEE</p>
+              <p onClick={() => navigate('/exam')}>UPSC</p>
+            </div>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </Popover.Body>
+    </Popover>
+  );
+
+
   const navigate = useNavigate();
   const [showNavbar, setShowNavbar] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -431,24 +668,16 @@ const TopNavbar = (props) => {
 
         <div className="newNav2">
           <div className="drop3">
-            {data.map((i, index) => (
-              <div ref={dropdownRef}>
-                <p onClick={() => setShowNavbar(true)} style={{ color: props.color }}> {i} </p>
-              </div>
-            ))}
-            <p
-              onClick={() => navigate("/courses")}
-              style={{ color: props.color }}
-            >
-              Courses
-            </p>
-            <p
-              onClick={() => navigate("/exam")}
-              style={{ color: props.color }}
-            >
-              Exams
-            </p>
+            <OverlayTrigger trigger="click" placement="bottom" overlay={popover}>
+              <p style={{ color: props.color }}>Universities</p>
+            </OverlayTrigger>
 
+            <OverlayTrigger trigger="click"  placement="bottom" overlay={popover1}>
+                <p style={{ color: props.color }}>Courses</p>
+            </OverlayTrigger>
+            <OverlayTrigger trigger="click" placement="bottom" overlay={popover2}>
+              <p style={{ color: props.color }}>Exams</p>
+            </OverlayTrigger>
             <p
               onClick={() => navigate("/scholarships")}
               style={{ color: props.color }}

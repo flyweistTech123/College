@@ -9,6 +9,7 @@ import TopNavbar from "../TopNavbar";
 import img22 from '../../Images/IIT2.png'
 import { FaClock } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
+import ApplyNowModal from "../Modals/Login/Apply";
 
 
 
@@ -27,6 +28,8 @@ const Exam = () => {
     const handleShow = () => setShow2(true);
     const [show3, setShow3] = useState(false);
     const [faltu, setFaltu] = useState(null);
+    const [modalShow, setModalShow] = useState(false);
+
 
     const handleFaltu = (index) => {
         setFaltu(index);
@@ -186,21 +189,21 @@ const Exam = () => {
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Dec 05 , 2023</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>ApplicationForm</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>30Apr24-07 May 24</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Jun 18 , 2024</p>
                             </div>
                         </div>
@@ -234,21 +237,21 @@ const Exam = () => {
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Dec 05 , 2023</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>ApplicationForm</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>30Apr24-07 May 24</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Jun 18 , 2024</p>
                             </div>
                         </div>
@@ -282,167 +285,21 @@ const Exam = () => {
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Dec 05 , 2023</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>ApplicationForm</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>30Apr24-07 May 24</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
-                                <p>Jun 18 , 2024</p>
-                            </div>
-                        </div>
-
-                        <div className="examm13">
-                            <p>Application Process</p>
-                            <IoIosArrowForward />
-                            <p>Previous Year</p>
-                            <IoIosArrowForward />
-                            <p>Exam pattern</p>
-                            <IoIosArrowForward />
-                        </div>
-                        <div className="examm14">
-                            <button>Apply Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="examm5">
-                <div className="examm6">
-                    <div className="examm7">
-                        <img src={img22} alt="" />
-                        <div className="examm8">
-                            <h6>JEE Advanced 2024</h6>
-                            <p>Joint Entrance Exams....</p>
-                            <div className="examm9">
-                                Online Exam
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="examm10">
-                        <div className="examm11">
-                            <p>Exam Date</p>
-                            <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
-                                <p>Dec 05 , 2023</p>
-                            </div>
-                        </div>
-                        <div className="examm11">
-                            <p>ApplicationForm</p>
-                            <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
-                                <p>30Apr24-07 May 24</p>
-                            </div>
-                        </div>
-                        <div className="examm11">
-                            <p>Exam Date</p>
-                            <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
-                                <p>Jun 18 , 2024</p>
-                            </div>
-                        </div>
-
-                        <div className="examm13">
-                            <p>Application Process</p>
-                            <IoIosArrowForward />
-                            <p>Previous Year</p>
-                            <IoIosArrowForward />
-                            <p>Exam pattern</p>
-                            <IoIosArrowForward />
-                        </div>
-                        <div className="examm14">
-                            <button>Apply Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="examm6">
-                    <div className="examm7">
-                        <img src={img22} alt="" />
-                        <div className="examm8">
-                            <h6>JEE Advanced 2024</h6>
-                            <p>Joint Entrance Exams....</p>
-                            <div className="examm9">
-                                Online Exam
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="examm10">
-                        <div className="examm11">
-                            <p>Exam Date</p>
-                            <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
-                                <p>Dec 05 , 2023</p>
-                            </div>
-                        </div>
-                        <div className="examm11">
-                            <p>ApplicationForm</p>
-                            <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
-                                <p>30Apr24-07 May 24</p>
-                            </div>
-                        </div>
-                        <div className="examm11">
-                            <p>Exam Date</p>
-                            <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
-                                <p>Jun 18 , 2024</p>
-                            </div>
-                        </div>
-
-                        <div className="examm13">
-                            <p>Application Process</p>
-                            <IoIosArrowForward />
-                            <p>Previous Year</p>
-                            <IoIosArrowForward />
-                            <p>Exam pattern</p>
-                            <IoIosArrowForward />
-                        </div>
-                        <div className="examm14">
-                            <button>Apply Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="examm6">
-                    <div className="examm7">
-                        <img src={img22} alt="" />
-                        <div className="examm8">
-                            <h6>JEE Advanced 2024</h6>
-                            <p>Joint Entrance Exams....</p>
-                            <div className="examm9">
-                                Online Exam
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="examm10">
-                        <div className="examm11">
-                            <p>Exam Date</p>
-                            <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
-                                <p>Dec 05 , 2023</p>
-                            </div>
-                        </div>
-                        <div className="examm11">
-                            <p>ApplicationForm</p>
-                            <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
-                                <p>30Apr24-07 May 24</p>
-                            </div>
-                        </div>
-                        <div className="examm11">
-                            <p>Exam Date</p>
-                            <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Jun 18 , 2024</p>
                             </div>
                         </div>
@@ -478,21 +335,21 @@ const Exam = () => {
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Dec 05 , 2023</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>ApplicationForm</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>30Apr24-07 May 24</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Jun 18 , 2024</p>
                             </div>
                         </div>
@@ -526,21 +383,21 @@ const Exam = () => {
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Dec 05 , 2023</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>ApplicationForm</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>30Apr24-07 May 24</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Jun 18 , 2024</p>
                             </div>
                         </div>
@@ -574,21 +431,21 @@ const Exam = () => {
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Dec 05 , 2023</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>ApplicationForm</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>30Apr24-07 May 24</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Jun 18 , 2024</p>
                             </div>
                         </div>
@@ -624,21 +481,21 @@ const Exam = () => {
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Dec 05 , 2023</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>ApplicationForm</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>30Apr24-07 May 24</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Jun 18 , 2024</p>
                             </div>
                         </div>
@@ -672,21 +529,21 @@ const Exam = () => {
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Dec 05 , 2023</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>ApplicationForm</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>30Apr24-07 May 24</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Jun 18 , 2024</p>
                             </div>
                         </div>
@@ -720,21 +577,167 @@ const Exam = () => {
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Dec 05 , 2023</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>ApplicationForm</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>30Apr24-07 May 24</p>
                             </div>
                         </div>
                         <div className="examm11">
                             <p>Exam Date</p>
                             <div className="examm12">
-                                <FaClock  style={{color:'#000000'}}/>
+                                <FaClock style={{ color: '#000000' }} />
+                                <p>Jun 18 , 2024</p>
+                            </div>
+                        </div>
+
+                        <div className="examm13">
+                            <p>Application Process</p>
+                            <IoIosArrowForward />
+                            <p>Previous Year</p>
+                            <IoIosArrowForward />
+                            <p>Exam pattern</p>
+                            <IoIosArrowForward />
+                        </div>
+                        <div className="examm14">
+                            <button>Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="examm5">
+                <div className="examm6">
+                    <div className="examm7">
+                        <img src={img22} alt="" />
+                        <div className="examm8">
+                            <h6>JEE Advanced 2024</h6>
+                            <p>Joint Entrance Exams....</p>
+                            <div className="examm9">
+                                Online Exam
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="examm10">
+                        <div className="examm11">
+                            <p>Exam Date</p>
+                            <div className="examm12">
+                                <FaClock style={{ color: '#000000' }} />
+                                <p>Dec 05 , 2023</p>
+                            </div>
+                        </div>
+                        <div className="examm11">
+                            <p>ApplicationForm</p>
+                            <div className="examm12">
+                                <FaClock style={{ color: '#000000' }} />
+                                <p>30Apr24-07 May 24</p>
+                            </div>
+                        </div>
+                        <div className="examm11">
+                            <p>Exam Date</p>
+                            <div className="examm12">
+                                <FaClock style={{ color: '#000000' }} />
+                                <p>Jun 18 , 2024</p>
+                            </div>
+                        </div>
+
+                        <div className="examm13">
+                            <p>Application Process</p>
+                            <IoIosArrowForward />
+                            <p>Previous Year</p>
+                            <IoIosArrowForward />
+                            <p>Exam pattern</p>
+                            <IoIosArrowForward />
+                        </div>
+                        <div className="examm14">
+                            <button>Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="examm6">
+                    <div className="examm7">
+                        <img src={img22} alt="" />
+                        <div className="examm8">
+                            <h6>JEE Advanced 2024</h6>
+                            <p>Joint Entrance Exams....</p>
+                            <div className="examm9">
+                                Online Exam
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="examm10">
+                        <div className="examm11">
+                            <p>Exam Date</p>
+                            <div className="examm12">
+                                <FaClock style={{ color: '#000000' }} />
+                                <p>Dec 05 , 2023</p>
+                            </div>
+                        </div>
+                        <div className="examm11">
+                            <p>ApplicationForm</p>
+                            <div className="examm12">
+                                <FaClock style={{ color: '#000000' }} />
+                                <p>30Apr24-07 May 24</p>
+                            </div>
+                        </div>
+                        <div className="examm11">
+                            <p>Exam Date</p>
+                            <div className="examm12">
+                                <FaClock style={{ color: '#000000' }} />
+                                <p>Jun 18 , 2024</p>
+                            </div>
+                        </div>
+
+                        <div className="examm13">
+                            <p>Application Process</p>
+                            <IoIosArrowForward />
+                            <p>Previous Year</p>
+                            <IoIosArrowForward />
+                            <p>Exam pattern</p>
+                            <IoIosArrowForward />
+                        </div>
+                        <div className="examm14">
+                            <button>Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="examm6">
+                    <div className="examm7">
+                        <img src={img22} alt="" />
+                        <div className="examm8">
+                            <h6>JEE Advanced 2024</h6>
+                            <p>Joint Entrance Exams....</p>
+                            <div className="examm9">
+                                Online Exam
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="examm10">
+                        <div className="examm11">
+                            <p>Exam Date</p>
+                            <div className="examm12">
+                                <FaClock style={{ color: '#000000' }} />
+                                <p>Dec 05 , 2023</p>
+                            </div>
+                        </div>
+                        <div className="examm11">
+                            <p>ApplicationForm</p>
+                            <div className="examm12">
+                                <FaClock style={{ color: '#000000' }} />
+                                <p>30Apr24-07 May 24</p>
+                            </div>
+                        </div>
+                        <div className="examm11">
+                            <p>Exam Date</p>
+                            <div className="examm12">
+                                <FaClock style={{ color: '#000000' }} />
                                 <p>Jun 18 , 2024</p>
                             </div>
                         </div>
@@ -777,6 +780,13 @@ const Exam = () => {
             </div>
 
             <Footer />
+            <div className="home555">
+                <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
+                <button onClick={() => setModalShow(true)}>Apply Now!</button>
+            </div>
+
+            <ApplyNowModal show={modalShow}
+                onHide={() => setModalShow(false)} />
         </>
     );
 };
