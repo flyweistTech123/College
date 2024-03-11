@@ -672,8 +672,8 @@ const TopNavbar = (props) => {
               <p style={{ color: props.color }}>Universities</p>
             </OverlayTrigger>
 
-            <OverlayTrigger trigger="click"  placement="bottom" overlay={popover1}>
-                <p style={{ color: props.color }}>Courses</p>
+            <OverlayTrigger trigger="click" placement="bottom" overlay={popover1}>
+              <p style={{ color: props.color }}>Courses</p>
             </OverlayTrigger>
             <OverlayTrigger trigger="click" placement="bottom" overlay={popover2}>
               <p style={{ color: props.color }}>Exams</p>
@@ -700,7 +700,7 @@ const TopNavbar = (props) => {
             <p onClick={() => navigate("/hostels")} style={{ color: props.color }}>
               Hostels
             </p>
-            <p onClick={() => navigate("/hostels")} style={{ color: props.color }}>
+            <p onClick={() => navigate("/internships")} style={{ color: props.color }}>
               Internships
             </p>
             <p style={{ color: props.color }} onClick={openMoremodal}>

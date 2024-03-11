@@ -60,6 +60,8 @@ import Compare from "./components/Community/Compare";
 import WritingReview from "./components/WritingReview/WritingReview";
 import Courses_details from "./components/Course/Course_details";
 import Course_Review from "./components/Course/Course_Review";
+import ExploreHostel from "./components/Hostel/ExploreHostel";
+import Internships from "./components/Internships/Internships";
 
 function App() {
   return (
@@ -109,6 +111,7 @@ function App() {
           <Route path="/document" element={<Document />} />
           <Route path="/scholarshiptest" element={<ScholarshipTest />} />
           <Route path="/hostels" element={<Hostel />} />
+          <Route path="/explorehostel" element={<ExploreHostel />} />
           <Route path="/mocktest" element={<MockTest />} />
           <Route path="/tests" element={<MockTest1 />} />
           <Route path="/college-predictor" element={<Predictor />} />
@@ -125,6 +128,7 @@ function App() {
           <Route path="/writereview" element={<WritingReview />} />
           <Route path="/courses_details" element={<Courses_details />} />
           <Route path="/course_review" element={<Course_Review />} />
+          <Route path="/internships" element={<Internships />} />
         </Routes>
       </BrowserRouter>
     </>

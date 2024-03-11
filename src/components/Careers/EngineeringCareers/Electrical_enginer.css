@@ -1,34 +1,119 @@
-.electrical1{
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
+.electricalengi {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+
+  margin-top: 30px;
 }
 
-.electrical1 h2{
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 40.85px;
-    color: #121212;
+.electricalengi1 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.electricalengi2 {
+  width: 70%;
+}
+
+.electricalengi3 {
+}
+
+.electricalengi3 h2 {
+  font-family: "Open Sans", Open Sans;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40.85px;
+  color: #121212;
+  margin: 0;
+}
+
+.electricalengi4 {
+  margin-top: 30px;
+}
+
+.electricalengi4 h5 {
+  font-family: "Manrope", Open Sans;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34.15px;
+  color: #121212;
+  margin: 0;
+}
+
+.electricalengi5 {
+  margin-top: 20px;
+}
+
+.electricalengi5 p {
+  font-family: "Manrope", Open Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: #000000;
+  margin: 0;
+  margin-top: 10px;
+  width: 95%;
+}
+
+.electricalengi6 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.electricalengi7 {
+  font-family: Open Sans;
+  cursor: pointer;
+  width: 284px;
+  height: 52px;
+  border-radius: 5px;
+  background-color: #f4bc1c;
+  font-family: "Manrope", Open Sans;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 34.15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.electricalengi8 {
+  font-family: Open Sans;
+  cursor: pointer;
+  width: 284px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid #3A3A3A;
+  background: #ffffff;
+  font-family: "Manrope", Open Sans;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 34.15px;
+  text-align: center;
+  margin: 0;
+  color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.electricalengi9{
     text-align: center;
 }
 
-.electrical2{
-    margin-top: 50px;
-}
-
-
-.electrical2 h3{
+.electricalengi9 h6{
+    font-family: "Open Sans", Open Sans;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 34.05px;
     color: #121212;
-    margin-bottom: 30px;
-}
-
-.electrical2 p{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24.51px;
-    color: #000000;
+    margin: 0;
+    margin-top: 20px;
 }

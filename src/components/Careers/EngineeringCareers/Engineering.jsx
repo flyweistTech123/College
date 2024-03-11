@@ -7,6 +7,9 @@ import careersimg from '../../../Images/careers.png';
 import TopNavbar from "../../TopNavbar";
 import career1 from '../../../Images/career1.png'
 import career2 from "../../../Images/career25.png";
+import ApplyNowModal from "../../Modals/Login/Apply";
+
+
 
 
 
@@ -21,6 +24,7 @@ const EngineeringCareers = () => {
   const handleClose = () => setShow2(false);
   const handleShow = () => setShow2(true);
   const [show3, setShow3] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
 
   const handleClick = () => {
     setShowNavbar((prev) => !prev);
@@ -63,19 +67,19 @@ const EngineeringCareers = () => {
         <div className="caree5">
           <h3>Careers in Engineering & Technology</h3>
           <div className="caree9">
-            <div className="caree10" onClick={()=>navigate('/electricalengineering')}>
+            <div className="caree10" onClick={() => navigate('/electricalengineering')}>
               <div className="caree11">
                 <img src={career2} alt="" />
               </div>
               <h5>Electronic Engineer</h5>
             </div>
-            <div className="caree10" onClick={()=>navigate('/electricalengineering')}>
+            <div className="caree10" onClick={() => navigate('/electricalengineering')}>
               <div className="caree11">
                 <img src={career2} alt="" />
               </div>
               <h5>Electronic Engineer</h5>
             </div>
-            <div className="caree10" onClick={()=>navigate('/electricalengineering')}>
+            <div className="caree10" onClick={() => navigate('/electricalengineering')}>
               <div className="caree11">
                 <img src={career2} alt="" />
               </div>
@@ -160,6 +164,13 @@ const EngineeringCareers = () => {
 
 
       <Footer />
+      <div className="home555">
+        <p>Jamia Miliya Islamia College of Engineering Delhi : Admissions Open for  B.E | MBA | MCA 2023 </p>
+        <button onClick={() => setModalShow(true)}>Apply Now!</button>
+      </div>
+
+      <ApplyNowModal show={modalShow}
+        onHide={() => setModalShow(false)} />
     </>
   );
 };

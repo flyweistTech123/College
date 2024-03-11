@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "../Footer";
 import TopNavbar from "../TopNavbar";
-import Sidebar3 from "../Sidebar3";
+import Sidebar4 from "../Sidebar4";
 import host from '../../Images/hostles.png'
 import image1 from '../../Images/hostel2.png'
 import image2 from '../../Images/hostel3.png'
@@ -48,69 +48,6 @@ const Hostel = () => {
     const [show3, setShow3] = useState(false);
     const images = [image1, image2, image3, image4];
 
-    function NavMenu() {
-        return (
-            <>
-                <div className="menu1">
-                    <h3>Top Universities</h3>
-                    <div className="menu2">
-                        <div className="menu3">
-                            <h6>Delhi</h6>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                        </div>
-                        <div className="menu4"></div>
-                        <div className="menu3">
-                            <h6>Mumbai</h6>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                        </div>
-                        <div className="menu4"></div>
-                        <div className="menu3">
-                            <h6>Chennai</h6>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                        </div>
-                        <div className="menu4"></div>
-                        <div className="menu3">
-                            <h6>Bangalore</h6>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                            <p>Lorem Ipsum</p>
-                        </div>
-                        <div className="menu4"></div>
-                    </div>
-                </div>
-            </>
-        );
-    }
 
     const handleClick = () => {
         setShowNavbar((prev) => !prev);
@@ -148,7 +85,7 @@ const Hostel = () => {
             </div>
             <div className="schro5">
                 <div className="screen2">
-                    <Sidebar3 />
+                    <Sidebar4 />
                 </div>
 
                 <div className="hostel29">
@@ -164,8 +101,6 @@ const Hostel = () => {
                         <CardWithSlider
                             images={images}
                         />
-                    </div>
-                    <div className="hostel28">
                         <CardWithSlider
                             images={images}
                         />
@@ -189,8 +124,6 @@ const Hostel = () => {
                         <CardWithSlider
                             images={images}
                         />
-                    </div>
-                    <div className="hostel28">
                         <CardWithSlider
                             images={images}
                         />
