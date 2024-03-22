@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import TopNavbar from "../TopNavbar";
 import Footer from "../Footer";
-import img5 from '../../Images/application.png'
-import { MdUpload } from "react-icons/md";
 import './WritingReview.css'
 import img1 from '../../Images/starrs.png'
 

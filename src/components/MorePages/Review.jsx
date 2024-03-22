@@ -13,7 +13,7 @@ import refer4 from '../../Images/refer15.png'
 import refer5 from '../../Images/review16.png'
 import refer6 from '../../Images/review17.png'
 import refer7 from '../../Images/review18.png'
-
+import refer8 from '../../Images/crown.png'
 
 const Review = () => {
   const navigate = useNavigate();
@@ -23,27 +23,31 @@ const Review = () => {
   return (
     <>
       <div className="app1">
-        <div className="schro">
+        <div className="review28">
           <TopNavbar />
         </div>
         <div className="app6">
           <img src={moke} />
         </div>
-        <div className="schro1">
+        <div className="review29">
           <div className="home100">
             <i class="fa-solid fa-bars" ></i>
           </div>
-          <div className="schro2">
-            <h2>Let’s StartWriting Your Reviews.</h2>
+          <div className="review30">
+            <h2>Write a Review and Win Monthly Prizes Upto</h2>
+            <h5>₹30000*</h5>
           </div>
-          <div className="home4">
+          <div className="review31">
+            <p>Every Review Will Bring Upto ₹500 & ₹30000 monthly via Referrals, <span>“ Extra Cash for Selected Colleges “</span></p>
+          </div>
+          <div className="review33">
             <input
               type="text"
               placeholder="Search for colleges, exams, Q & A, Articles..."
             />
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
-          <div className="schro3">
+          <div className="review32">
             <button onClick={() => navigate("/writereview")}>
               Start Writing Your Review
             </button>
@@ -67,7 +71,7 @@ const Review = () => {
         <div className="review25">
           <div className="review26">
             <img src={refer1} alt="" />
-            <p>Srujan 1st Winner</p>
+            <p>Srujan(1st) <br /><span>₹12999/-</span></p>
           </div>
           <div className="review26">
             <img src={refer2} alt="" />

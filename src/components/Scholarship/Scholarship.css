@@ -15,9 +15,11 @@
 
 .schro2 {
   width: 100%;
-  /* margin-top: 60px; */
   margin: auto;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .schro2 h2 {
   color: #ffffff;
@@ -26,8 +28,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-left: 350px;
-  /* margin-left: 80px; */
 }
 
 .schro3 {
