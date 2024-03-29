@@ -5,6 +5,7 @@ import MobileLoanNavbar from "./MobileLoanNavabr";
 import Footer from "./Footer";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import img from "../Images/c101.png";
+import TopNavbar from "./TopNavbar";
 
 const Setting = () => {
   const [show2, setShow2] = useState(false);
@@ -12,7 +13,9 @@ const Setting = () => {
   const handleShow = () => setShow2(true);
   return (
     <>
-      <LoanNavbar />
+      <div className="schro">
+        <TopNavbar />
+      </div>
       <div className="home100">
         <i class="fa-solid fa-bars" onClick={handleShow}></i>
       </div>

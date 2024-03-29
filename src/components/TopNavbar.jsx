@@ -466,6 +466,10 @@ const TopNavbar = (props) => {
       name: "Become a Partner",
       link: '/become-partner',
     },
+    {
+      name: "FAQ",
+      link: '/faq',
+    },
   ];
 
 

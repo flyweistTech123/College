@@ -1,19 +1,22 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Footer from "./Footer";
 import Sidebar2 from "./Sidebar2";
 import LoanNavbar from "./LoanNavbar";
 import MobileLoanNavbar from "./MobileLoanNavabr";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import img from "../Images/c95.png";
+import TopNavbar from "./TopNavbar";
 
 
-const Insurance = ()=>{
+const Insurance = () => {
     const [show2, setShow2] = useState(false);
     const handleClose = () => setShow2(false);
     const handleShow = () => setShow2(true);
     return (
         <>
-            <LoanNavbar />
+            <div className="schro">
+                <TopNavbar />
+            </div>
             <div className="home100">
                 <i class="fa-solid fa-bars" onClick={handleShow}></i>
             </div>

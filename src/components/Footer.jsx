@@ -1,7 +1,9 @@
 import React from "react";
 import logo from '../Images/logo.png'
+import { useNavigate } from "react-router-dom";
 const Footer = () => {
   console.log("Footer here");
+  const navigate = useNavigate()
   return (
     <>
       <div className="foot1">
@@ -66,7 +68,7 @@ const Footer = () => {
         </div>
         <hr className="foot6" />
         <div className="foot7">
-          <h3> <span style={{color:'#353535'}}>Terms & Conditions</span> | Privacy Policy | 2023 College Hub Internet Co.</h3>
+          <h3 onClick={()=>navigate('/terms')}> <span style={{color:'#353535'}}>Terms & Conditions</span> | Privacy Policy | 2023 College Hub Internet Co.</h3>
         </div>
       </div>
     </>

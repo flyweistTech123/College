@@ -7,14 +7,17 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 import img from "../Images/c99.png";
 import img2 from "../Images/c100.png";
+import TopNavbar from "./TopNavbar";
 
 const Counsellor = () => {
-    const [show2, setShow2] = useState(false);
-    const handleClose = () => setShow2(false);
-    const handleShow = () => setShow2(true);
+  const [show2, setShow2] = useState(false);
+  const handleClose = () => setShow2(false);
+  const handleShow = () => setShow2(true);
   return (
     <>
-      <LoanNavbar />
+      <div className="schro">
+        <TopNavbar />
+      </div>
       <div className="home100">
         <i class="fa-solid fa-bars" onClick={handleShow}></i>
       </div>
@@ -30,8 +33,8 @@ const Counsellor = () => {
               <p>Expert Counsellor at CollegeHub</p>
             </div>
             <div className="counsellor3">
-                <button className="college5">Rate Counsellor</button>
-                <button className="college6">Schedule a Call</button>
+              <button className="college5">Rate Counsellor</button>
+              <button className="college6">Schedule a Call</button>
             </div>
           </div>
           <div className="counsellor1">
@@ -41,8 +44,8 @@ const Counsellor = () => {
               <p>Expert Counsellor at CollegeHub</p>
             </div>
             <div className="counsellor3">
-                <button className="college5">Rate Counsellor</button>
-                <button className="college6">Schedule a Call</button>
+              <button className="college5">Rate Counsellor</button>
+              <button className="college6">Schedule a Call</button>
             </div>
           </div>
           <div className="counsellor1">
@@ -52,8 +55,8 @@ const Counsellor = () => {
               <p>Expert Counsellor at CollegeHub</p>
             </div>
             <div className="counsellor3">
-                <button className="college5">Rate Counsellor</button>
-                <button className="college6">Schedule a Call</button>
+              <button className="college5">Rate Counsellor</button>
+              <button className="college6">Schedule a Call</button>
             </div>
           </div>
           <div className="counsellor1">
@@ -63,8 +66,8 @@ const Counsellor = () => {
               <p>Expert Counsellor at CollegeHub</p>
             </div>
             <div className="counsellor3">
-                <button className="college5">Rate Counsellor</button>
-                <button className="college6">Schedule a Call</button>
+              <button className="college5">Rate Counsellor</button>
+              <button className="college6">Schedule a Call</button>
             </div>
           </div>
           <div className="counsellor1">
@@ -74,8 +77,8 @@ const Counsellor = () => {
               <p>Expert Counsellor at CollegeHub</p>
             </div>
             <div className="counsellor3">
-                <button className="college5">Rate Counsellor</button>
-                <button className="college6">Schedule a Call</button>
+              <button className="college5">Rate Counsellor</button>
+              <button className="college6">Schedule a Call</button>
             </div>
           </div>
           <div className="counsellor1">
@@ -85,8 +88,8 @@ const Counsellor = () => {
               <p>Expert Counsellor at CollegeHub</p>
             </div>
             <div className="counsellor3">
-                <button className="college5">Rate Counsellor</button>
-                <button className="college6">Schedule a Call</button>
+              <button className="college5">Rate Counsellor</button>
+              <button className="college6">Schedule a Call</button>
             </div>
           </div>
         </div>
@@ -96,8 +99,8 @@ const Counsellor = () => {
         <Offcanvas.Header closeButton>
         </Offcanvas.Header>
         <Offcanvas.Body>
-            <MobileLoanNavbar />
-            <Sidebar2 />
+          <MobileLoanNavbar />
+          <Sidebar2 />
         </Offcanvas.Body>
       </Offcanvas>
     </>

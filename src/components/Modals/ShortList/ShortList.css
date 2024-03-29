@@ -56,6 +56,47 @@
     align-items: center;
     justify-content: center;
 }
+.shortli5544 {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: start;
+}
+
+.shortli5544 button:nth-child(1) {
+    width: 163px;
+    height: 39px;
+    border: none;
+    outline: none;
+    background-color: #001848;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+    /* Adding transition for smooth animation */
+}
+
+.shortli5544 button:hover {
+    transform: scale(1.1);
+}
+
+
+.shortli5544 button:nth-child(2) {
+    width: 163px;
+    height: 39px;
+    border: none;
+    outline: none;
+    background-color: #F4BC1C;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
 
 .shortli5 button:nth-child(1) {
     width: 163px;

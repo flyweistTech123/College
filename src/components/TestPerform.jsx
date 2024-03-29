@@ -1,20 +1,23 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import LoanNavbar from "./LoanNavbar";
 import MobileLoanNavbar from "./MobileLoanNavabr";
 import Sidebar2 from "./Sidebar2";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import img from "../Images/c95.png";
+import TopNavbar from "./TopNavbar";
 
 const TestPerform = () => {
-    const [show2, setShow2] = useState(false);
-    const handleClose = () => setShow2(false);
-    const handleShow = () => setShow2(true);
+  const [show2, setShow2] = useState(false);
+  const handleClose = () => setShow2(false);
+  const handleShow = () => setShow2(true);
   return (
     <>
-      <LoanNavbar />
+      <div className="schro">
+        <TopNavbar />
+      </div>
       <div className="home100">
-          <i class="fa-solid fa-bars" onClick={handleShow}></i>
-        </div>
+        <i class="fa-solid fa-bars" onClick={handleShow}></i>
+      </div>
       <div className="profile1">
         <div className="profile2">
           <Sidebar2 />
@@ -30,8 +33,8 @@ const TestPerform = () => {
         <Offcanvas.Header closeButton>
         </Offcanvas.Header>
         <Offcanvas.Body>
-            <MobileLoanNavbar />
-            <Sidebar2 />
+          <MobileLoanNavbar />
+          <Sidebar2 />
         </Offcanvas.Body>
       </Offcanvas>
     </>

@@ -4,6 +4,7 @@ import MobileLoanNavbar from "./MobileLoanNavabr";
 import Footer from "./Footer";
 import Sidebar2 from "./Sidebar2";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import TopNavbar from "./TopNavbar";
 
 const Profile = () => {
   const [show2, setShow2] = useState(false);
@@ -11,7 +12,9 @@ const Profile = () => {
   const handleShow = () => setShow2(true);
   return (
     <>
-      <LoanNavbar />
+      <div className="schro">
+        <TopNavbar  />
+      </div>
       <div className="home100">
         <i class="fa-solid fa-bars" onClick={handleShow}></i>
       </div>

@@ -6,17 +6,20 @@ import Footer from "./Footer";
 
 import img from "../Images/c96.png";
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import TopNavbar from "./TopNavbar";
 
 const Feed = () => {
-    const [show2, setShow2] = useState(false);
-    const handleClose = () => setShow2(false);
-    const handleShow = () => setShow2(true);
+  const [show2, setShow2] = useState(false);
+  const handleClose = () => setShow2(false);
+  const handleShow = () => setShow2(true);
   return (
     <>
-      <LoanNavbar />
+      <div className="schro">
+        <TopNavbar />
+      </div>
       <div className="home100">
-          <i class="fa-solid fa-bars" onClick={handleShow}></i>
-        </div>
+        <i class="fa-solid fa-bars" onClick={handleShow}></i>
+      </div>
       <div className="profile1">
         <div className="profile2">
           <Sidebar2 />
@@ -26,32 +29,32 @@ const Feed = () => {
             <h6>My Feeds</h6>
             <div className="feed2">
               <img src={img} alt="" />
-              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit 
-                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
             </div>
             <div className="feed2">
               <img src={img} alt="" />
-              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit 
-                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
             </div>
             <div className="feed2">
               <img src={img} alt="" />
-              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit 
-                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
             </div>
             <div className="feed2">
               <img src={img} alt="" />
-              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit 
-                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
             </div>
             <div className="feed2">
               <img src={img} alt="" />
-              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit 
-                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                interdum, ac aliquet odio mattis. Rorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
             </div>
           </div>
@@ -63,7 +66,7 @@ const Feed = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <MobileLoanNavbar />
-            <Sidebar2 />
+          <Sidebar2 />
         </Offcanvas.Body>
       </Offcanvas>
     </>

@@ -15,6 +15,9 @@ import refer6 from '../../Images/review17.png'
 import refer7 from '../../Images/review18.png'
 import refer8 from '../../Images/crown.png'
 
+import refer9 from '../../Images/review30.png'
+import refer10 from '../../Images/review31.png'
+
 const Review = () => {
   const navigate = useNavigate();
   const handleClick = () => {
@@ -68,34 +71,328 @@ const Review = () => {
           </div>
         </div>
 
-        <div className="review25">
-          <div className="review26">
-            <img src={refer1} alt="" />
-            <p>Srujan(1st) <br /><span>₹12999/-</span></p>
-          </div>
-          <div className="review26">
-            <img src={refer2} alt="" />
-            <p>Varun 2st Winner</p>
-          </div>
-          <div className="review26">
-            <img src={refer3} alt="" />
-            <p>Nirmal 3rd Winner</p>
-          </div>
-          <div className="review26">
-            <img src={refer4} alt="" />
-            <p>Rahul 4th Winner</p>
-          </div>
+        <div className="review69">
+          <div className="review71">
 
-          <div className="review26">
-            <div className="review27">
-              <img src={refer5} alt="" />
-              <img src={refer6} alt="" />
-              <img src={refer7} alt="" />
+            <h6>January Winners</h6>
+
+            <div>
+              <img src={refer8} alt="" />
+            </div>
+            <div className="review25">
+              <div className="review26">
+                <div className="review72">
+                  <div className="review73">
+                    <img src={refer1} alt="" />
+                  </div>
+                </div>
+                <p>Srujan(1st) <br /><span>₹12999/-</span></p>
+              </div>
+              <div className="review26">
+                <img src={refer2} alt="" />
+                <p>Varun(2nd) <br /><span>₹10999/-</span></p>
+              </div>
+              <div className="review26">
+                <img src={refer3} alt="" />
+                <p>Nirmal(3rd) <br /><span>₹11999/-</span></p>
+              </div>
+              <div className="review26">
+                <img src={refer4} alt="" />
+                <p>Rahul(4th) <br /><span>₹9999/-</span></p>
+              </div>
+
+              <div className="review26">
+                <div className="review27">
+                  <img src={refer5} alt="" />
+                  <img src={refer6} alt="" />
+                  <img src={refer7} alt="" />
+                </div>
+                <div className="review74">
+                  <p>7+more</p>
+                  <p> Won ₹ 1200</p>
+                </div>
+              </div>
             </div>
 
-            <p>7+more Winners</p>
+          </div>
+          <div className="review70">
+
+          </div>
+          <div className="review65">
+            <h6>February Contest Ends In:</h6>
+
+            <div className="review66">
+              <div className="review67">
+                <h6>15</h6>
+                <span>Days</span>
+              </div>
+              <div className="review67">
+                <h6>:</h6>
+              </div>
+              <div className="review67">
+                <h6>05</h6>
+                <span>HRS</span>
+              </div>
+              <div className="review67">
+                <h6>:</h6>
+              </div>
+              <div className="review67">
+                <h6>17</h6>
+                <span>Mins</span>
+              </div>
+              <div className="review67">
+                <h6>:</h6>
+              </div>
+              <div className="review67">
+                <h6>32</h6>
+                <span>Secs</span>
+              </div>
+            </div>
+
+            <div className="review68">
+              <p>How To Earn ? <span>Learn more</span></p>
+            </div>
           </div>
         </div>
+
+
+
+        <div className="review34">
+          <div className="review35">
+            <h5>Monthly <span>Cash Rewards</span></h5>
+          </div>
+          <div className="review36">
+            <div className="review37">
+              <div className="review38">
+                <div className="review39">
+                  <p>1</p>
+                </div>
+                <div className="review40">
+                  <p>1st prize Winner</p>
+                </div>
+              </div>
+              <div className="review41">
+                <h6>₹15,000/-</h6>
+                <p>Minimum 90 referrals and 1st position on Leaderboard</p>
+              </div>
+            </div>
+            <div className="review37">
+              <div className="review38">
+                <div className="review39">
+                  <p>2</p>
+                </div>
+                <div className="review40">
+                  <p>2nd prize Winner</p>
+                </div>
+              </div>
+              <div className="review41">
+                <h6>₹15,000/-</h6>
+                <p>Minimum 90 referrals and 1st position on Leaderboard</p>
+              </div>
+            </div>
+            <div className="review37">
+              <div className="review38">
+                <div className="review39">
+                  <p>3</p>
+                </div>
+                <div className="review40">
+                  <p>3rd prize Winner</p>
+                </div>
+              </div>
+              <div className="review41">
+                <h6>₹15,000/-</h6>
+                <p>Minimum 90 referrals and 1st position on Leaderboard</p>
+              </div>
+            </div>
+            <div className="review37">
+              <div className="review38">
+                <div className="review39">
+                  <p>4</p>
+                </div>
+                <div className="review40">
+                  <p>4th prize Winner</p>
+                </div>
+              </div>
+              <div className="review41">
+                <h6>₹15,000/-</h6>
+                <p>Minimum 90 referrals and 1st position on Leaderboard</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="review42">
+          <div className="review43">
+            <h5>How To Win <span>Rewards ??</span></h5>
+          </div>
+
+          <div className="review44">
+            <div className="review45">
+              <div className="review46">
+                {/* <hr /> */}
+              </div>
+              <div className="review49">
+                <div className="review47">
+                  <div className="review48"></div>
+                </div>
+                <div className="review47">
+                  <div className="review48"></div>
+                </div>
+                <div className="review47">
+                  <div className="review48"></div>
+                </div>
+              </div>
+            </div>
+
+            <div className="review50">
+              <div className="review51">
+                <h5>Submit Your College Review</h5>
+                <p>Every review gets guaranteed Rs 200 - Rs 300 extra for selected colleges Check List</p>
+              </div>
+              <div className="review51">
+                <h5>Collect Your Referral Code</h5>
+                <p>Every approved review via referral Gets Guaranteed Rs ₹40 - ₹100. Earn ₹200 by successfully referring someone for an MBA course review.</p>
+              </div>
+              <div className="review51">
+                <h5>Reach in Top 10 of the leaderboard</h5>
+                <p>Every month top three referees get Rs 15000, Rs 12000, and Rs 7000. Next 7 Refers Get Rs 2000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="review52">
+          <div className="review53">
+            <h5>February Month Leaderboard</h5>
+            <p>From 1–15 Feb 2024</p>
+          </div>
+
+          <div className="review54">
+            <div className="review55">
+              <div className="review56">
+                <p>#1</p>
+              </div>
+              <div className="review57">
+                <div className="review58">
+                  <img src={refer9} alt="" />
+                </div>
+
+                <div className="review60">
+                  <h6>Raviraj</h6>
+                  <p>Gurukula Kangri Vishwavidyalaya - [GKV]</p>
+                  <div className="review59">
+                    <div className="review62">
+                      <div className="review63">
+                        <p>4120 points</p>
+                      </div>
+                    </div>
+                    <div className="review61"></div>
+                    <div className="review61"></div>
+                    <div className="review61"></div>
+                  </div>
+                  <p>Successful Referrals-51</p>
+                </div>
+              </div>
+              <div className="review64">
+                <img src={refer10} alt="" />
+                <p>39 More Referrals Required For 1st Prize Cash Rewards ₹15000/-</p>
+              </div>
+            </div>
+            <div className="review55">
+              <div className="review56">
+                <p>#2</p>
+              </div>
+              <div className="review57">
+                <div className="review58">
+                  <img src={refer9} alt="" />
+                </div>
+
+                <div className="review60">
+                  <h6>Raviraj</h6>
+                  <p>Gurukula Kangri Vishwavidyalaya - [GKV]</p>
+                  <div className="review59">
+                    <div className="review62">
+                      <div className="review63">
+                        <p>4120 points</p>
+                      </div>
+                    </div>
+                    <div className="review61"></div>
+                    <div className="review61"></div>
+                    <div className="review61"></div>
+                  </div>
+                  <p>Successful Referrals-51</p>
+                </div>
+              </div>
+              <div className="review64">
+                <img src={refer10} alt="" />
+                <p>39 More Referrals Required For 1st Prize Cash Rewards ₹15000/-</p>
+              </div>
+            </div>
+            <div className="review55">
+              <div className="review56">
+                <p>#3</p>
+              </div>
+              <div className="review57">
+                <div className="review58">
+                  <img src={refer9} alt="" />
+                </div>
+
+                <div className="review60">
+                  <h6>Raviraj</h6>
+                  <p>Gurukula Kangri Vishwavidyalaya - [GKV]</p>
+                  <div className="review59">
+                    <div className="review62">
+                      <div className="review63">
+                        <p>4120 points</p>
+                      </div>
+                    </div>
+                    <div className="review61"></div>
+                    <div className="review61"></div>
+                    <div className="review61"></div>
+                  </div>
+                  <p>Successful Referrals-51</p>
+                </div>
+              </div>
+              <div className="review64">
+                <img src={refer10} alt="" />
+                <p>39 More Referrals Required For 1st Prize Cash Rewards ₹15000/-</p>
+              </div>
+            </div>
+            <div className="review55">
+              <div className="review56">
+                <p>#4</p>
+              </div>
+              <div className="review57">
+                <div className="review58">
+                  <img src={refer9} alt="" />
+                </div>
+
+                <div className="review60">
+                  <h6>Raviraj</h6>
+                  <p>Gurukula Kangri Vishwavidyalaya - [GKV]</p>
+                  <div className="review59">
+                    <div className="review621">
+                      <div className="review631">
+                        <p>4120 points</p>
+                      </div>
+                    </div>
+                    <div className="review611"></div>
+                    <div className="review611"></div>
+                    <div className="review611"></div>
+                  </div>
+                  <p>Successful Referrals-51</p>
+                </div>
+              </div>
+              <div className="review64">
+                <img src={refer10} alt="" />
+                <p>39 More Referrals Required For 1st Prize Cash Rewards ₹15000/-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="review22">
           <h1>Do's & Dont's - Points to Consider While Writing a Review</h1>
           <ul>

@@ -8,11 +8,15 @@ import Footer from "./Footer";
 import img from "../Images/c116.png";
 import img2 from "../Images/c117.png";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import TopNavbar from "./TopNavbar";
+import { FiUpload } from "react-icons/fi";
 
 const Document = () => {
   return (
     <>
-      <LoanNavbar />
+      <div className="schro">
+        <TopNavbar />
+      </div>
       <div className="profile1">
         <div className="profile2">
           <Sidebar2 />
@@ -24,7 +28,7 @@ const Document = () => {
               <p>Forem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et </p>
             </div>
             <div className="doc3">
-                <img src={img} alt="" />
+              <img src={img} alt="" />
             </div>
           </div>
           <div className="doc4">
@@ -32,31 +36,31 @@ const Document = () => {
             <div className="doc5">
               <div className="doc6">
                 <div className="doc7">
-                  <img src={img2} alt="" />
+                  <FiUpload color="#001848" size={25} />
                   <p>Upload</p>
                 </div>
                 <h5>10th Certificate</h5>
               </div>
               <div className="doc6">
                 <div className="doc7">
-                  <img src={img2} alt="" />
+                  <FiUpload color="#001848" size={25} />
                   <p>Upload</p>
                 </div>
-                <h5>10th Certificate</h5>
+                <h5>12th Certificate</h5>
               </div>
               <div className="doc6">
                 <div className="doc7">
-                  <img src={img2} alt="" />
+                  <FiUpload color="#001848" size={25} />
                   <p>Upload</p>
                 </div>
-                <h5>10th Certificate</h5>
+                <h5>Aadhar Card</h5>
               </div>
               <div className="doc6">
                 <div className="doc7">
-                  <img src={img2} alt="" />
+                  <FiUpload color="#001848" size={25} />
                   <p>Upload</p>
                 </div>
-                <h5>10th Certificate</h5>
+                <h5>PAN Card</h5>
               </div>
             </div>
           </div>

@@ -62,6 +62,11 @@ import Courses_details from "./components/Course/Course_details";
 import Course_Review from "./components/Course/Course_Review";
 import ExploreHostel from "./components/Hostel/ExploreHostel";
 import Internships from "./components/Internships/Internships";
+import TermsCondition from "./components/Terms & Condition/Terms&Condition";
+import FAQ from "./components/FAQ's/FAQ";
+import Application from "./components/Application";
+import ReferEarn from "./components/Refer&Earn";
+import ReferEarnChart from "./components/Refer&EarnChart";
 
 function App() {
   return (
@@ -129,6 +134,11 @@ function App() {
           <Route path="/courses_details" element={<Courses_details />} />
           <Route path="/course_review" element={<Course_Review />} />
           <Route path="/internships" element={<Internships />} />
+          <Route path="/terms" element={<TermsCondition />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/application" element={<Application />} />
+          <Route path="/referearn" element={<ReferEarn />} />
+          <Route path="/referearnchart" element={<ReferEarnChart />} />
         </Routes>
       </BrowserRouter>
     </>
