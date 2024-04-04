@@ -28,7 +28,7 @@ const ReferEarn = () => {
                     <div className="profile4">
                         <div className="referearn234">
                             <h4>Basic Details</h4>
-                            <h6 onClick={()=>navigate('/referearnchart')}>View Referrals</h6>
+                            <h6 onClick={() => navigate('/referearnchart')}>View Referrals</h6>
                         </div>
 
                         <div className="profile5">
@@ -90,6 +90,10 @@ const ReferEarn = () => {
                             <input type="text" placeholder="No PreferencesInterested in studying abroad?" />
                             <input type="text" placeholder="Need Loan?" />
                         </div>
+                    </div>
+
+                    <div className="referearn239">
+                        <button>Submit</button>
                     </div>
                 </div>
             </div>
