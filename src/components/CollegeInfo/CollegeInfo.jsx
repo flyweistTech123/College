@@ -21,7 +21,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { CollegeInfotoppart } from "./CollegeInfotoppart";
 import { IoLocationSharp } from "react-icons/io5";
-
+import Brochure from '../Modals/Login/Brochure';
+import ApplyNowModal from "../Modals/Login/Apply";
 
 
 
@@ -39,6 +40,9 @@ const CollegeInfo = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const [modalShow, setModalShow] = useState(false);
+  const [modalShow2, setModalShow2] = useState(false);
   return (
     <>
       <div className="loan100">
@@ -249,8 +253,8 @@ const CollegeInfo = () => {
               <p>Are You Interested in College ?</p>
             </div>
             <div className="clg32">
-              <button className="clg8">Placement Report</button>
-              <button className="clg9">Apply Now</button>
+              <button className="clg8" onClick={() => setModalShow2(true)}>Placement Report</button>
+              <button className="clg9" onClick={() => setModalShow(true)}>Apply Now</button>
             </div>
           </div>
           <div className="clg3011">
@@ -394,6 +398,11 @@ const CollegeInfo = () => {
           </div>
         </div>
       </div>
+
+      <Brochure show={modalShow2}
+        onHide={() => setModalShow2(false)} />
+        <ApplyNowModal show={modalShow}
+        onHide={() => setModalShow(false)} />
       <Footer />
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>

@@ -17,6 +17,47 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const TopNavbar = (props) => {
 
+  const moreMenu = [
+
+
+    {
+      name: "Mock Test",
+      link: "/mocktest",
+    },
+
+    {
+      name: "College Predictor",
+      link: '/college-predictor',
+    },
+    {
+      name: "Scholarship Test",
+      link: '/scholarshiptest',
+    },
+    {
+      name: "Community",
+      link: '/community',
+    },
+
+    {
+      name: "Review a College",
+      link: '/review',
+    },
+
+    {
+      name: "One stop solution",
+      link: '/one-stop-solution',
+    },
+
+    {
+      name: "Become a Partner",
+      link: '/become-partner',
+    },
+    {
+      name: "FAQ",
+      link: '/faq',
+    },
+  ];
+
   const popover = (
     <Popover id="popover-basic" style={{ border: 'none' }}>
       <Popover.Body className="popover5">
@@ -244,6 +285,26 @@ const TopNavbar = (props) => {
   );
 
 
+
+  const popover3 = (
+    <Popover id="popover-basic" style={{ border: 'none' }}>
+      <Popover.Body className="popover522">
+        <div>
+          <ul className="custom-Moremodal">
+            {moreMenu.map((ele, i) => (
+              <li key={i}>
+                <Link to={ele?.link}>{ele?.name}</Link>
+                <div className="moremodal12"></div>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+      </Popover.Body>
+    </Popover>
+  );
+
+
   const navigate = useNavigate();
   const [showNavbar, setShowNavbar] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -431,46 +492,7 @@ const TopNavbar = (props) => {
   const handleClick2 = () => {
     setShowNavbar2((prev) => !prev);
   };
-  const moreMenu = [
 
-
-    {
-      name: "Mock Test",
-      link: "/mocktest",
-    },
-
-    {
-      name: "College Predictor",
-      link: '/college-predictor',
-    },
-    {
-      name: "Scholarship Test",
-      link: '/scholarshiptest',
-    },
-    {
-      name: "Community",
-      link: '/community',
-    },
-
-    {
-      name: "Review a College",
-      link: '/review',
-    },
-
-    {
-      name: "One stop solution",
-      link: '/one-stop-solution',
-    },
-
-    {
-      name: "Become a Partner",
-      link: '/become-partner',
-    },
-    {
-      name: "FAQ",
-      link: '/faq',
-    },
-  ];
 
 
 
@@ -650,13 +672,6 @@ const TopNavbar = (props) => {
 
 
 
-  const data = [
-    "Universities",
-  ]
-
-  const data1 = [
-    "Management", "Engineering", "Law", "Science", "Commerce", "Arts", "Paramedical", "Pharmacy"
-  ]
 
   return (
     <>
@@ -707,11 +722,13 @@ const TopNavbar = (props) => {
             <p onClick={() => navigate("/internships")} style={{ color: props.color }}>
               Internships
             </p>
-            <p style={{ color: props.color }} onClick={openMoremodal}>
-              More
-            </p>
+            <OverlayTrigger trigger="click" placement="bottom" overlay={popover3}>
+              <p style={{ color: props.color }}>
+                More
+              </p>
+            </OverlayTrigger>
 
-            {isMoremodalOpen && (
+            {/* {isMoremodalOpen && (
               <MoreModal onClose={closeMoremodal}>
                 <ul className="custom-Moremodal">
                   {moreMenu.map((ele, i) => (
@@ -722,7 +739,7 @@ const TopNavbar = (props) => {
                   ))}
                 </ul>
               </MoreModal>
-            )}
+            )} */}
 
             {showProfile ? (
               <div className="profileicons">

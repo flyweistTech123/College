@@ -96,11 +96,11 @@ const Scholarship = () => {
                 <p>Type : <span>College Specific</span></p>
                 <p>Level Of Study  : <span>Bachelors</span></p>
                 <p>Number Of Scholorships : <span>40</span></p>
-                <h5>Read more  <IoMdArrowDropright /></h5>
+                <h5 onClick={() => setModalShow(true)}>Read more  <IoMdArrowDropright /></h5>
               </div>
               <div className="schro10">
-                <button>Apply Now</button>
-                <button>Get Alert</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Get Alert</button>
               </div>
             </div>
             <div className="schro7">
@@ -111,11 +111,11 @@ const Scholarship = () => {
                 <p>Type : <span>College Specific</span></p>
                 <p>Level Of Study  : <span>Bachelors</span></p>
                 <p>Number Of Scholorships : <span>40</span></p>
-                <h5>Read more  <IoMdArrowDropright /></h5>
+                <h5 onClick={() => setModalShow(true)}>Read more  <IoMdArrowDropright /></h5>
               </div>
               <div className="schro10">
-                <button>Apply Now</button>
-                <button>Get Alert</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Get Alert</button>
               </div>
             </div>
             <div className="schro7">
@@ -126,11 +126,11 @@ const Scholarship = () => {
                 <p>Type : <span>College Specific</span></p>
                 <p>Level Of Study  : <span>Bachelors</span></p>
                 <p>Number Of Scholorships : <span>40</span></p>
-                <h5>Read more  <IoMdArrowDropright /></h5>
+                <h5 onClick={() => setModalShow(true)}>Read more  <IoMdArrowDropright /></h5>
               </div>
               <div className="schro10">
-                <button>Apply Now</button>
-                <button>Get Alert</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Get Alert</button>
               </div>
             </div>
           </div>
@@ -147,11 +147,11 @@ const Scholarship = () => {
                 <p>Type : <span>College Specific</span></p>
                 <p>Level Of Study  : <span>Bachelors</span></p>
                 <p>Number Of Scholorships : <span>40</span></p>
-                <h5>Read more  <IoMdArrowDropright /></h5>
+                <h5 onClick={() => setModalShow(true)}>Read more  <IoMdArrowDropright /></h5>
               </div>
               <div className="schro10">
-                <button>Apply Now</button>
-                <button>Get Alert</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Get Alert</button>
               </div>
             </div>
             <div className="schro7">
@@ -165,8 +165,8 @@ const Scholarship = () => {
                 <h5>Read more  <IoMdArrowDropright /></h5>
               </div>
               <div className="schro10">
-                <button>Apply Now</button>
-                <button>Get Alert</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Get Alert</button>
               </div>
             </div>
             <div className="schro7">
@@ -177,11 +177,11 @@ const Scholarship = () => {
                 <p>Type : <span>College Specific</span></p>
                 <p>Level Of Study  : <span>Bachelors</span></p>
                 <p>Number Of Scholorships : <span>40</span></p>
-                <h5>Read more  <IoMdArrowDropright /></h5>
+                <h5 onClick={() => setModalShow(true)}>Read more  <IoMdArrowDropright /></h5>
               </div>
               <div className="schro10">
-                <button>Apply Now</button>
-                <button>Get Alert</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Get Alert</button>
               </div>
             </div>
           </div>
@@ -203,7 +203,7 @@ const Scholarship = () => {
                   <h5>College Name</h5>
                   <p>College City</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
               <div className="schro19">
                 <img src={img} alt="" />
@@ -211,7 +211,7 @@ const Scholarship = () => {
                   <h5>College Name</h5>
                   <p>College City</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
               <div className="schro19">
                 <img src={img} alt="" />
@@ -219,7 +219,7 @@ const Scholarship = () => {
                   <h5>College Name</h5>
                   <p>College City</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
               <div className="schro19">
                 <img src={img} alt="" />
@@ -227,7 +227,7 @@ const Scholarship = () => {
                   <h5>College Name</h5>
                   <p>College City</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
               <div className="schro19">
                 <img src={img} alt="" />
@@ -235,7 +235,7 @@ const Scholarship = () => {
                   <h5>College Name</h5>
                   <p>College City</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
 
             </div>
@@ -247,7 +247,7 @@ const Scholarship = () => {
                   <h5>Scholarship Name</h5>
                   <p>Amount</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
               <div className="schro23">
                 <img src={img} alt="" />
@@ -255,7 +255,7 @@ const Scholarship = () => {
                   <h5>Scholarship Name</h5>
                   <p>Amount</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
               <div className="schro23">
                 <img src={img} alt="" />
@@ -263,7 +263,7 @@ const Scholarship = () => {
                   <h5>Scholarship Name</h5>
                   <p>Amount</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
               <div className="schro23">
                 <img src={img} alt="" />
@@ -271,7 +271,7 @@ const Scholarship = () => {
                   <h5>Scholarship Name</h5>
                   <p>Amount</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
               <div className="schro23">
                 <img src={img} alt="" />
@@ -279,7 +279,7 @@ const Scholarship = () => {
                   <h5>Scholarship Name</h5>
                   <p>Amount</p>
                 </div>
-                <button>Apply</button>
+                <button onClick={() => setModalShow(true)}>Apply</button>
               </div>
 
             </div>
@@ -296,11 +296,11 @@ const Scholarship = () => {
                 <p>Type : <span>College Specific</span></p>
                 <p>Level Of Study  : <span>Bachelors</span></p>
                 <p>Number Of Scholorships : <span>40</span></p>
-                <h5>Read more  <IoMdArrowDropright /></h5>
+                <h5 onClick={() => setModalShow(true)}>Read more  <IoMdArrowDropright /></h5>
               </div>
               <div className="schro10">
-                <button>Apply Now</button>
-                <button>Get Alert</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Get Alert</button>
               </div>
             </div>
             <div className="schro7">
@@ -311,11 +311,11 @@ const Scholarship = () => {
                 <p>Type : <span>College Specific</span></p>
                 <p>Level Of Study  : <span>Bachelors</span></p>
                 <p>Number Of Scholorships : <span>40</span></p>
-                <h5>Read more  <IoMdArrowDropright /></h5>
+                <h5 onClick={() => setModalShow(true)}>Read more  <IoMdArrowDropright /></h5>
               </div>
               <div className="schro10">
-                <button>Apply Now</button>
-                <button>Get Alert</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Get Alert</button>
               </div>
             </div>
             <div className="schro7">
@@ -326,11 +326,11 @@ const Scholarship = () => {
                 <p>Type : <span>College Specific</span></p>
                 <p>Level Of Study  : <span>Bachelors</span></p>
                 <p>Number Of Scholorships : <span>40</span></p>
-                <h5>Read more  <IoMdArrowDropright /></h5>
+                <h5 onClick={() => setModalShow(true)}>Read more  <IoMdArrowDropright /></h5>
               </div>
               <div className="schro10">
-                <button>Apply Now</button>
-                <button>Get Alert</button>
+                <button onClick={() => setModalShow(true)}>Apply Now</button>
+                <button onClick={() => setModalShow(true)}>Get Alert</button>
               </div>
             </div>
           </div>

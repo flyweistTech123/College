@@ -1192,7 +1192,7 @@ const Home = () => {
             </Slider>
           </div>
         </div>
-        <div className="home45">
+        {/* <div className="home45">
           <h2>Top Ranking 2023</h2>
           <div className="home46">
             <div className="home26">
@@ -1218,7 +1218,7 @@ const Home = () => {
             </div>
           </div>
 
-        </div>
+        </div> */}
         <HomeTable1 />
 
         <div className="home50">

@@ -84,6 +84,11 @@ code {
   margin: 0;
 }
 
+.popover522 {
+  width: 230px;
+  background-color: #ffffff;
+}
+
 
 /* end css */
 
@@ -263,7 +268,7 @@ code {
 }
 
 .home7 {
-  width: 98%;
+  width: 96%;
   margin: auto;
 }
 
@@ -271,6 +276,7 @@ code {
   font-weight: 600;
   font-size: 25px;
   color: #000000;
+  margin: 0;
 }
 
 .home8 {
@@ -352,7 +358,7 @@ code {
   font-family: "Manrope", "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   color: #000000;
   margin: 0;
 }
@@ -361,7 +367,7 @@ code {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 24.51px;
   color: #263238;
   text-decoration: underline;
@@ -373,7 +379,7 @@ code {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   color: #000000;
   margin: 0;
 }
@@ -387,11 +393,12 @@ code {
   border: 1px solid #0185c347;
   border-radius: 10px;
   padding-right: 0px;
-  height: 430.2px;
+  height: auto;
+  padding-bottom: 5px;
   width: 280px !important;
   position: relative;
   cursor: pointer;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .home12 img {
@@ -530,7 +537,7 @@ code {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   color: #000000;
 }
 
@@ -538,7 +545,7 @@ code {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
   color: #414141;
 }
@@ -551,21 +558,20 @@ code {
 
 .home20 {
   color: #000000;
-  font-size: 25px;
+  font-size: 23px;
   font-family: Open Sans;
   font-weight: 600;
   cursor: pointer;
 }
 
 .home20 hr {
-  width: 101px;
-  border: 4px solid #1a3b5a;
-  /* Change this to your desired color */
+  width: 95px;
+  border: 2px solid #1a3b5a;
 }
 
 .home200 {
   color: #474747;
-  font-size: 25px;
+  font-size: 23px;
   font-family: Open Sans;
   font-weight: 600;
   cursor: pointer;
@@ -645,7 +651,7 @@ code {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   color: #000000;
 }
 
@@ -653,6 +659,7 @@ code {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  width: 99%;
 }
 
 .home27 {
@@ -5148,7 +5155,7 @@ input[type="checkbox"]:checked + label:after {
   border-radius: 5px;
   margin-top: 30px;
   margin-left: 1%;
-  width: 98%;
+  width: 97%;
 }
 
 .table1 table {
@@ -5245,7 +5252,7 @@ table td {
 }
 
 .table13 button:hover {
-  transform: scale(0.8);
+  transform: scale(0.9);
   /* Increase the size by 10% on hover */
 }
 
@@ -5389,8 +5396,27 @@ table td {
 .one1 {
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.3);
   background: #ffffff;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 20px;
+}
+
+
+.onecontainer12 {
+  margin-top: 20px;
+}
+
+.onecontainer12 button {
+  width: 160px;
+  height: 50px;
+  border: 2px solid #1a3b5a;
+  background-color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.44px;
+  line-height: 26.47px;
+  color: #1a3b5a;
+  outline: none;
 }
 
 .one2 {
@@ -5444,6 +5470,31 @@ table td {
   margin-top: 20px;
   transition: all 0.3s ease;
   /* Adding transition for smooth animation */
+}
+
+.onecontainer {
+  margin-top: 70px;
+}
+
+.onecontainer111 {
+  margin-top: 30px;
+}
+
+.onecontainer111 h6 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32.68px;
+  color: #000000;
+  margin: 0;
+}
+.onecontainer h6 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32.68px;
+  color: #000000;
+  margin: 0;
 }
 
 .one5:hover {
@@ -8432,15 +8483,16 @@ select:focus {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   color: #000000;
   margin-bottom: 20px;
 }
 
 .home31 {
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
+  width: 99%;
 }
 
 .home31 img {
@@ -8458,7 +8510,7 @@ select:focus {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   color: #000000;
   margin-bottom: 50px;
 }
@@ -8541,7 +8593,7 @@ select:focus {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   color: #000000;
   margin-bottom: 50px;
 }
@@ -8589,7 +8641,7 @@ select:focus {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   color: #000000;
   margin-bottom: 10px;
 }
